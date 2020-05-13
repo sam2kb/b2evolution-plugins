@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Avatars Plugin usage</title>
+<style type="text/css">
+body { font-size:90% }
+h2 { font-size:130% }
+h4 { font-size:120%; margin:25px 0 5px 0; padding:0 }
+h5 { font-size:80%; margin:0; padding:0 }
+.code { padding:10px; font-family: Courier, 'Courier New', sans-serif; font-size: 80%; color: #006600; background-color: #e6e6e6; border: #D1D7DC solid 2px; overflow:auto; white-space:nowrap }
+.style1 {color: #660099}
+</style>
+</head>
+<body>
+<h1>Avatars plugin v2.3.0</h1>
+
+<h4>THE DEFAULT METHOD</h4>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">function</span><span style="color: rgb(0, 0, 187);"> display_avatar</span><span style="color: rgb(0, 119, 0);">( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(221, 0, 0);">'type' </span>=&gt; <span style="color: rgb(221, 0, 0);">'user'</span>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(255, 153, 0);">// Avatar type.</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'id' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">''</span><span style="color: rgb(0, 119, 0);">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(255, 153, 0);">// Optional ID. Example: 'id' => 3,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;to display avatar of user/post/category/blog #3</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'before' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'&lt;div&gt;'</span><span style="color: rgb(0, 119, 0);">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(255, 153, 0);">// Before image block.</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'after' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'&lt;/div&gt;'</span><span style="color: rgb(0, 119, 0);">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(255, 153, 0);">// After image block.</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'style' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">''</span><span style="color: rgb(0, 119, 0);">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(255, 153, 0);">// Image style e.g. margin:5px.</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));</span></span></blockquote>
+<p>So to use that look below</p>
+
+<h4>To include the CURRENT USER avatar use:</h4>
+<h5>Put this code in any place</h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">  if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+  {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span><span style="color: rgb(0, 119, 0);">-&gt;</span><span style="color: rgb(0, 0, 187);">display_avatar</span><span style="color: rgb(0, 119, 0);">( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'type' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'user'</span><span style="color: rgb(0, 119, 0);">,<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+  }</span></span></blockquote>
+
+<h4>To include the POST AUTHOR avatar use:</h4>
+<h5>Put this code in posts loop, usually in <span class="style1">index.main.php</span> or <span class="style1">posts.main.php</span> or <span class="style1">single.main.php</span></h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>-&gt;<span style="color: rgb(0, 0, 187);">display_avatar</span>( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'type' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'post_author'</span><span style="color: rgb(0, 119, 0);">,<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+  }</span></span></blockquote>
+
+
+<h4>To include the COMMENT AUTHOR avatar use:</h4>
+<h5>Put this code in comments loop, usually in <span class="style1">_item_comment.inc.php</span></h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>-&gt;<span style="color: rgb(0, 0, 187);">display_avatar</span>( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(221, 0, 0);">'type' </span>=&gt; <span style="color: rgb(221, 0, 0);">'comment_author'</span>,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'comment' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(0, 0, 187);">$Comment</span><span style="color: rgb(0, 119, 0);">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 153, 0);">// You&nbsp;can&nbsp;add&nbsp;optional&nbsp;paramethers&nbsp;to&nbsp;control&nbsp;gravatars&nbsp;and&nbsp;other&nbsp;visitor&nbsp;avatar&nbsp;types<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// Example:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// 'default' =&gt; 'http://img_url.jpg',<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// 'size' =&gt; '',<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// 'rating' =&gt; '',<br />
+</span><span style="color: rgb(0, 119, 0);">}</span></span></blockquote>
+  
+<h4>To include the POST avatar use:</h4>
+<h5>Put this code in posts loop, usually in <span class="style1">index.main.php</span> or <span class="style1">posts.main.php</span> or <span class="style1">single.main.php</span></h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>-&gt;<span style="color: rgb(0, 0, 187);">display_avatar</span>( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'type' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'post'</span><span style="color: rgb(0, 119, 0);">,<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+  }</span></span></blockquote>
+
+<h4>To include the CATEGORY avatar of the current post use:</h4>
+<h5>Put this code in posts loop, usually in <span class="style1">index.main.php</span> or <span class="style1">posts.main.php</span> or <span class="style1">single.main.php</span></h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>-&gt;<span style="color: rgb(0, 0, 187);">display_avatar</span>( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'type' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'category'</span><span style="color: rgb(0, 119, 0);">,<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+  }</span></span></blockquote>
+
+<h4>To include the BLOG avatar use:</h4>
+<h5>Put this code in any place</h5>
+<blockquote class="code"><span style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 119, 0);">if ( isset(<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>) )<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(0, 0, 187);">$GLOBALS[<span style="color: rgb(221, 0, 0);">'avatars_Plugin'</span>]</span>-&gt;<span style="color: rgb(0, 0, 187);">display_avatar</span>( array(<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(221, 0, 0);">'type' </span><span style="color: rgb(0, 119, 0);">=&gt; </span><span style="color: rgb(221, 0, 0);">'blog'</span><span style="color: rgb(0, 119, 0);">,<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;));<br />
+  }</span></span></blockquote>
+
+</body>
+</html>

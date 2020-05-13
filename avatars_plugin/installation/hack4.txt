@@ -1,0 +1,4 @@
+				'AfterCollectionUpdate' => 'Gets called after a blog has been updated in the database.',
+
+				'AfterObjectDelete' => 'Gets called after a data object has been deleted from the database.',
+				'AfterObjectInsert' => 'Gets called after a data object has been inserted into the database.',

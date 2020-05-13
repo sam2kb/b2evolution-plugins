@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Search Cloud plugin\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2010-12-16 11:58-0500\n"
+"PO-Revision-Date: 2010-12-19 00:27-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:35
+msgid "Add a search cloud to your blog"
+msgstr "Покажет облако поисковых запросов блога"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:36
+msgid "Converts your hitlog into a cloud"
+msgstr "Показывает список популярных поисковых запросов в виде облака"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:72
+msgid "Blog"
+msgstr "Блог"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:73
+msgid "ID of the blog to use, leave empty for the current blog."
+msgstr "ID блога (оставьте пустым для использования текущего блога)."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:77
+msgid "Cache lifetime"
+msgstr "Время кэширования"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:78
+msgid "This is the time in minutes that the results will be cached for."
+msgstr "Время жизни кэша, в минутах."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:88
+msgid "Max results"
+msgstr "Количество запросов"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:90
+msgid "This is the maximum number of results to display"
+msgstr "Максимальное количество запросов, которое будет показано."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:95
+msgid "Max length"
+msgstr "Максимальная длина"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:97
+msgid "This is the maximum length for a search term ( 0 = no restrictions ). Longer terms will be trimmed."
+msgstr "Максимальная длина поискового запроса (0 - без ограничений). Длинные фразы будут обрезаны."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:102
+msgid "Unique URLs"
+msgstr "Уникальные URLы"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:103
+msgid "Display terms with unique target URL only."
+msgstr "Показывать запросы только с уникальным URL."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:108
+msgid "Order"
+msgstr "Сортировка"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:109
+msgid "This is the the order to show the results in"
+msgstr "Метод сортировки результатов"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:115
+msgid "Ignore words"
+msgstr "Исключить слова"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:116
+msgid "This is a comma separated list of words to ignore. MySQL regex syntax."
+msgstr "Введите слова, которые будут исключены из списка (разделяйте запятой). Можете использовать простые регулярные выражения."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:121
+msgid "Ignore URLs"
+msgstr "Исключить URLы"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:122
+msgid "This is a comma separated list of URLs to ignore. MySQL regex syntax."
+msgstr "Введите URL адреса, которые будут исключены из списка (разделяйте запятой). Можете использовать простые регулярные выражения."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:128
+msgid "Filter words"
+msgstr "Заменить слова"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:129
+msgid "This is a comma seperated list of words to filter"
+msgstr "Введите слова, которые будут заменены символом, указанным ниже (разделяйте запятой)."
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:134
+msgid "Filter character"
+msgstr "Заменить символом"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:136
+msgid "This is the character that filtered words will be replaced with"
+msgstr "Символ, которым будут заменены указанные выше слова"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:141
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:142
+msgid "Search Cloud"
+msgstr "Облако поисковых запросов"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:143
+msgid "Weirdly enough, this is the title!"
+msgstr "Заголовок блока"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:148
+msgid "Hover title"
+msgstr "Текст при наведении"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:149
+#, php-format
+msgid "Searched %s times - Read it!"
+msgstr "Число запросов: %s"
+
+#: ../../../plugins\search_cloud_plugin\_search_cloud.plugin.php:150
+msgid "This is hover title for each item in the cloud : #count# will be replaced by the hit count for the item"
+msgstr "Текст, появляющийся при наведении на поисковую фразу. Значение #count# будет заменено числом запросов данной фразы."
+

@@ -1,0 +1,7 @@
+		// Delete this (main/parent) object:
+		$DB->query( "
+			DELETE FROM $this->dbtablename
+			WHERE $this->dbIDname = $this->ID",
+			'Main delete' );
+
+		$GLOBALS['Plugins']->trigger_event( 'AfterObjectInsert', $params = array( 'Object' => & $this, 'type' => get_class($this) ) );

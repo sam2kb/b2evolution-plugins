@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Upload plugin 0.4\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-02-12 17:56-0500\n"
+"PO-Revision-Date: 2009-02-12 18:10-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../upload_window.php:205
+msgid "You don't have access to the requested root directory."
+msgstr "У вас нет доступа к запрошенной корневой папке."
+
+#: ../upload_window.php:220
+msgid "You don't have access to any root directory."
+msgstr "У вас нет доступа ни к одной корневой папке."
+
+#: ../upload_window.php:228
+#, php-format
+msgid "The root directory &laquo;%s&raquo; does not exist."
+msgstr "Корневая папка &laquo;%s&raquo; не существует."
+
+#: ../upload_window.php:240
+#, php-format
+msgid "The directory &laquo;%s&raquo; does not exist."
+msgstr "Каталог &laquo;%s&raquo; не существует."
+
+#: ../upload_window.php:246
+msgid "You are not allowed to go outside your root directory!"
+msgstr "Вам не разрешено переходить вне вашей корневой папки!"
+
+#: ../upload_window.php:282
+msgid "Upload is disabled."
+msgstr "Загрузка отключена."
+
+#: ../upload_window.php:287
+msgid "You have no permission to add/upload files."
+msgstr "У вас нет прав на добавление / загрузку файлов."
+
+#: ../upload_window.php:333
+msgid "Please select a local file to upload."
+msgstr "Пожалуйста, выберите локальный файл для загрузки."
+
+#. TRANS: %s will be replaced by the difference
+#: ../upload_window.php:343
+#, php-format
+msgid "The file is too large: %s but the maximum allowed is %s."
+msgstr "Файл слишком большой: %s, а разрешено максимум %s."
+
+#: ../upload_window.php:361
+msgid "The file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Файл превышает директиву upload_max_filesize  в php.ini."
+
+#: ../upload_window.php:366
+msgid "The file was only partially uploaded."
+msgstr "Файл был загружен лишь частично."
+
+#: ../upload_window.php:372
+msgid "No file was uploaded."
+msgstr "Файлы не были загружены."
+
+#: ../upload_window.php:379
+msgid "Missing a temporary folder (upload_tmp_dir in php.ini)."
+msgstr "Отсутствует временная папка (upload_tmp_dir в php.ini)."
+
+#: ../upload_window.php:384
+msgid "Unknown error."
+msgstr "Неизвестная ошибка."
+
+#: ../upload_window.php:392
+msgid "The file does not seem to be a valid upload! It may exceed the upload_max_filesize directive in php.ini."
+msgstr "Файл по видимому загрузился не целиком! Возможно он превысил директиву upload_max_filesize в php.ini."
+
+#: ../upload_window.php:417
+#, php-format
+msgid "Unable to create directory: [ %s ]"
+msgstr "Не удалось создать директорию: [ %s ]"
+
+#: ../upload_window.php:428
+#, php-format
+msgid "The file &laquo;%s&raquo; already exists."
+msgstr "Файл &laquo;%s&raquo; уже существует."
+
+#: ../upload_window.php:436
+msgid "An unknown error occurred when moving the uploaded file on the server."
+msgstr "Неизвестная ошибка произошла при перемещении загруженного файла на сервере."
+
+#: ../upload_window.php:444
+#, php-format
+msgid "Could not change permissions of &laquo;%s&raquo; to default chmod setting."
+msgstr "Невозможно изменить разрешения &laquo;%s&raquo; на значение chmod по умолчанию."
+
+#: ../upload_window.php:464
+#, php-format
+msgid "The file &laquo;%s&raquo; has been successfully uploaded."
+msgstr "Файл &laquo;%s&raquo; был успешно загружен."
+
+#: ../upload_window.php:470
+msgid "Add the code to your post !"
+msgstr "Добавить код в вашу запись !"
+
+#: ../upload_window.php:480
+#: ../upload_window.php:485
+#: ../upload_window.php:489
+msgid "Link this file!"
+msgstr "Привязать этот файл!"
+
+#: ../upload_window.php:531
+msgid "Cannot link Item!"
+msgstr "Невозможно связать с записью!"
+
+#: ../upload_window.php:532
+msgid "Requested item does not exist any longer."
+msgstr "Запрашиваемая запись больше не существует."
+
+#: ../upload_window.php:565
+msgid "Nothing selected."
+msgstr "Ничего не выбрано."
+
+#: ../upload_window.php:589
+msgid "Selected file has been linked to item."
+msgstr "Выбранный файл связан с записью."
+
+#: ../upload_window.php:611
+#: ../upload_window.php:786
+#: ../_quick_upload.plugin.php:152
+msgid "Quick upload"
+msgstr "Быстрая загрузка"
+
+#: ../upload_window.php:772
+#: ../upload_window.php:858
+msgid "Choose a file"
+msgstr "Выбрать файл"
+
+#: ../upload_window.php:828
+msgid "Some file uploads failed. Please check the errors below."
+msgstr "Некоторые файлы не были загружены. Пожалуйста, проверьте ошибки ниже."
+
+#. TRANS: will be displayed as title for failed file uploads
+#: ../upload_window.php:849
+msgid "Invalid submission."
+msgstr "Недопустимое подтверждение."
+
+#: ../upload_window.php:868
+msgid "Add another file"
+msgstr "Добавить еще файл"
+
+#: ../upload_window.php:871
+msgid "Upload to server now"
+msgstr "Загрузить сейчас"
+
+#: ../upload_window.php:872
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ../_quick_upload.plugin.php:47
+msgid "Add a quick upload button"
+msgstr "Добавит кнопку быстрой загрузки файлов"
+
+#: ../_quick_upload.plugin.php:48
+msgid "Add a quick upload button for fast and easy image uploading."
+msgstr "Добавит кнопку быстрой загрузки файлов в форму редактирования записей."
+
+#: ../_quick_upload.plugin.php:59
+msgid "Enable directory select"
+msgstr "Включить выбор директории"
+
+#: ../_quick_upload.plugin.php:62
+msgid "Check this if you want to display a directory tree in Quick Upload window. This will show a list of all avaliable directories, might be slow."
+msgstr "Отметьте здесь если хотите отображать дерево каталогов в окне быстрой загрузки. Это покажет полный список директорий, может быть медленно при большом количестве блогов/каталогов."
+
+#: ../_quick_upload.plugin.php:62
+msgid "Note: If disabled files get uploaded in blog's media folder."
+msgstr "ВНИМАНИЕ: Если отключено - все файлы будут загружаться в медиа папку блога."
+
+#: ../_quick_upload.plugin.php:65
+msgid "Create subdirectories"
+msgstr "Создавать подкаталоги"
+
+#: ../_quick_upload.plugin.php:68
+msgid "Check this to automaticaly create sub directories in blog's media folder for each item to store attached files."
+msgstr "Отметьте, чтобы автоматически создавать собственные папки для каждой записи. Все прикрепляемые файлы будут загружаться в эти папки."
+
+#: ../_quick_upload.plugin.php:68
+msgid "Example: each item(post) will have its own folder e.g. <b>/media/blog_a/item_23/</b>. You can select the name prefix below."
+msgstr "Пример: каждая запись будет иметь папку типа <b>/media/blog_a/item_23/</b>, где 23 - это номер записи. Вы можете изменить префикс папки ниже."
+
+#: ../_quick_upload.plugin.php:71
+msgid "Directory name prefix"
+msgstr "Префикс имени папки"
+
+#: ../_quick_upload.plugin.php:73
+msgid "An optional prefix to be added to the directory name."
+msgstr "Необязательный префикс, который будет добавлен к имени папки."
+
+#: ../_quick_upload.plugin.php:74
+msgid "Please enter a valid directory name prefix."
+msgstr "Пожалуйста, введите правильный префикс имени папки."
+
+#: ../_quick_upload.plugin.php:247
+#: ../_quick_upload.plugin.php:249
+msgid "Open this directory in the file manager"
+msgstr "Открыть эту папку в менеджере файлов"
+
+#~ msgid "Here's the code to display it:"
+#~ msgstr "Это код для его отображения:"
+

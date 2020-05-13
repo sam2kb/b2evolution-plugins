@@ -1,0 +1,68 @@
+# TRANSLIT_URLS PLUGIN LANGUAGE MASTER FILE
+# This file is distributed under the same license as the translit_urls package.
+# FIRST AUTHOR: Russian b2evolution <alex@boxter.org>, 2008.
+# Copyright (C) 2008 Russian b2evolution
+#
+# This file created by a really cool plugin at http://wonderwinds.com/translator/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translit URLs plugin version 0.3\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-05-26 16:34-0400\n"
+"PO-Revision-Date: 2008-05-26 16:35-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:59
+msgid "Transliterate item's URL"
+msgstr "Транслитерирует ссылки записей"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:60
+msgid "Transliterate Russian/Ukrainian characters in item's URL to Latin"
+msgstr "Транслитерирует постоянные ссылки записей с Русского/Украинского в Английский текст."
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:84
+msgid "Enable transliteration"
+msgstr "Включить транслитерацию"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:87
+msgid "Do we need to transliterate url titles?"
+msgstr "Отметьте чтобы включить транслитерацию ссылок."
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:91
+msgid "Url title length"
+msgstr "Длина ссылки записи"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:96
+msgid "Crop url titles to this number of characters."
+msgstr "Обрезать ссылки записей до этой длины."
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:96
+msgid "characters"
+msgstr "символов"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:100
+msgid "Apply to new"
+msgstr "Применять к новым"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:103
+msgid "Apply URL transliteration to new items."
+msgstr "Применять транслитерацию ссылок к новым записям."
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:107
+msgid "Apply to existing"
+msgstr "Применять к существующим"
+
+#: D:\wamp\www\b2evolution\2\plugins\translit_urls_plugin\_translit_urls.plugin.php:110
+msgid "Apply URL transliteration to existing items.<br>Warning: this will update item's URL every time when you change the title. Don't enable it unless you know what you are doing!"
+msgstr "Применять транслитерацию ссылок к существующим записям.<br />Внимание: каждый раз при изменении заголовка записи ее ссылка будет меняться. Не включайте это если вы не уверены что до конца осознаете последствия."
+
+#~ msgid "Transliterate url titles"
+#~ msgstr "Использовать транслитерацию"
+

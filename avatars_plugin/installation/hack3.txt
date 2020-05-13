@@ -1,0 +1,27 @@
+	function CaptchaValidatedCleanup( & $params )
+	{
+	}
+
+
+	/**
+	 * Event handler: called at the end of {@link DataObject::dbinsert() inserting an object in the database}.
+	 *
+	 * @param array Associative array of parameters
+	 *   - 'Object': the related Object (by reference)
+	 *   - 'type': class name of deleted Object (Chapter, File, Blog, Link, Comment, Slug etc.) (by reference)
+	 */
+	function AfterObjectInsert( & $params )
+	{
+	}
+
+
+	/**
+	 * Event handler: called at the end of {@link DataObject::dbdelete() deleting an object from the database}.
+	 *
+	 * @param array Associative array of parameters
+	 *   - 'Object': the related Object (by reference)
+	 *   - 'type': class name of deleted Object (Chapter, File, Blog, Link, Comment, Slug etc.) (by reference)
+	 */
+	function AfterObjectDelete( & $params )
+	{
+	}

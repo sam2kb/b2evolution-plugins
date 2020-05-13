@@ -1,0 +1,83 @@
+/* IE can't do partial PNG transparency, so send it a GIF with a white background */ 
+ul.unit-rating li a:hover,
+ul.unit-rating li.current-rating,
+ul.unit-rating { background-image: url("star_rating.gif") }
+
+/* All other browsers get a nice png that looks good on any background */
+html>body ul.unit-rating li a:hover,
+html>body ul.unit-rating li.current-rating,
+html>body  ul.unit-rating { background-image: url("star_rating.png") }
+
+/* Styles for the unit rater */
+ul.unit-rating{
+	list-style: none !important;
+	margin: 0px !important; /* simple_zen skin */
+	padding: 0px !important; /* simple_zen skin */
+	height: 20px !important; /* simple_zen skin */
+	position: relative !important;
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+ul.unit-rating li{
+	text-indent: -90000px;
+	padding:0px !important; /* evocamp skin */
+	margin:0px !important;
+	display:block;
+	/*\*/
+	float: left;
+	/* */
+}
+ul.unit-rating li a {
+	display:block;
+	width: 20px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+ul.unit-rating li a:hover {
+	background-position: left center;
+	z-index: 2;
+	left: 0px;
+}
+ul.unit-rating li.current-rating {
+	background-position: left bottom;
+	position: absolute;
+	height: 20px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
+ul.unit-rating li a.starinfo, .unit-rating li a:hover.starinfo {
+	display: block;
+	height: 13px;
+	width: 13px;
+	background: url('infoicon.gif') no-repeat top right;
+	position: absolute;
+	left: 100px;
+	top: 3px;
+}
+ul.unit-rating li a.starinfo span { display: none }
+ul.unit-rating li a:hover.starinfo { background-position: top left }
+ul.unit-rating a { outline: none }
+
+#ratingResults {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	background-color: #000;
+	color: #fff;
+	padding: 22px;
+	z-index: 90;
+	font-family:Verdana, Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	text-align:left;
+}
+
+#ratingResults .ratingNotes { color: #fff; font-size: 130% }
+#ratingResults .error { color: #f55 }
+#ratingResults .success { color: #5f5 }
+#ratingResults .stars { margin-left: 30px }
+p.ratingNotes { color: #999; font-size: 90%; margin: 2px }

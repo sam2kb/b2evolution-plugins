@@ -1,0 +1,60 @@
+<?php
+/*
+ * Global lang file
+ * This file was generated automatically from messages.po
+ */
+if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.' );
+
+
+$trans['ru_RU'] = array(
+	'' => "Project-Id-Version: Mobile plugin v0.1\nReport-Msgid-Bugs-To: http://fplanque.net/\nPOT-Creation-Date: 2009-06-27 22:00-0400\nPO-Revision-Date: 2009-06-27 22:15-0500\nLast-Translator: Alex\nLanguage-Team: Russian b2evolution\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Poedit-Language: Russian\nX-Poedit-Country: RUSSIAN FEDERATION\n",
+	'Posts per page' => "Записей на страницу",
+	'Comments per page' => "Количество комментариев",
+	'Hide comments form' => "Спрятать форму комментариев",
+	'Check this if you want to hide the comments form.' => "Отметьте, если не хотите показывать форму отправки комментариев.",
+	'iPhone/iPod' => "iPhone/iPod",
+	'Check this if you want to treat iPhones and iPods as mobiles.' => "Отметьте, если хотите использовать мобильную тему для iPhone и iPod.",
+	'Check this if you want to treat Android handsets as mobiles.' => "Отметьте, если хотите использовать мобильную тему для Android устройств.",
+	'Check this if you want to treat Opera Mini like a mobile.' => "Отметьте, если хотите использовать мобильную тему для браузера Opera Mini.",
+	'Check this if you want to treat Blackberry like a mobile.' => "Отметьте, если хотите использовать мобильную тему для Blackberry устройств.",
+	'Check this if you want to treat Palm OS like a mobile.' => "Отметьте, если хотите использовать мобильную тему для устройств с Palm OS.",
+	'Check this if you want to treat Windows Mobiles like a mobile.' => "Отметьте, если хотите использовать мобильную тему для устройств с Windows Mobiles.",
+	'The skin [%s] set for blog [%s] does not exist. It must be properly set in the <a %s>blog properties</a> or properly overriden in a stub file.' => "Тема [%s] назначенная для блога [%s] не существует. Она должна быть корректно установлена в <a %s>свойствах блога</a> или корректно переопределена в файле заглушки.",
+	'Read more' => "Читать далее",
+	'Home' => "В начало",
+	'Public blogs' => "Публичные блоги",
+	'Archives' => "Архивы",
+	'Categories' => "Рубрики",
+	'Latest comments' => "Последние комментарии",
+	'Search' => "Поиск",
+	'Contact' => "Контакты",
+	'Send a message to the owner of this blog...' => "Отправить письмо владельцу этого блога...",
+	'PREVIEW Comment from:' => "ПРЕДПРОСМОТР комментариев от:",
+	'Visitor' => "Посетитель",
+	'Edit' => "Править",
+	'Delete' => "Удалить",
+	'Leave a comment' => "Оставить комментарий",
+	'User' => "Пользователь",
+	'Edit profile' => "Редактировать профиль",
+	'Name' => "Имя",
+	'Email' => "Email",
+	'Your email address will <strong>not</strong> be revealed on this site.' => "Ваш email адрес. (<strong>Не будет</strong> показан на сайте.)",
+	'Website' => "Сайт",
+	'Your URL will be displayed.' => "Ваш URL будет показан.",
+	'Your vote' => "Ваша оценка",
+	'Comment text' => "Текст комментария",
+	'Send comment' => "Отправить комментарий",
+	'Link:' => "Ссылка:",
+	'Pages:' => "Страницы:",
+	'Trackback address for this post' => "Трекбек адрес этой записи",
+	'Trackback URL (right click and copy shortcut/link location)' => "URL трекбека (щелкните правой кнопкой мыши и скопируйте ссылку)",
+	'Feedback awaiting moderation' => "Отзыв ожидает одобрения модератора",
+	'No feedback yet' => "Еще нет отзывов",
+	'This post has 1 feedback awaiting moderation... %s' => "Эта запись имеет 1 отзыв, ожидающий модерации... %s",
+	'This post has %d feedbacks awaiting moderation... %s' => "Эта запись имеет %d отзывов, ожидающих модерации... %s",
+	'In response to:' => "В ответ на:",
+	'Latest posts' => "Последние записи",
+	'Previous' => "Предыдущий",
+	'Next' => "Следующий",
+);
+?>

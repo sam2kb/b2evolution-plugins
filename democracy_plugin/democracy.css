@@ -1,0 +1,20 @@
+.democracy-choice {
+	display: block;
+	height: 3px;
+	font-size: 1px;
+}
+
+.dem-choice-border {
+	margin: 8px 0;
+	display: block;
+	background: #fff;
+	height: 5px;
+	width: 100px;
+	border: 1px solid #ccc;
+}
+
+/* BLIX fixies */
+#democracy input { width: auto }
+#democracy ul { padding: 0 } 
+#democracy label { float: none; display: inline }
+#voted-for-this { border: 1px solid #333;}

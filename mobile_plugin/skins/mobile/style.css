@@ -1,0 +1,57 @@
+/* Mobile plugin CSS */
+* { margin:0; padding:0; font-size:100% }
+body { color: #000; font: 75% Tahoma, Geneva, sans-serif }
+
+/*div#wrapper { max-width:600px }*/
+div.pageHeader { clear: both; margin:0; padding:2px; border-bottom: 1px solid #333; background: #78a; color:#FFF }
+div#pageFooter { clear: both; padding:2px; border-top: 1px solid #333; background: #78a; color:#FFF }
+div.pageHeader a, div#pageFooter a { color:#FFF; text-decoration:none }
+
+a { color:#0055CC }
+a:visited { color:#0055CC }
+a:hover { color: #0055CC; text-decoration:underline }
+img { border:none }
+p { margin:2px 0 5px 0 }
+table { border:none; padding:0 }
+
+h1, h2, h3, h4 { margin:3px 0; padding:0; color:#036 }
+h1 { font-size: 140%; color:#FFF; margin:0 0 2px 0 }
+h2 { font-size: 120% }
+h3 { font-size: 110% }
+h4 { font-size: 100% }
+
+hr { height: 0; border: 0; border-top: 1px solid #78a }
+.radio { margin:0 2px }
+
+.bPosts { margin:0 5px }
+.bPosts h2 { border-bottom: 1px solid #78a; margin-bottom:10px }
+.image_block img { border:1px #CCC solid; margin:2px; padding:1px }
+.action_messages { margin: 0 5px; font-size:90% }
+div.moderation_msg { margin: 7px; padding:5px; border: 1px solid #fa9; color: #e70; font-size:90% }
+
+.bPost { clear: both; margin:5px 0 15px 0; padding-bottom: 3px; border-bottom: 2px dashed #ddd }
+.bPost pre { font-family:Tahoma, Geneva, sans-serif; overflow:auto }
+.bPost blockquote { margin:5px; padding:2px }
+.bMore a { font-size:90%; font-weight:normal }
+.bSmallHead, .bSmallPrint { clear:both; font-size: 86%; color: #444; margin: 5px 0 3px 0; padding:2px 5px; background:#F7F7F7; border: 1px solid #ccc }
+.bTitle { color: #78a; margin: 5px 0; font-size:110% !important }
+.bTitle a { color:#036 !important; text-decoration:none }
+.bTitle a:hover { color:#9ae !important; text-decoration:underline }
+
+.prev_next { margin-top:10px; font-size:90% }
+.pages { font-weight:bold }
+.current_page { border:1px solid #999; padding:0 3px }
+.after_posts { margin-top:10px; padding:5px; background:#FFC; border-top: solid 2px #CCC }
+
+div.bComment, form.bComment { border:none; margin:0; padding:0 }
+input.bComment, textarea.bComment, select.bComment { background:#F5F7FE; border: 1px solid #ccc; width: 97%; padding: 2px; margin: 0 }
+div.bComment {  margin-bottom:10px; padding:4px; background:#FFC; border:1px solid #CCC }
+.bComment .bTitle { margin:0; padding:0 }
+.bCommentTitle { font-size:86%; color:#444 }
+.bCommentText { margin-top:4px; padding:4px; background:#FFF; border:1px solid #CCC }
+div.info, div.label { font-size:90% }
+
+input.SearchField { margin-top:10px; background: #F7F7F7; border: 1px solid #ccc; width: 70px; padding:2px }
+input.submit, input.preview, input.reset { font-size:100% }
+textarea { height:40px; font-size:110% }
+.feedback_feed_msg { display:none }

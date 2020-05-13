@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-02-27 23:33-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_stw_webshots.plugin.php:51
+msgid "Displays website thumbnails"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:52
+msgid "Displays website thumbnails using the <a href=\"http://www.shrinktheweb.com\">ShrinkTheWeb</a> service."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:62
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:81
+#: ../../../_stw_webshots.plugin.php:84
+#, php-format
+msgid "<br />Cannot exceed %spx on free accounts."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:89
+msgid "STW Account type"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:92
+msgid "Check this if you have a <b>FREE</b> STW account."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:95
+msgid "STW Access Key ID"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:97
+#, php-format
+msgid "Create an account on %s to use webshots."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:100
+msgid "STW Secret Key"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:104
+msgid "Cache images"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:107
+msgid "days<br />How many days do you want to store image cache."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:110
+msgid "Default webshot width"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:114
+#: ../../../_stw_webshots.plugin.php:121
+msgid "px."
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:117
+msgid "Default webshot height"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:260
+msgid "Webshot width ?"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:262
+msgid "Webshot height ?"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:264
+msgid "Site URL ?"
+msgstr ""
+
+#: ../../../_stw_webshots.plugin.php:273
+msgid "Webshot"
+msgstr ""

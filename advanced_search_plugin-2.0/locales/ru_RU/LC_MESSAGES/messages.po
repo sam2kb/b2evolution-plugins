@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Search plugin v1.6\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-09-03 21:01-0400\n"
+"PO-Revision-Date: 2009-09-03 21:02-0500\n"
+"Last-Translator: \n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../../../_advanced_search.plugin.php:55
+msgid "Filter search results by many parameters"
+msgstr "Улучшенный поиск с возможностью выбора категорий, блогов и автора записи"
+
+#: ../../../_advanced_search.plugin.php:56
+msgid "It allows you to filter search results by many parameters plus you can customize almost everything."
+msgstr "Этот виджет позволит вам производить поиск по выбранным категориям, блогам, автору записей и т.д, а так же позволит скрывать любые параметры поиска для каждого блога отдельно."
+
+#: ../../../_advanced_search.plugin.php:67
+msgid "Precise search"
+msgstr "Тщательный поиск"
+
+#: ../../../_advanced_search.plugin.php:70
+msgid "If enabled, the plugin will search through <u>rendered</u> content, and <u>outside</u> of HTML tags only. This means that a lot of false positive results will be filtered out."
+msgstr "Если включен, поиск будет выполняться только по <u>обработанному</u> содержанию записи и <u>вне</u> HTML тегов. При этом будут отсеяны все ложные результаты, увеличится качество поика."
+
+#: ../../../_advanced_search.plugin.php:70
+msgid "Warning: this also increases search time!"
+msgstr "Внимание: это так же приведет к увеличению времени поиска!"
+
+#: ../../../_advanced_search.plugin.php:73
+msgid "Results per page"
+msgstr "Результатов на страницу"
+
+#: ../../../_advanced_search.plugin.php:77
+msgid "Number of results per page."
+msgstr "Число показываемых результатов на одной странице"
+
+#: ../../../_advanced_search.plugin.php:80
+msgid "Keywords class"
+msgstr "CSS класс"
+
+#: ../../../_advanced_search.plugin.php:84
+msgid "Class for highlighted keywords. If you change this you must also edit adv_search.css"
+msgstr "CSS класс для подсветки ключевых слов. При изменении класса, не забудьте так же изменить adv_search.css"
+
+#: ../../../_advanced_search.plugin.php:100
+msgid "Search form Title"
+msgstr "Заголовок формы поиска"
+
+#: ../../../_advanced_search.plugin.php:101
+#: ../../../_advanced_search.plugin.php:127
+#: ../../../_advanced_search.plugin.php:512
+#: ../../../_advanced_search.plugin.php:513
+msgid "Search"
+msgstr "Поиск"
+
+#: ../../../_advanced_search.plugin.php:103
+msgid "Search form title displayed in skin."
+msgstr "Заголовок формы поиска, отображается в теме."
+
+#: ../../../_advanced_search.plugin.php:106
+msgid "Categories label"
+msgstr "Заголовок категорий"
+
+#: ../../../_advanced_search.plugin.php:107
+#: ../../../_advanced_search.plugin.php:514
+msgid "In category"
+msgstr "В категории"
+
+#: ../../../_advanced_search.plugin.php:108
+msgid "Label for categories select menu."
+msgstr "Заголовок для меню выбора категорий."
+
+#: ../../../_advanced_search.plugin.php:111
+msgid "Month/year label"
+msgstr "Заголовок месяц/год"
+
+#: ../../../_advanced_search.plugin.php:112
+#: ../../../_advanced_search.plugin.php:515
+msgid "Posted on"
+msgstr "За период"
+
+#: ../../../_advanced_search.plugin.php:113
+msgid "Label for month/year select menu."
+msgstr "Заголовок для меню выбора месяца/года."
+
+#: ../../../_advanced_search.plugin.php:116
+msgid "Authors label"
+msgstr "Заголовок авторов"
+
+#: ../../../_advanced_search.plugin.php:117
+#: ../../../_advanced_search.plugin.php:516
+msgid "Author"
+msgstr "Автор"
+
+#: ../../../_advanced_search.plugin.php:118
+msgid "Label for authors select menu."
+msgstr "Заголовок для меню выбора авторов."
+
+#: ../../../_advanced_search.plugin.php:121
+msgid "Post types label"
+msgstr "Заголовок типов записей"
+
+#: ../../../_advanced_search.plugin.php:122
+#: ../../../_advanced_search.plugin.php:517
+msgid "Post type"
+msgstr "Тип записи"
+
+#: ../../../_advanced_search.plugin.php:123
+msgid "Label for post types select menu."
+msgstr "Заголовок для меню выбора типа записи."
+
+#: ../../../_advanced_search.plugin.php:126
+msgid "Submit button"
+msgstr "Кнопка поиска"
+
+#: ../../../_advanced_search.plugin.php:128
+msgid "Submit button name."
+msgstr "Название кнопки поиска."
+
+#: ../../../_advanced_search.plugin.php:131
+msgid "Search in Blogs"
+msgstr "Искать в блогах"
+
+#: ../../../_advanced_search.plugin.php:134
+msgid "List blog IDs separated by ,"
+msgstr "Перечислите через запятую номера блогов для поиска."
+
+#: ../../../_advanced_search.plugin.php:135
+msgid "[ All ] - to search in all public blogs."
+msgstr "[ All ] - для поиска по всем публичным блогам."
+
+#: ../../../_advanced_search.plugin.php:136
+msgid "Leave empty to search in current blog only."
+msgstr "Оставьте пустым чтобы искать по текущему блогу."
+
+#: ../../../_advanced_search.plugin.php:139
+msgid "Exclude authors"
+msgstr "Исключить авторов"
+
+#: ../../../_advanced_search.plugin.php:142
+msgid "List user IDs separated by ,"
+msgstr "Перечислите через запятую ID авторов, которых вы хотите исключить из поиска."
+
+#: ../../../_advanced_search.plugin.php:145
+msgid "Exclude categories"
+msgstr "Исключить категории"
+
+#: ../../../_advanced_search.plugin.php:148
+msgid "List category IDs separated by ,"
+msgstr "Перечислите через запятую номера категорий, которые вы хотите исключить из поиска."
+
+#: ../../../_advanced_search.plugin.php:149
+msgid "Note: if you exclude a parent category, all subcategories will be also excluded."
+msgstr "Примечание: если вы исключили родительскую категорию - все ее подкатегории также будут исключены из поиска."
+
+#: ../../../_advanced_search.plugin.php:152
+msgid "Search in category"
+msgstr "Искать в категории"
+
+#: ../../../_advanced_search.plugin.php:155
+msgid "Display categories select menu in search form."
+msgstr "Отображать меню выбора категорий в форме поиска"
+
+#: ../../../_advanced_search.plugin.php:158
+msgid "Search by month/year"
+msgstr "Искать по месяцу/году"
+
+#: ../../../_advanced_search.plugin.php:161
+msgid "Display month/year select menu in search form."
+msgstr "Отображать меню выбора месяца/года в форме поиска."
+
+#: ../../../_advanced_search.plugin.php:164
+msgid "Search by author"
+msgstr "Искать по автору"
+
+#: ../../../_advanced_search.plugin.php:167
+msgid "Display authors select menu in search form."
+msgstr "Отображать меню выбора автора в форме поиска"
+
+#: ../../../_advanced_search.plugin.php:170
+msgid "Search by post type"
+msgstr "Искать по типу записи"
+
+#: ../../../_advanced_search.plugin.php:173
+msgid "Display post types select menu in search form."
+msgstr "Отображать меню выбора типа записей в форме поиска."
+
+#: ../../../_advanced_search.plugin.php:176
+msgid "Search all words"
+msgstr "Искать все слова"
+
+#: ../../../_advanced_search.plugin.php:179
+msgid "Display <b>All Words</b> radio button."
+msgstr "Отображать параметр поика <b>Все слова</b>."
+
+#: ../../../_advanced_search.plugin.php:182
+msgid "Search some word"
+msgstr "Искать отдельные слова"
+
+#: ../../../_advanced_search.plugin.php:185
+msgid "Display <b>Some Word</b> radio button."
+msgstr "Отображать параметр поика <b>Отдельные слова</b>."
+
+#: ../../../_advanced_search.plugin.php:188
+msgid "Search entire phrase"
+msgstr "Искать всю фразу"
+
+#: ../../../_advanced_search.plugin.php:191
+msgid "Display <b>Entire phrase</b> radio button."
+msgstr "Отображать параметр поика <b>Вся фраза</b>."
+
+#: ../../../_advanced_search.plugin.php:465
+msgid "Sorry, there is nothing to display..."
+msgstr "По вашему запросу ничего не найдено..."
+
+#: ../../../_advanced_search.plugin.php:604
+#: ../../../_advanced_search.plugin.php:617
+#: ../../../_advanced_search.plugin.php:641
+#: ../../../_advanced_search.plugin.php:662
+#: ../../../_advanced_search.plugin.php:701
+msgid "All"
+msgstr "Все"
+
+#: ../../../_advanced_search.plugin.php:641
+msgid "Root"
+msgstr "Корень"
+
+#: ../../../_advanced_search.plugin.php:726
+msgid "All Words"
+msgstr "Все слова"
+
+#: ../../../_advanced_search.plugin.php:740
+msgid "Some Word"
+msgstr "Отдельные слова"
+
+#: ../../../_advanced_search.plugin.php:754
+msgid "Entire phrase"
+msgstr "Вся фраза"
+
+#: ../../../_adv_search.disp.php:26
+#, php-format
+msgid "Results %d - %d of %d for <b>%s</b>"
+msgstr "Результаты %d - %d из %d для <b>%s</b>"
+
+#: ../../../_adv_search.disp.php:96
+msgid "Pages:"
+msgstr "Страницы:"
+
+#~ msgid "Reserved"
+#~ msgstr "Зарезервирован"
+#~ msgid "CSS styles"
+#~ msgstr "CSS стили"
+#~ msgid "You can customize these widget styles to match your blog skin."
+#~ msgstr "Вы можете изменить отображение виджета в блоге."
+

@@ -1,0 +1,18 @@
+/* The seven span colors */
+.MT_red { color:#FF0000 }
+.MT_orange { color:#FFA500 }
+.MT_yellow { color:#FFFF00 }
+.MT_green { color:#008000 }
+.MT_blue { color:#0000FF }
+.MT_indigo { color:#4B0082 }
+.MT_violet { color:#EE82EE }
+
+/* Three more text spans */
+.MT_larger { font-size:larger }
+.MT_smaller { font-size:smaller }
+.MT_under { text-decoration:underline }
+
+/* Toolbar background style */
+.edit_toolbar .more_tags input.spans { background-image:none; background-color:#D3D3D3 }
+.edit_toolbar .more_tags input.divs { background-image:none; background-color:#FFFFCC }
+.edit_toolbar .more_tags input.leftgap { margin-left:8px }

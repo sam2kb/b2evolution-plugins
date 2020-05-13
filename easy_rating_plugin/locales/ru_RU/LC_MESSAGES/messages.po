@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StarRating plugin v0.7.2\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-10-19 15:27-0400\n"
+"PO-Revision-Date: 2008-10-19 15:31-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: _starrating.plugin.php:41
+msgid "Star Rating"
+msgstr "Star Rating"
+
+#: _starrating.plugin.php:42
+msgid "AJAX-powered star ratings for posts."
+msgstr "Плагин позволяет оценивать ваши записи, использует AJAX."
+
+#: _starrating.plugin.php:56
+msgid "Out of"
+msgstr "Количество звезд"
+
+#: _starrating.plugin.php:58
+msgid "How many stars are possible?"
+msgstr "Сколько используется звезд?"
+
+#: _starrating.plugin.php:63
+msgid "Check IP"
+msgstr "Проверять IP"
+
+#: _starrating.plugin.php:65
+msgid "Check IP to prevent multiple votes on one post from one person."
+msgstr "Сверять IP с уже находящимися в базе данных для предотвращения повторного голосования."
+
+#: _starrating.plugin.php:69
+msgid "Pop-up info"
+msgstr "Всплывающее сообщение"
+
+#: _starrating.plugin.php:71
+msgid "Show info and notices in pop-ups that fade in and out. Requires javascript, but does not disrupt layout. This option requires an additional skin tag, see the Readme file."
+msgstr "Показывать информацию и ошибки во всплывающем сообщении, которое отображается поверх страницы и автоматически исчезает (используя Javascript). Эта функция требует от вас внесения дополнительного тега в тему (см. Инструкции к установке)."
+
+#: _starrating.plugin.php:75
+msgid "Inline info"
+msgstr "Встроенное сообщение"
+
+#: _starrating.plugin.php:77
+msgid "Show info and notices just below the stars.  Works with or without javascript enabled, but may disrupt layout."
+msgstr "Показывать информацию и ошибки прямо под звездами. Не требует Javascript, но может нарушать дизайн сайта."
+
+#: _starrating.plugin.php:118
+msgid "Widget title"
+msgstr "Заголовок виджета"
+
+#: _starrating.plugin.php:119
+msgid "Widget title displayed in skin."
+msgstr "Заголовок виджета, отображаемый в теме."
+
+#: _starrating.plugin.php:120
+#: _starrating.plugin.php:442
+msgid "Top Rated"
+msgstr "Самые популярные"
+
+#: _starrating.plugin.php:123
+msgid "Display"
+msgstr "Показывать"
+
+#: _starrating.plugin.php:124
+msgid "Max items to display."
+msgstr "Максимальное количество для показа."
+
+#: _starrating.plugin.php:129
+msgid "Minimum votes"
+msgstr "Количество голосов"
+
+#: _starrating.plugin.php:130
+msgid "Minimum number of votes required to be in the list."
+msgstr "Минимальное количество голосов, необходимых для включения в список."
+
+#: _starrating.plugin.php:135
+msgid "Method"
+msgstr "Метод"
+
+#: _starrating.plugin.php:176
+#: _starrating.plugin.php:289
+#: _starrating.plugin.php:308
+msgid "vote"
+msgstr "голос"
+
+#: _starrating.plugin.php:177
+#: _starrating.plugin.php:290
+#: _starrating.plugin.php:308
+#: _starrating.plugin.php:494
+msgid "votes"
+msgstr "голосов"
+
+#: _starrating.plugin.php:225
+msgid "Currently"
+msgstr "Текущий рейтинг"
+
+#: _starrating.plugin.php:235
+msgid "out of"
+msgstr "из"
+
+#. TRANS: Rating: 34 out of 50 votes cast
+#: _starrating.plugin.php:255
+#: _starrating.plugin.php:265
+#: _starrating.plugin.php:336
+#: _starrating.plugin.php:342
+#: _starrating.plugin.php:409
+#: _starrating.plugin.php:415
+#, php-format
+msgid "Rating: %s out of %d %s cast"
+msgstr "Рейтинг: %s из %d %s"
+
+#: _starrating.plugin.php:326
+#: _starrating.plugin.php:399
+msgid "Current rating"
+msgstr "Текущий рейтинг"
+
+#: _starrating.plugin.php:344
+msgid "You have previously voted"
+msgstr "Вы уже голосовали"
+
+#: _starrating.plugin.php:417
+msgid "Thank you for your vote"
+msgstr "Спасибо! Ваш голос учтен"
+
+#~ msgid "Rating"
+#~ msgstr "Рейтинг"
+#~ msgid "cast"
+#~ msgstr " "
+

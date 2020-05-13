@@ -1,0 +1,151 @@
+﻿====================================================
+/**
+ * B2evolution Avatars Plugin
+ *
+ * The Avatars Plugin allows you to attach avatars (display pictures, gravatars, profile pics, etc) to a user, blog, post and category.
+ * You upload avatars within the b2evo adminstration, with either a large or small (or both) avatar images.
+ * If a large avatar image is specified then lightbox functionality is seen, as when the user clicks the small avatar, the large avatar will show in a lightbox.
+ * It makes use of the GD2 Image and the Gallery Plugin’s Libraries allowing for images to be resized and compressed to specified values. 
+ *
+ * @name B2evolution Avatars Plugin: _avatars.plugin.php
+ * @version 2.3.1
+ * @package plugins
+ *
+ * {@internal Below is a list of authors who have contributed to design/coding of this plugin: }
+ * @author balupton: Benjamin Lupton - {@link http://www.balupton.com}
+ * @author sam2kb: Russian b2evolution - {@link http://b2evo.sonorth.com/}
+ *
+ * Built on code originally released by balupton: Benjamin LUPTON - {@link http://www.balupton.com/}
+ * @copyright (c) 2006-2007 Benjamin "balupton" Lupton {@link http://www.balupton.com}
+ * @copyright (c) 2008-2012 Russian b2evolution - {@link http://b2evo.sonorth.com/}
+ *
+ * @license GNU General Public License 2 (GPL) - {@link http://www.opensource.org/licenses/gpl-license.php}
+ */
+====================================================
+
+ RELEASE NOTES:
+
+  Required b2evolution v4.0.0 and up
+   
+  Website:
+  http://forums.b2evolution.net/viewtopic.php?t=15641
+
+====================================================
+
+  Changelog:
+  v2.3.1 - 27/02/2012
+	* New image resize options: "crop to top", "crop to center", "crop to bottom"
+  
+  v2.3.0 - 12/02/2012
+	* The plugin is now compatible with b2evolution 4 and 5 only
+	* Simplified installation process
+	* Uses built-in colorbox library
+	* Code clean-up
+
+  v2.2.7 - 24/11/2008
+	* Fixed compatibility issues with jQuery plugins
+	* Added demo summary.php with blog avatars
+
+  v2.2.6 - 19/10/2008
+	* Fixed: large avatars displayed in lightbox group.
+	
+  v2.2.5 - 13/10/2008
+	* Plugin switched to standard Lightbox libraries
+	* Lightbox works in backoffice
+	* Fixed compatibility issues with jQuery Lightbox plugin
+	* Improved and simplified skin tags
+
+   v2.2.0 - 29/07/2008
+	* New: Guests avatars (currently Gravatars only, but it's very easy to add any other type)
+	* New: The Plugin installer checks if avatars directories were properly created (finally)
+	* Many minor bug fixes and improvements, code cleanup
+
+   v2.1.0 - 27/06/2008
+	* New: Post avatars	
+	* New: Custom image size for each avatar type (user, blog, category, post)
+	* New: Collapsible admin avatars fieldset
+	* Fixed: User profile layout bug with avatars fieldset
+
+   v2.0.1 - 02/06/2008
+	* Fixed: Error when checking permissions of non-existing group
+	* Fixed: Strange error, thanks to ¥åßßå 
+
+   v2.0.0 - 24/05/2008
+	* Upgraded to support b2evo 2.x versions
+	* Translation support
+	* New: Upload user avatars from user profile (frontend)
+	* New: Restrict by user group
+	* New: Restrict by user level
+	* New: Maximum allowed file size
+	* New: Custom JPEG image quality for small and large avatars
+	* New: Custom avatars folder location
+	* Fixed: Error with .png images in PHP5.2 and up (wrong compression level)
+	* Fixed: Image extension was not lowercased and caused "File not found" errors
+	* Fixed: Default avatar image deleted automatically together with the small avatar
+	* Fixed: Image path for "close" icon when the large avatar is displayed
+	* Fixed: Small avatar image height was hard-coded in CSS
+	* Note: The following features are not supported/upgraded yet (Post avatars, Crop and Exact image resize modes)
+
+
+====================================================
+b2evo 1.x versions
+
+   v1.1.0.0-beta - 02/12/2007 @ 10:37 (GMT+08:00)
+   	* Uses the newest resource library
+	* Now supports all supportable types of images
+	* Uses jQuery v1.2 (Older versions uses prototype and scriptaculous)
+	* This fixes all the wierd bugs, like the page not displaying, or buttons not working
+	* Uses jQuery Lightbox Plugin (v0.2.1-beta)
+	* Now there is a option on uninstall if you want to keep the avatars
+	* Support / Credit-Link now obeys the setting
+	* Now actually supports IE... Can't believe it didn't support it before!
+	^ Note: A special thanks needs to go out to Sue Kendrick (http://www.suekendrick.co.uk) from (http://writelink.co.uk) for sponsoring this release.
+	
+   v1.0.2.0-beta - 10/08/2007 @ 03:07 (GMT+08:00)
+   	* Updated the get_avatar function, now returns $avatar['exists'] and $avatar['skin'] and $avatar['avatar'] (which is always true)
+	* Updated get_avatar_display to
+		function get_avatar_display ( $avatar, $style = '', $before = '', $after = '', $none = '' )
+	* Fixed admin avatar displays when 'Display Default Avatar' is disabled
+	* Updated skin.txt to reflect latest changes
+   
+   v1.0.1.0-beta - 30/07/2007 @ 22:00 (GMT+08:00)
+    * Re-packaged with correct _images.funcs.php file
+	* Stops gallery plugin conflicts even with gallery plugin v1.2.5.2-final
+	* Added new setting "Display Default Avatar" if this is unchecked then NULL will be returned when no avatar is present in get_avatar
+	* If a defualt avatar was returned with get_avatar, avatar['name'] is now 'default'
+	
+   v1.0.0.0-beta - 15/07/2007 @ 19:59 (GMT+08:00)
+	* Nearly complete re-write, so it finally completes my dream of what the avatars plugin should be!
+	* Removed customizability of avatar_types (no one used it, and no one cares)
+	* Added ability to upload avatars within b2evolution
+	* Hacked up administration so avatars are displayed for post and user browsing
+	* Avatars include the small image, and a optional large image
+	* Large and Small images have customizable sizes and resize modes
+	* Large avatars include lightbox functionality!
+	* Built from my Sample Renderer Plugin and some parts of my Gallery Plugin
+	
+   v0.3.0.0 - 13/11/2006 @ 23:10 (GMT+08:00)
+	* Fixed the 'Fixed' incompatabilities with the gallery plugin
+	* Changed 'no_image' to 'no_avatar'
+	* Made it so it would detect the extension of no_avatar and use it appropriatly
+	* Made it so if no 'no_avatar' image exists, get_avatar returns NULL
+	  - This is cause for extra handling of the get_avatar call (See new Usage->Part 1->1)
+
+   v0.2.1.0 - 13/11/2006 @ 23:10 (GMT+08:00)
+	* 'Fixed' incompatabilities with the gallery plugin
+
+   v0.2.0.0 - 02/11/2006 @ 00:55 (GMT+08:00)
+	* Fixed installation problems
+	* Removed delete avatars' media directory on exit
+	* Added the function $Avatars->get_type_links()
+	   which can be used for the user to change their avatar types if they can.
+
+   v0.1.0.0 - 08/09/2006 @ 00:22 (GMT+08:00);
+	* Ported over lightality's avatar class into a plugin
+	
+====================================================
+
+ INSTALLATION;
+
+ Refer to installation/installation.txt
+ 

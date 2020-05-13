@@ -1,0 +1,4 @@
+.widget_plugin_breadcrumbs li,
+.widget_plugin_breadcrumbs_li { list-style: none !important; display: inline !important; margin: 0 !important; padding: 0 0 0 3px !important }
+
+.widget_plugin_breadcrumbs li:before { content: "" !important }

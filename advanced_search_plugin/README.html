@@ -1,0 +1,37 @@
+<style type="text/css">
+h3 { margin-bottom:5px; padding-bottom:0 }
+p { margin:0; padding:0; color:#0033CC }
+pre { margin:5px 0 40px 40px; color:#339900; font-weight:bold }
+</style>
+
+<h1>Advanced search plugin</h1>
+<h3>Installation</h3>
+<p>1. Open your skin directory and try to find the file <b>posts.main.php</b>. If it's there open it, if you can't find it open <b>index.main.php</b>.</p>
+<p>2. Search for this code in opened file.
+<pre>
+// ------------------------- MESSAGES GENERATED FROM ACTIONS -------------------------
+	messages( array(
+			'block_start' => '&lt;div class="action_messages"&gt;',
+			'block_end'   => '&lt;/div&gt;',
+		) );
+// --------------------------------- END OF MESSAGES ---------------------------------
+</pre>
+</p>
+<p>3. Make it look like this (just add new lines below the messages code)
+<pre>
+// ------------------------- MESSAGES GENERATED FROM ACTIONS -------------------------
+	messages( array(
+			'block_start' => '&lt;div class="action_messages"&gt;',
+			'block_end'   => '&lt;/div&gt;',
+		) );
+// --------------------------------- END OF MESSAGES ---------------------------------
+
+
+// Display search results
+global $ASearch_plugin;
+if( is_object($ASearch_plugin) )
+{
+	$ASearch_plugin->display_results();
+}
+</pre>
+</p>

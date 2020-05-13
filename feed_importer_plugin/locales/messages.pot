@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2011-06-20 12:19-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_feed_importer.plugin.php:80
+msgid "Creates posts from different sources."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:81
+msgid "This plugin allows you to import posts from different sources such as XML feeds, b2evo backup files (*.b2e), and plain text files. It can export posts as b2evo backup files (*.b2e) and in CSV, XML and JSON formats."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:111
+msgid "Recent feeds list"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:114
+msgid "Check this if you want to display a list or recently used XML feeds."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:117
+msgid "Asynchronous outbound pings"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:120
+msgid "Check this if you want to enable scheduled outbound pings."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:121
+msgid "NOTE: make sure that your scheduled jobs are properly set up."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:124
+msgid "Scheduled import"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:128
+msgid "Check this if you want to enable scheduled XML feed import."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:141
+#: ../../../_feed_importer.plugin.php:614
+msgid "Published (Public)"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:142
+#: ../../../_feed_importer.plugin.php:615
+msgid "Draft (Not published!)"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:154
+#: ../../../_feed_importer.plugin.php:627
+msgid "Posts status"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:154
+#: ../../../_feed_importer.plugin.php:627
+msgid "Select the status for imported posts."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:155
+#: ../../../_feed_importer.plugin.php:628
+msgid "Limit"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:155
+#: ../../../_feed_importer.plugin.php:628
+msgid "Enter the number of items to import. Leave empty to import all available items."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:157
+#: ../../../_feed_importer.plugin.php:632
+msgid "Post header"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:157
+#: ../../../_feed_importer.plugin.php:632
+msgid "Enter post header text here. This text will be added to the top of each post."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:158
+#: ../../../_feed_importer.plugin.php:633
+msgid "Post footer"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:158
+#: ../../../_feed_importer.plugin.php:633
+msgid "Enter post footer text here. This text will be added to the bottom of each post."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:160
+#: ../../../_feed_importer.plugin.php:635
+#, php-format
+msgid "The following tags will be replaced with the real values when <b>XML Feed</b> is imported: %s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:160
+#: ../../../_feed_importer.plugin.php:635
+#, php-format
+msgid "Example: Read original article %s on %s."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:182
+#: ../../../_feed_importer.plugin.php:510
+#: ../../../_feed_importer.plugin.php:557
+msgid "Select a blog"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:182
+#: ../../../_feed_importer.plugin.php:557
+msgid "Select a blog where you want to import posts."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:186
+#: ../../../_feed_importer.plugin.php:561
+msgid "Continue..."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:209
+#: ../../../_feed_importer.plugin.php:757
+msgid "You must select a main category"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:235
+msgid "Import new posts from XML feeds"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:345
+msgid "Back to Import/Export tab"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:347
+#: ../../../_feed_importer.plugin.php:581
+msgid "Manage XML feeds"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:354
+#: ../../../_feed_importer.plugin.php:602
+msgid "Saved XML feeds"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:363
+msgid "The feed is disabled."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:367
+msgid "The feed is enabled."
+msgstr ""
+
+#. TRANS: shortcut for enabled
+#: ../../../_feed_importer.plugin.php:372
+msgid "En"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:387
+msgid "Title"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:393
+msgid "URL"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:394
+msgid "Open in new window"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:401
+msgid "Date Time"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:417
+msgid "Enable"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:421
+msgid "Disable"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:423
+msgid "Delete"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:423
+msgid "Do you really want to delete this feed?"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:427
+msgid "Actions"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:460
+msgid "Global export"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:463
+msgid "Select a table"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:463
+msgid "This will export all table fields."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:466
+#: ../../../_feed_importer.plugin.php:513
+msgid "b2e"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:466
+#: ../../../_feed_importer.plugin.php:513
+msgid "Feed Importer internal format. Useful for import or backup purposes only. Unreadable text"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:467
+#: ../../../_feed_importer.plugin.php:514
+msgid "CSV"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:467
+#: ../../../_feed_importer.plugin.php:514
+#, php-format
+msgid "A comma-separated values file. Note that M$ Excel < 2010 fails to read multiline posts, use %s instead"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:468
+#: ../../../_feed_importer.plugin.php:515
+msgid "XML"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:468
+#: ../../../_feed_importer.plugin.php:515
+msgid "Extensible Markup Language"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:473
+#: ../../../_feed_importer.plugin.php:520
+msgid "JSON"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:473
+#: ../../../_feed_importer.plugin.php:520
+msgid "JavaScript Object Notation"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:476
+#: ../../../_feed_importer.plugin.php:523
+msgid "Export type"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:480
+#: ../../../_feed_importer.plugin.php:527
+msgid "Export !"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:507
+msgid "Items export"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:510
+msgid "Export all items from selected blog."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:535
+msgid "No blogs avaliable for export yet."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:544
+#: ../../../_feed_importer.plugin.php:583
+msgid "Import"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:596
+msgid "None"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:602
+msgid "Select a feed you already used or enter new address below."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:606
+msgid "Address"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:606
+msgid "Enter either remote (URL) or local (file path) address."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:611
+msgid "Import type"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:611
+msgid "What do you want to import?"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:629
+msgid "Check post existance"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:629
+msgid "Should we skip imported items if they already exist in the database."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:630
+msgid "Import comments"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:630
+msgid "Should we import post comments, trackbacks etc. (<b>*.b2e import type only</b>)."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:643
+msgid "Import !"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:643
+msgid "Do you really want to continue?"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:670
+msgid "The feed has been enabled!"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:677
+msgid "The feed has been disabled!"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:683
+msgid "The feed has been deleted!"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:750
+#, php-format
+msgid "File path: %s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:765
+#: ../../../_feed_importer.plugin.php:818
+msgid "The address field is empty."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:812
+msgid "Feed not found."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:835
+#: ../../../_feed_importer.plugin.php:849
+#, php-format
+msgid "Invalid data supplied in %s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:909
+#, php-format
+msgid "The post %s already exists in DB, skipping..."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:960
+msgid "Permission denied."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:992
+#, php-format
+msgid "Invalid post title: %s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:997
+msgid "Invalid post content"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1070
+msgid "New post created:"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1093
+#, php-format
+msgid "Send notifications for &laquo;%s&raquo;"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1124
+msgid "Unable to create a post"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1142
+#, php-format
+msgid "%d slugs imported"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1188
+#, php-format
+msgid "%d comments imported"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1377
+msgid "Blog not found"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1507
+msgid "You're not allowed to view this page!"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1528
+msgid "Unable to create directory for exported files, contact the admin."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1529
+#: ../../../_feed_importer.plugin.php:1701
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1549
+msgid "Cannot create <i>.htaccess</i> file!"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1550
+#, php-format
+msgid "Make sure the directory [%s] has write permissions (777)"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1665
+#, php-format
+msgid "Unable to read data from %s"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1766
+msgid "Unable to create CSV file."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:1817
+#, php-format
+msgid "Blog #%d exported"
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:2062
+msgid "Sorry, you have no permission to post yet. The Import feature is unavaliable."
+msgstr ""
+
+#: ../../../_feed_importer.plugin.php:2115
+#: ../../../_feed_importer.plugin.php:2132
+#, php-format
+msgid "Categories for blog \"%s\""
+msgstr ""

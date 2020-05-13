@@ -1,0 +1,1 @@
+This skin should work with low resolution screens and support old mobile phones.

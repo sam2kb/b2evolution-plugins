@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Protected posts plugin 0.1\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-10-01 16:27-0400\n"
+"PO-Revision-Date: 2008-10-01 16:33-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: _protected_posts.plugin.php:46
+#: _protected_posts.plugin.php:47
+msgid "Allows users to password protect their posts"
+msgstr "Позволяет пользователям защищать записи паролем"
+
+#: _protected_posts.plugin.php:58
+msgid "Memorize passwords"
+msgstr "Запоминать пароли"
+
+#: _protected_posts.plugin.php:61
+msgid "Do we want to memorize passwords in user cookies for future use."
+msgstr "Должны ли мы сохранять пароли в cookies для дальнейшего использования."
+
+#: _protected_posts.plugin.php:164
+msgid "Password protect this post"
+msgstr "Защитить паролем"
+
+#: _protected_posts.plugin.php:166
+msgid "Set password"
+msgstr "Пароль"
+
+#: _protected_posts.plugin.php:203
+msgid "Post password has been created."
+msgstr "Пароль был успешно создан."
+
+#: _protected_posts.plugin.php:210
+msgid "Post password has been updated."
+msgstr "Пароль был успешно изменен."
+
+#: _protected_posts.plugin.php:215
+msgid "Post password has been deleted."
+msgstr "Пароль был успешно удален."
+
+#: _protected_posts.plugin.php:283
+msgid "To view this post please enter the password below."
+msgstr "Введите пароль для просмотра содержимого этой записи."
+
+#: _protected_posts.plugin.php:287
+msgid "Password"
+msgstr "Пароль"
+

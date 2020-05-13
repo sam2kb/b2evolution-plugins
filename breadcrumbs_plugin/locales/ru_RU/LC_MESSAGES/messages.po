@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bread crumbs plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-04 23:40-0500\n"
+"PO-Revision-Date: 2012-03-04 23:41-0500\n"
+"Last-Translator: Alex (sam2kb)\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:30
+msgid "Breadcrumbs navigation"
+msgstr "Навигационная цепочка"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:31
+msgid "[Widget] Displays breadcrumbs navigation bar"
+msgstr "[Виджет] Показывает навигационную цепочку"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:53
+msgid "Block title"
+msgstr "Заголовок блока"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:54
+msgid "You are here:"
+msgstr "Вы тут:"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:56
+msgid "Title to display in your skin."
+msgstr "Заголовок для показа в вашей теме."
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:59
+msgid "Crumbs delimiter"
+msgstr "Разделитель"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:64
+msgid "Home link"
+msgstr "Корневая ссылка"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:67
+msgid "Check to display a \"Home\" link."
+msgstr "Отметьте для показа корневой ссылки на блог по умолчанию или на базовый URL, выбранный при установке системы."
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:108
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\breadcrumbs_plugin\_breadcrumbs.plugin.php:114
+msgid "Home"
+msgstr "В начало"
+

@@ -1,0 +1,24 @@
+li.BlogListWgt { display:block; position:relative; float:left; padding:0 0 1px 0 !important; margin: 0 !important; text-align:center; background-color:#FFC; font-size: 12px !important; font-weight: normal !important; border:1px solid #CCC }
+.BlogListWgt a { display:block; text-decoration:none; color:#333 !important; padding:3px 4px; position:relative; float:none !important }
+.BlogListWgt a:hover,
+.BlogListWgt:hover a { background-color:#FFC; text-decoration:none !important }
+
+/* Submenus */
+.BlogListWgt ul { list-style:none !important; border:1px solid #CCC; position:absolute; display:none; width:180px !important; left:-1px; margin:0 !important; padding:1px !important; background-color:#FFC }
+.BlogListWgt ul li { width:100%; display:block; position:relative; clear:both; float:none; margin:0 !important; padding:0 !important; background:none; line-height:normal; font-size: 12px !important; font-weight: normal !important }
+.BlogListWgt ul li a { display:block; min-height:1px; height:auto; padding:3px 4px !important; margin:0 !important; text-align:left; font-size: 12px !important; font-weight: normal !important }
+.BlogListWgt ul li a:hover { background-color:#666; color: #FFF !important; font-style:italic }
+.BlogListWgt ul ul { left:120px; top:0; border-top:1px solid #ccc; z-index: 5 }
+.BlogListWgt ul li:before { content: "" !important }
+.BlogListWgt .has_cats > a:before { content: "» " !important }
+
+.BlogListWgt:hover ul ul,
+.BlogListWgt:hover ul ul ul,
+.BlogListWgt:hover ul ul ul ul,
+.BlogListWgt:hover ul ul ul ul ul { display:none }
+
+.BlogListWgt:hover ul,
+.BlogListWgt li:hover ul,
+.BlogListWgt li li:hover ul,
+.BlogListWgt li li li:hover ul,
+.BlogListWgt li li li li:hover ul { display:block }

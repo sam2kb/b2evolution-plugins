@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2010-12-27 19:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:40
+msgid "Copies blog settings from one blog to another."
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:41
+msgid "This plugin copies skins and plugins settings between blogs."
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:78
+msgid "From"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:78
+msgid "Source blog"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:79
+msgid "To"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:79
+msgid "Destination blog"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:80
+msgid "Skin settings"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:80
+msgid "Check this to copy skin settings (current skin)."
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:81
+msgid "Plugin settings"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:81
+msgid "Check this to copy plugin settings (all installed plugins)."
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:84
+msgid "Copy settings!"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:84
+msgid "Do you really want to continue?"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:100
+msgid "Select another target blog!"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:132
+msgid "Select settings to copy!"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:150
+msgid "The following settings were copied:"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:151
+msgid "Settings have been copied"
+msgstr ""
+
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:163
+#: /../../blog_setting_duplicator\_blog_setting_duplicator.plugin.php:168
+msgid "You're not allowed to view this page!"
+msgstr ""

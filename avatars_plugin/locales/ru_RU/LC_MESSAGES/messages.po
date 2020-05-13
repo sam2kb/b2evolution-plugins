@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avatars plugin 2.2.6\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-10-19 17:42-0400\n"
+"PO-Revision-Date: 2008-10-19 17:44-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: _admin_area.php:31
+#: _profile_area.php:32
+msgid "Avatars"
+msgstr "Аватары"
+
+#: _admin_area.php:59
+#: _profile_area.php:49
+msgid "Large Avatar"
+msgstr "Большой аватар"
+
+#: _admin_area.php:61
+#: _admin_area.php:75
+#: _profile_area.php:51
+#: _profile_area.php:66
+msgid "Up to"
+msgstr "Макс."
+
+#: _admin_area.php:65
+msgid "Remove Large Avatar"
+msgstr "Удалить большой аватар"
+
+#: _admin_area.php:73
+#: _profile_area.php:64
+msgid "Small Avatar"
+msgstr "Маленький аватар"
+
+#: _admin_area.php:79
+msgid "Remove Small Avatar"
+msgstr "Удалить маленикий аватар"
+
+#: _avatars.plugin.php:89
+msgid "Let's you 'easily' add avatars/icons to various things."
+msgstr "Позволяет использовать аватары"
+
+#: _avatars.plugin.php:90
+msgid "Let's you 'easily' add avatars/icons to "
+msgstr "Работает со следующими типами изображений:"
+
+#: _avatars.plugin.php:120
+#, php-format
+msgid "In order to display large avatars in lightbox you should select the \"standard\" lightbox version in %s!"
+msgstr "Для отображения больших аватаров с использованием \"lightbox\" вы должны выбрать стандартную версию lightbox \"standard\" в настройках плагина %s!"
+
+#: _avatars.plugin.php:176
+msgid "User Groups"
+msgstr "Группы пользователей"
+
+#: _avatars.plugin.php:177
+msgid "Disable avatars for these user groups. Separate by ,"
+msgstr "Отключить аватары для этих групп. Группы разделяйте запятыми."
+
+#: _avatars.plugin.php:185
+msgid "Minimum User level"
+msgstr "Минимальный уровень пользователя"
+
+#: _avatars.plugin.php:187
+msgid "Enable for all users."
+msgstr "Разрешить всем пользователям."
+
+#: _avatars.plugin.php:187
+msgid "Disable for all users."
+msgstr "Запретить всем пользователям."
+
+#: _avatars.plugin.php:195
+msgid "Maximum file size"
+msgstr "Максимальный размер файла для загрузки"
+
+#: _avatars.plugin.php:197
+msgid "KB"
+msgstr "Кб"
+
+#: _avatars.plugin.php:205
+msgid "Display default avatar"
+msgstr "Отображать аватар по умолчанию"
+
+#: _avatars.plugin.php:208
+msgid "Should the default avatar be displayed if no avatar exists?"
+msgstr "Должен ли быть показан аватар по умолчанию при отсутствии аватара пользователя?"
+
+#: _avatars.plugin.php:212
+msgid "Use image resizing"
+msgstr "Использовать изменение размера изображений"
+
+#: _avatars.plugin.php:216
+msgid "Should we use image resizing?"
+msgstr "Должны ли мы использовать изменение размера изображений?"
+
+#: _avatars.plugin.php:220
+msgid "Collapsed avatars area"
+msgstr "Свернутая панель аватаров"
+
+#: _avatars.plugin.php:223
+msgid "Should we display the admin avatars upload area collapsed?"
+msgstr "Должны ли мы показывать панель загрузки аватаров свернутой?"
+
+#: _avatars.plugin.php:227
+msgid "Display next avatar"
+msgstr "Отображать следующий аватар"
+
+#: _avatars.plugin.php:230
+msgid "If no <b>post</b> avatar and no default post image exists, display the category avatar, if no category avatar exists then display the blog avatar."
+msgstr "В случае когда ни аватара записи ни картинки по умолчанию для записей не загружено - показывать аватар категории, если и его нет - показывать аватар блога."
+
+#: _avatars.plugin.php:234
+msgid "Display next default image"
+msgstr "Отображать следующую картинку по умолчанию"
+
+#: _avatars.plugin.php:237
+msgid "If no <b>post</b> avatar and no default post image exists, display the default category image, if no default category image exists then display the default blog image.<br /><br />NOTE: <b>Display next default image</b> has higher priority over <b>Display next avatar</b>."
+msgstr "В случае когда ни аватара записи ни картинки по умолчанию для записей не загружено - показывать картинку по умолчанию для категорий, если и ее нет - показывать картинку по умолчанию для блогов.<br /><br />ВНИМАНИЕ: Функция <b>Отображать следующую картинку по умолчанию</b> имеет больший приоритет чем <b>Отображать следующий аватар</b>."
+
+#: _avatars.plugin.php:249
+msgid "Image settings"
+msgstr "Параметры изображений"
+
+#: _avatars.plugin.php:253
+msgid "Large avatar JPEG quality"
+msgstr "JPEG качество большого  аватара"
+
+#: _avatars.plugin.php:263
+msgid "Large avatar image re-size mode"
+msgstr "Способ уменьшения большого аватара"
+
+#: _avatars.plugin.php:268
+#: _avatars.plugin.php:275
+#: _avatars.plugin.php:297
+#: _avatars.plugin.php:304
+msgid "None"
+msgstr "Не применять"
+
+#: _avatars.plugin.php:269
+#: _avatars.plugin.php:276
+#: _avatars.plugin.php:298
+#: _avatars.plugin.php:305
+msgid "Area"
+msgstr "Пропорционально"
+
+#: _avatars.plugin.php:275
+#: _avatars.plugin.php:304
+msgid "No Resizing Occurs"
+msgstr "Без уменьшения размеров"
+
+#: _avatars.plugin.php:276
+#: _avatars.plugin.php:305
+msgid "Image is resized proportionally to fit within the given area"
+msgstr "Изображение уменьшается пропорционально, вписываясь в заданные размеры"
+
+#: _avatars.plugin.php:282
+msgid "Small avatar JPEG quality"
+msgstr "JPEG качество маленького аватара"
+
+#: _avatars.plugin.php:284
+msgid "%"
+msgstr "%"
+
+#: _avatars.plugin.php:292
+msgid "Small avatar image re-size mode"
+msgstr "Способ уменьшения маленького аватара"
+
+#: _avatars.plugin.php:319
+msgid "Avatar sizes (Optional)"
+msgstr "Размеры аватаров (Дополнительно)"
+
+#: _avatars.plugin.php:324
+msgid "Large avatars"
+msgstr "Большие аватары"
+
+#: _avatars.plugin.php:328
+#: _avatars.plugin.php:425
+msgid "User avatar width"
+msgstr "Ширина аватара пользователя"
+
+#: _avatars.plugin.php:331
+#: _avatars.plugin.php:342
+#: _avatars.plugin.php:353
+#: _avatars.plugin.php:364
+#: _avatars.plugin.php:375
+#: _avatars.plugin.php:386
+#: _avatars.plugin.php:397
+#: _avatars.plugin.php:408
+#: _avatars.plugin.php:428
+#: _avatars.plugin.php:439
+#: _avatars.plugin.php:450
+#: _avatars.plugin.php:461
+#: _avatars.plugin.php:472
+#: _avatars.plugin.php:483
+#: _avatars.plugin.php:494
+#: _avatars.plugin.php:505
+msgid "Pixels"
+msgstr "Пикселей"
+
+#: _avatars.plugin.php:339
+#: _avatars.plugin.php:436
+msgid "User avatar height"
+msgstr "Высота аватара пользователя"
+
+#: _avatars.plugin.php:350
+#: _avatars.plugin.php:447
+msgid "Blog avatar width"
+msgstr "Ширина аватара блога"
+
+#: _avatars.plugin.php:361
+#: _avatars.plugin.php:458
+msgid "Blog avatar height"
+msgstr "Высота аватара блога"
+
+#: _avatars.plugin.php:372
+#: _avatars.plugin.php:469
+msgid "Category avatar width"
+msgstr "Ширина аватара категории"
+
+#: _avatars.plugin.php:383
+#: _avatars.plugin.php:480
+msgid "Category avatar height"
+msgstr "Высота аватара категории"
+
+#: _avatars.plugin.php:394
+#: _avatars.plugin.php:491
+msgid "Post avatar width"
+msgstr "Ширина аватара записи"
+
+#: _avatars.plugin.php:405
+#: _avatars.plugin.php:502
+msgid "Post avatar height"
+msgstr "Высота аватара записи"
+
+#: _avatars.plugin.php:421
+msgid "Small avatars"
+msgstr "Маленькие аватары"
+
+#: _avatars.plugin.php:547
+#, php-format
+msgid "You must create the following directories with write permissions (777):%s"
+msgstr "Вы должны создать следующие директории с разрешениями на запись (777):%s"
+
+#: _avatars.plugin.php:554
+#, php-format
+msgid "You must copy the file default.jpg from \"avatars_plugin/includes/\" to %s"
+msgstr "Вы должны скопировать файл default.jpg из \"avatars_plugin/includes/\" в %s"
+
+#: _avatars.plugin.php:1005
+#: _avatars.plugin.php:1032
+#: _avatars.plugin.php:1045
+#, php-format
+msgid "Put this %s avatars code in posts loop, usually in %s, in %s or in %s"
+msgstr "Скопируйте этот код для %s аватаров в цикл записей (posts loop), обычно в файл %s или %s или %s"
+
+#: _avatars.plugin.php:1019
+#, php-format
+msgid "Put this %s avatars code in comments loop, usually in %s"
+msgstr "Скопируйте этот код для %s аватаров в цикл комментариев (comments loop), обычно в файл %s"
+
+#: _avatars.plugin.php:1138
+msgid "The image you tried to upload is not of an acceptable extension"
+msgstr "Файл, который вы загружаете, должен иметь одно из следующих расширений"
+
+#: _avatars.plugin.php:1142
+#, php-format
+msgid "The maximum allowed file size is %s KB."
+msgstr "Максимальный размер загружаемого файла не должен превышать %s Кб."
+
+#: _avatars.plugin.php:1173
+msgid "Succesfully uploaded the image"
+msgstr "Успешно загружено изображение"
+
+#: _avatars.plugin.php:1177
+#: _avatars.plugin.php:1182
+msgid "Failed to upload the image"
+msgstr "Не удалось загрузить изображение"
+
+#: _avatars.plugin.php:1310
+#: _avatars.plugin.php:1326
+#, php-format
+msgid "Successfully deleted the %s avatar image."
+msgstr "Аватар успешно удален. ( %s )"
+
+#: _avatars.plugin.php:1316
+#: _avatars.plugin.php:1332
+#, php-format
+msgid "Failed to delete the %s avatar image."
+msgstr "Не удалось удалить аватар. ( %s )"
+
+#: _avatars.plugin.php:1451
+#: _avatars.plugin.php:1533
+#, php-format
+msgid "Successfully created the %s avatar."
+msgstr "Аватар успешно создан. ( %s )"
+
+#: _avatars.plugin.php:1455
+#: _avatars.plugin.php:1535
+#, php-format
+msgid "Failed writing the %s avatar."
+msgstr "Не удалось записать аватар. ( %s )"
+
+#: _avatars.plugin.php:1461
+#: _avatars.plugin.php:1540
+#, php-format
+msgid "Failed to create the %s avatar."
+msgstr "Не удалось создать аватар. ( %s )"
+
+#: _avatars.plugin.php:1468
+#: _avatars.plugin.php:1486
+#: _avatars.plugin.php:1547
+#: _avatars.plugin.php:1565
+#, php-format
+msgid "Failed to delete the temporary %s avatar image."
+msgstr "Не удалось удалить временный аватар. ( %s )"
+
+#: _avatars.plugin.php:1478
+#: _avatars.plugin.php:1557
+#, php-format
+msgid "Successfully moved the %s avatar to it's correct location. [ %d ]"
+msgstr "Аватар успешно перемещен. [ %d ]"
+
+#: _avatars.plugin.php:1482
+#: _avatars.plugin.php:1561
+#, php-format
+msgid "Failed to move the %s avatar image to it's correct location."
+msgstr "Не удалось переместить аватар. ( %s )"
+
+#: _avatars.plugin.php:1632
+msgid "Successfully copied the large avatar image for use for the small avatar image."
+msgstr "Аватар успешно скопирован."
+
+#: _avatars.plugin.php:1635
+msgid "Unsuccessfully copied the large avatar image for use for the small avatar image."
+msgstr "Не удалось скопировать аватар."
+
+#: _avatars.plugin.php:1640
+msgid "No small avatar exists! And no large avatar exists to use for the small avatar either!"
+msgstr "Аватар не найден!"
+
+#: _avatars.plugin.php:1797
+msgid "Successfully removed all avatars."
+msgstr "Все аватары были успешно удалены."
+
+#: _avatars.plugin.php:1797
+msgid "Failed deleting all avatars for this plugin."
+msgstr "Не удалось удалить аватары."
+
+#: _avatars.plugin.php:1804
+msgid "All avatars were kept."
+msgstr "Аватары были сохранены."
+
+#: _avatars.plugin.php:1827
+msgid "Permanently delete any avatars?"
+msgstr "Удалить все аватары."
+
+#: _avatars.plugin.php:2293
+msgid "Image"
+msgstr "Изображение"
+
+#: _avatars.plugin.php:2294
+msgid "of"
+msgstr "из"
+
+#: _profile_area.php:57
+#: _profile_area.php:72
+msgid "Remove Avatar"
+msgstr "Удалить аватар"
+
+#~ msgid "Avatar"
+#~ msgstr "Аватар"
+#~ msgid "0 - 11<br />[ 0 - Enable for all ]<br />[ 11 - Disable for all ]"
+#~ msgstr "0 - 11<br />[ 0 - Разрешить всем ]<br />[ 11 - Запретить всем ]"
+#~ msgid "KB.<br />[ 10 - 3000 ]"
+#~ msgstr "Кб.<br />[ 10 - 3000 ]"
+#~ msgid "Small avatar width"
+#~ msgstr "Ширина маленького аватара"
+#~ msgid "Small avatar height"
+#~ msgstr "Высота маленького аватара"
+#~ msgid "User avatar"
+#~ msgstr "Пользователь"
+#~ msgid "Update this avatar"
+#~ msgstr "Обновить этот аватар"
+#~ msgid "Blog avatar"
+#~ msgstr "Блог"
+#~ msgid "Avatar image"
+#~ msgstr "Размер изображения"
+#~ msgid "Up to "
+#~ msgstr "Макс. "
+#~ msgid "Show Support?"
+#~ msgstr "Показать ссылку поддержки?"
+#~ msgid "Adds a credit link for this plugin."
+#~ msgstr "Добавить ссылку автора к плагину."
+#~ msgid "Successfully deleted the large avatar image."
+#~ msgstr "Аватар успешно удален."
+#~ msgid "Failed to delete the large avatar image."
+#~ msgstr "Не удалось удалить аватар."
+

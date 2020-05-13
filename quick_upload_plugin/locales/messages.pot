@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-02-12 17:56-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../upload_window.php:205
+msgid "You don't have access to the requested root directory."
+msgstr ""
+
+#: ../upload_window.php:220
+msgid "You don't have access to any root directory."
+msgstr ""
+
+#: ../upload_window.php:228
+#, php-format
+msgid "The root directory &laquo;%s&raquo; does not exist."
+msgstr ""
+
+#: ../upload_window.php:240
+#, php-format
+msgid "The directory &laquo;%s&raquo; does not exist."
+msgstr ""
+
+#: ../upload_window.php:246
+msgid "You are not allowed to go outside your root directory!"
+msgstr ""
+
+#: ../upload_window.php:282
+msgid "Upload is disabled."
+msgstr ""
+
+#: ../upload_window.php:287
+msgid "You have no permission to add/upload files."
+msgstr ""
+
+#: ../upload_window.php:333
+msgid "Please select a local file to upload."
+msgstr ""
+
+#. TRANS: %s will be replaced by the difference
+#: ../upload_window.php:343
+#, php-format
+msgid "The file is too large: %s but the maximum allowed is %s."
+msgstr ""
+
+#: ../upload_window.php:361
+msgid "The file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: ../upload_window.php:366
+msgid "The file was only partially uploaded."
+msgstr ""
+
+#: ../upload_window.php:372
+msgid "No file was uploaded."
+msgstr ""
+
+#: ../upload_window.php:379
+msgid "Missing a temporary folder (upload_tmp_dir in php.ini)."
+msgstr ""
+
+#: ../upload_window.php:384
+msgid "Unknown error."
+msgstr ""
+
+#: ../upload_window.php:392
+msgid "The file does not seem to be a valid upload! It may exceed the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: ../upload_window.php:417
+#, php-format
+msgid "Unable to create directory: [ %s ]"
+msgstr ""
+
+#: ../upload_window.php:428
+#, php-format
+msgid "The file &laquo;%s&raquo; already exists."
+msgstr ""
+
+#: ../upload_window.php:436
+msgid "An unknown error occurred when moving the uploaded file on the server."
+msgstr ""
+
+#: ../upload_window.php:444
+#, php-format
+msgid "Could not change permissions of &laquo;%s&raquo; to default chmod setting."
+msgstr ""
+
+#: ../upload_window.php:464
+#, php-format
+msgid "The file &laquo;%s&raquo; has been successfully uploaded."
+msgstr ""
+
+#: ../upload_window.php:470
+msgid "Add the code to your post !"
+msgstr ""
+
+#: ../upload_window.php:480
+#: ../upload_window.php:485
+#: ../upload_window.php:489
+msgid "Link this file!"
+msgstr ""
+
+#: ../upload_window.php:531
+msgid "Cannot link Item!"
+msgstr ""
+
+#: ../upload_window.php:532
+msgid "Requested item does not exist any longer."
+msgstr ""
+
+#: ../upload_window.php:565
+msgid "Nothing selected."
+msgstr ""
+
+#: ../upload_window.php:589
+msgid "Selected file has been linked to item."
+msgstr ""
+
+#: ../upload_window.php:611
+#: ../upload_window.php:786
+#: ../_quick_upload.plugin.php:152
+msgid "Quick upload"
+msgstr ""
+
+#: ../upload_window.php:772
+#: ../upload_window.php:858
+msgid "Choose a file"
+msgstr ""
+
+#: ../upload_window.php:828
+msgid "Some file uploads failed. Please check the errors below."
+msgstr ""
+
+#. TRANS: will be displayed as title for failed file uploads
+#: ../upload_window.php:849
+msgid "Invalid submission."
+msgstr ""
+
+#: ../upload_window.php:868
+msgid "Add another file"
+msgstr ""
+
+#: ../upload_window.php:871
+msgid "Upload to server now"
+msgstr ""
+
+#: ../upload_window.php:872
+msgid "Reset"
+msgstr ""
+
+#: ../_quick_upload.plugin.php:47
+msgid "Add a quick upload button"
+msgstr ""
+
+#: ../_quick_upload.plugin.php:48
+msgid "Add a quick upload button for fast and easy image uploading."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:59
+msgid "Enable directory select"
+msgstr ""
+
+#: ../_quick_upload.plugin.php:62
+msgid "Check this if you want to display a directory tree in Quick Upload window. This will show a list of all avaliable directories, might be slow."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:62
+msgid "Note: If disabled files get uploaded in blog's media folder."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:65
+msgid "Create subdirectories"
+msgstr ""
+
+#: ../_quick_upload.plugin.php:68
+msgid "Check this to automaticaly create sub directories in blog's media folder for each item to store attached files."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:68
+msgid "Example: each item(post) will have its own folder e.g. <b>/media/blog_a/item_23/</b>. You can select the name prefix below."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:71
+msgid "Directory name prefix"
+msgstr ""
+
+#: ../_quick_upload.plugin.php:73
+msgid "An optional prefix to be added to the directory name."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:74
+msgid "Please enter a valid directory name prefix."
+msgstr ""
+
+#: ../_quick_upload.plugin.php:247
+#: ../_quick_upload.plugin.php:249
+msgid "Open this directory in the file manager"
+msgstr ""

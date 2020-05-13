@@ -1,0 +1,10 @@
+.SocLoginClass { display: block; border: 1px solid #DDD; margin: 20px auto; padding: 5px; text-align: center }
+.SocLoginClass span { display:block; font-size: 14px; font-weight: bold; margin-bottom: 4px; color: #555 }
+
+.soclogin-buttons a { display: inline-block; margin: 2px }
+.soclogin-btn { vertical-align: middle }
+.soclogin-btn-connected { padding: 2px; border: 2px solid #00CC33; border-radius: 6px  }
+
+/* Backoffice */
+.panelblock .soclogin-btn,
+.fform .soclogin-btn { margin: -2px 4px 0 0  }

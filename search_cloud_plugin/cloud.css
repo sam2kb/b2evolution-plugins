@@ -1,0 +1,7 @@
+/* Search Cloud plugin styles */
+.widget_plugin_evo_searchcloud { margin:10px 20px; padding:20px 0 }
+.widget_plugin_evo_searchcloud h3 { margin:0; padding-bottom:4px; font-size:18px; border-bottom:1px solid #333 }
+.widget_plugin_evo_searchcloud ul { margin:0 !important; padding:10px 5px !important; list-style:none }
+.widget_plugin_evo_searchcloud li { display:inline; margin:0; padding:0 }
+.widget_plugin_evo_searchcloud a { padding:5px; margin:5px; text-decoration:none }
+.widget_plugin_evo_searchcloud a:hover { background:#DDD; color:#333; text-decoration:none }

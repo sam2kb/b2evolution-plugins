@@ -1,0 +1,4 @@
+.protected_posts_container { margin:20px 10px }
+.protected_posts_form { margin:5px 0 0 0 }
+.protected_posts_text,
+.protected_posts_form { padding: 15px; border:1px solid #d99; background:#fbf2ee; color:#e00 }

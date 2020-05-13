@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>MoreTags Plugin ReadMe / Help page</title>
+<style type="text/css">
+body { font-family:"Trebuchet MS"; margin:1em; }
+h2 { margin-bottom:0; border-bottom:2px solid blue; color:blue; }
+h3 { margin:0 0 0 1ex; }
+p { margin:.8ex 3ex; }
+.red { color:red; }
+.gray { color:gray; text-decoration:line-through; }
+code { color:green; font-size:larger; }
+</style>
+</head>
+<body>
+<h2>MoreTags Overview</h2>
+<p>MoreTags is a tiny little toolbar that will let you add some common html markup tags to your blog post.</p>
+<h2>MoreTags Detailed Description</h2>
+<p>MoreTags is NOT a "WYSISYG" editor. For a real WYSIWYG editor check out <a href="http://manual.b2evolution.net/Plugins/tinymce_plugin" title="http://manual.b2evolution.net/Plugins/tinymce_plugin">TinyMCE</a>. 
+  Using moretags will show you the markup in your blog post, much like the "quicktags" plugin. After installation 
+  moretags will create another toolbar under your "quicktags" toolbar that will operate in much the same way: you select 
+  the text you want to decorate and click the appropriate button.</p>
+<ul>
+  <li><span class="red">The colorizing buttons</span> provide spans tags for "rainbow" colors. I chose these colors (red, orange, 
+    yellow, green, blue, indigo, violet) because it was easier than trying to guess what will work best with your skin.</li>
+  <li><span class="red">The big/small/underscore buttons</span> provide span tags that will give you <strong>larger text</strong> or <strong>smaller text</strong> or <strong>underscored text</strong>.  Not the most complete list of markup imaginable, 
+    but reasonable additions to the selection already available from Quicktags.</li>
+  <li><span class="red">The heading size buttons</span> provide <strong>h1</strong> through <strong>h6</strong> tags.  If you also 
+    use the "Auto-P" plugin then you do not have to type in your "return return (heading text) return" to make it post 
+    correctly: auto-p and b2evolution will take care of making your post validate.</li>
+  <li><span class="red">The "custom div" buttons</span> provide divs that are customizable via the back office.  The method to 
+    customize is not the easiest in the world to understand, but everything has to start somewhere.  Scroll down a bit to 
+    the "settings" section for an explanation of what these do.
+    <ul>
+      NOTE: If you don't define your custom divs and use the buttons your post will look ugly because there will be a 
+      div with no meaning.  Yuck!
+    </ul>
+  </li>
+  <li>You also get a special "X" button that will close any un-closed tags, not that b2evolution bloggers would ever 
+    leave an open tag laying around ;)</li>
+</ul>
+<h2>MoreTags Installation and Usage</h2>
+<ol>
+  INSTALLATION
+  <li>Upload the "moretags_plugin" folder this file is part of to your "plugins" folder.</li>
+  <li>In your admin panel, go to the "Global Settings-&gt;Plugins install" sub-tab.</li>
+  <li>Click on "Install new" (right side, near top).</li>
+  <li>Locate the More Tags plugin and click "Install" in the "actions" column.</li>
+</ol>
+<ol>
+  USAGE
+  <li>As you write your blog post select some text and click the button of your choice to get colors and stuff.</li>
+</ol>
+<h2>MoreTags Settings (with defaults)</h2>
+<p>This plugin has three settings with no default values.  All three settings allow you to define custom div tags, and 
+  all three settings work the same way.</p>
+<p>If you want to use a custom div you add ONLY the actual definition of the div. You do not need to add ".MT_div_1 {" 
+  then your definition then "}": only the definition part.  For example, adding:</p>
+<code>background-color:#87CEFA;margin:1em;border:1px solid #33A1DE;padding:1em</code>
+<p>will automagically become</p>
+<code>.MT_div_1 {background-color:#87CEFA;margin:1em;border:1px solid #33A1DE;padding:1em}</code>
+<p>when you use the "div1" button</p>
+<h2>MoreTags Credits</h2>
+<p>Thanks to <a href="http://www.tenderfeelings.be/" title="http://www.tenderfeelings.be/">Topanga</a> for testing an 
+  unpublished version of this, and to <a href="http://www.innervisions.org.uk/babbles/" title="http://www.innervisions.org.uk/babbles/">¥åßßå</a> for fixing a bug Topanga found.</p>
+<h2>MoreTags Known Problems</h2>
+<ul>
+  <li>The "custom div" buttons are sloppy.  In a perfect world, the buttons wouldn't show up if you didn't define the div.</li>
+  <li>It's not easy to customize the entire toolbar.  No chance to easily 
+    add your own colors, or "other style attributes" or your choice.</li>
+</ul>
+<h2>MoreTags Satisfaction Guaranteed</h2>
+<p>If you are not 100% completely satisfied with your moretags plugin I will cheerfully refund your full purchase price :)</p>
+</body>
+</html>

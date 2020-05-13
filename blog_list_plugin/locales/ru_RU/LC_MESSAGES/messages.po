@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Russian b2evolution\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2011-09-30 00:58-0400\n"
+"PO-Revision-Date: 2011-09-30 01:06-0500\n"
+"Last-Translator: Alex (sam2kb)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:31
+msgid "Displays a nested menu of blogs and their categories"
+msgstr "Показывает список блогов и их категорий в виде выпадающего меню"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:32
+msgid "This widget displays a nested menu of blogs and their categories."
+msgstr "Этот виджет показывает список блогов и их категорий в виде выпадающего меню."
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:48
+msgid "Widget title"
+msgstr "Заголовок виджета"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:49
+msgid "Browse blogs"
+msgstr "Просмотр блогов"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:53
+msgid "Display categories"
+msgstr "Показывать рубрики"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:55
+msgid "Should we display categories of each blog?"
+msgstr "Должны ли мы показать категории каждого блога?"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:59
+msgid "Widget parent tag"
+msgstr "Родительский тег виджета"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:61
+msgid "What HTML tag should we use to wrap the widget?"
+msgstr "Какой HTML тег нам использовать вокруг кода виджета?"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:62
+msgid "[li] - if you want to place the widget in \"Menu\" or \"Sidebar\" containers"
+msgstr "[li] - если вы размещаете виджет в контейнерах \"Меню\" или \"Боковая панель\""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\blog_list_plugin\_blog_list.plugin.php:63
+msgid "[div] - for other containers"
+msgstr "[div] - для всех остальных контейнеров"
+

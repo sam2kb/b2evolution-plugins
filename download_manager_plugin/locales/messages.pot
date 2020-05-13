@@ -1,0 +1,758 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-08-05 11:49-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_download_manager.plugin.php:99
+msgid "Upload and manage your files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:100
+msgid "This plugin allows you to upload and manage files, track download statistic, and display links in your blog.<br />The plugin does not reveal direct links to your files, which gives you full control over the download process. You can set download speed for users and visitors, temporarily disable download of any file, restrict all downloads to registered users only, and much more."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:175
+msgid "Serial number"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:182
+msgid "Install plugin"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:183
+msgid "Cancel"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:196
+msgid "Dafault category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:197
+msgid "This is the default category for your files. You can rename it or change this description, but you can't delete this category."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:228
+msgid "Nice permalinks"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:231
+#, php-format
+msgid "Check this if you want to use nice download links e.g. %s, where XXXXX is file key."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:232
+#, php-format
+msgid "Make sure you get the %s error message when you click on the test download link above. If you don't see it, please <a %s>read this FAQ</a>."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:244
+msgid "Enable notifications"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:247
+msgid "Check this if you want to receive emails regarding broken links, missing files etc.<br />Messages generated automatically, your email won't be displayed."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:250
+msgid "File key length"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:255
+msgid "5-32 characters."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:258
+msgid "Members only"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:261
+msgid "Check this if you want to disable downloads for visitors. If chosen, only logged in users will be able to download files."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:264
+msgid "User level"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:269
+msgid "Minimum user level required to download files. \"Members only\" option must be checked!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:272
+msgid "Speed limit (Users)"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:276
+#: ../../../_download_manager.plugin.php:283
+msgid "KB"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:276
+msgid "Maximum download speed for registered users."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:276
+#: ../../../_download_manager.plugin.php:283
+msgid "Set zero (0) to not limit the speed."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:279
+msgid "Speed limit (Visitors)"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:283
+msgid "Maximum download speed for unregistered users."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:294
+msgid "Off"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:295
+msgid "Not recommended! Your database will grow very large!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:300
+msgid "With every download"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:301
+msgid "This is guaranteed to work but uses extra resources with every downloaded file."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:305
+msgid "With a scheduled job"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:306
+msgid "Recommended if you have your scheduled jobs properly set up."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:307
+msgid "Auto pruning hits"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:310
+msgid "Prune after"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:310
+msgid "days. How many days of hits do you want to keep in the database for stats?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:324
+msgid "User level must be between 0 and 10."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:444
+msgid "Prune old hits"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:457
+msgid "Scheduled auto pruning is disabled in plugin settings."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:464
+msgid "Pruning has already been done today"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:479
+#, php-format
+msgid "Successfully pruned %d records!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:484
+msgid "Nothing to prune."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:506
+msgid "Download Manager"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:512
+msgid "Add new category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:515
+#: ../../../_download_manager.plugin.php:555
+#: ../../../_download_manager.plugin.php:601
+msgid "Name"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:516
+#: ../../../_download_manager.plugin.php:564
+#: ../../../_download_manager.plugin.php:602
+#: ../../../_download_manager.plugin.php:727
+#: ../../../_download_manager.plugin.php:750
+msgid "Description"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:519
+msgid "Create category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:526
+msgid "Categories list"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:529
+msgid "ID"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:548
+msgid "Files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:575
+#: ../../../_download_manager.plugin.php:980
+msgid "Edit"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:577
+#: ../../../_download_manager.plugin.php:982
+msgid "Delete"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:577
+msgid "Do you really want to delete this category?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:581
+#: ../../../_download_manager.plugin.php:1001
+msgid "Actions"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:597
+msgid "Editing category:"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:605
+msgid "Update category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:613
+msgid "Download as .CSV"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:620
+#, php-format
+msgid "Downloads statistic for %s"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:624
+msgid "Date Time"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:632
+msgid "Remote IP"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:650
+msgid "Open in new window"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:656
+msgid "Referer"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:663
+msgid "Agent type"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:680
+msgid "View user profile"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:684
+msgid "User ID"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:698
+msgid "Agent signature"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:706
+msgid "Editing file:"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:713
+#: ../../../_download_manager.plugin.php:950
+msgid "Hits"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:724
+#: ../../../_download_manager.plugin.php:748
+msgid "Category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:724
+msgid "Select a category for this file."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:725
+msgid "Filename"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:726
+#: ../../../_download_manager.plugin.php:749
+msgid "Title"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:726
+#: ../../../_download_manager.plugin.php:727
+#: ../../../_download_manager.plugin.php:749
+msgid "Used in download links."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:728
+msgid "Password"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:728
+msgid "Type a file password (5-255 characters)."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:729
+msgid "Download limit"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:729
+msgid "Disable file downloads if number of hits exceeds this number."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:731
+msgid "Change file"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:735
+msgid "Update file"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:739
+msgid "Add new file"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:748
+#, php-format
+msgid "Select a category for this file. <a %s>Manage categories &raquo;</a>"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:752
+msgid "Upload file"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:755
+msgid "Upload !"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:814
+#: ../../../inc/_browse_window.php:164
+msgid "Files list"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:822
+msgid "Keywords"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:822
+msgid "Separate with space"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:828
+msgid "All files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:829
+msgid "Enabled"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:830
+msgid "Disabled"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:831
+msgid "Protected"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:832
+msgid "Public"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:841
+msgid "Edit category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:857
+msgid "The file download is disabled."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:861
+msgid "The file download is enabled."
+msgstr ""
+
+#. TRANS: shortcut for enabled
+#: ../../../_download_manager.plugin.php:865
+msgid "En"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:880
+msgid "Icon"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:899
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:903
+msgid "Key"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:931
+#: ../../../inc/_browse_window.php:249
+msgid "File"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:941
+#: ../../../inc/_browse_window.php:258
+msgid "Size"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:967
+msgid "Enable file downloads"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:971
+msgid "Disable file downloads"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:974
+msgid "Download"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:976
+msgid "View download stats"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:978
+#: ../../../_download_manager.plugin.php:995
+msgid "Prune all download hits"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:978
+msgid "Do you really want to prune all download hits for this file?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:982
+msgid "Do you really want to delete this file?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:991
+msgid "Enable all files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:991
+msgid "Do you really want to enable all downloads?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:993
+msgid "Disable all files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:993
+msgid "Do you really want to disable all downloads?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:995
+msgid "Do you really want to prune all download hits?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:997
+msgid "Delete all files"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:997
+msgid "Do you really want to delete all files?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1065
+msgid "Category settings have been updated"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1084
+msgid "The file download has been enabled!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1093
+msgid "The file download has been disabled!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1114
+#, php-format
+msgid "The file %s has no downloads yet."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1128
+msgid "Unable to prune download hits."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1129
+msgid "The file download hits have been pruned!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1163
+msgid "File password should be at least 5 characters long."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1164
+msgid "File settings have not been updated!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1193
+#, php-format
+msgid "File settings have been updated for &laquo;%s&raquo;."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1218
+#, php-format
+msgid "The category &laquo;%s&raquo; has been created."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1235
+msgid "The file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1239
+msgid "The file was only partially uploaded."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1244
+msgid "No file was uploaded."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1250
+msgid "Missing a temporary folder (upload_tmp_dir in php.ini)."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1254
+msgid "Unknown error."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1273
+msgid "New file uploaded."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1307
+#, php-format
+msgid "The file &laquo;%s&raquo; has been successfully uploaded."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1316
+msgid "An unknown error occurred when moving the uploaded file on the server."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1321
+msgid "The file does not seem to be a valid upload! It may exceed the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1332
+msgid "Select a file first."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1352
+msgid "All files have been enabled!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1359
+msgid "All files have been disabled!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1408
+msgid "Add downloads"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1428
+msgid "You're not allowed to view this page!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1433
+msgid "Upload is disabled."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1438
+msgid "You have no permission to add/upload files."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1456
+msgid "Unable to create directory for uploaded files, contact the admin."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1457
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1477
+msgid "Cannot create <i>.htaccess</i> file!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1478
+#, php-format
+msgid "Make sure the directory [%s] has write permissions (777)"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1777
+msgid "File password"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1778
+msgid "Download file"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1964
+#, php-format
+msgid "Downloaded %d times!"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1983
+#, php-format
+msgid "File deleted &laquo;%s&raquo;"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1987
+#, php-format
+msgid "Unable to delete file &laquo;%s&raquo;"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1992
+msgid "File settings deleted."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:1996
+msgid "Unable to delete file settings."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2001
+msgid "File hits deleted."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2005
+msgid "Unable to delete file hits. No hits yet?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2021
+msgid "You can't delete the default category."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2034
+msgid "Unable to move posts (default category not found)."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2044
+#, php-format
+msgid "File &laquo;%s&raquo; moved to default category."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2048
+#, php-format
+msgid "Unable to move file &laquo;%s&raquo;."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2061
+#, php-format
+msgid "Cannot delete category &laquo;%s&raquo;"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2062
+msgid "The following relations prevent deletion:"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2064
+#, php-format
+msgid "All files will be moved to default category! Click <a %s>here</a> if you still want to continue?"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2066
+#, php-format
+msgid "%d files within category"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2075
+#, php-format
+msgid "Category deleted &laquo;%s&raquo;"
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2079
+msgid "Unable to delete category."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2084
+msgid "Please fix the above errors before deleting this directory."
+msgstr ""
+
+#: ../../../_download_manager.plugin.php:2276
+msgid "Unable to create CSV file."
+msgstr ""
+
+#: ../../../inc/_browse_window.php:173
+msgid "Select this category"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:197
+msgid "Select this file"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:273
+msgid "Browse downloads"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:389
+msgid "Add the code to your post !"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:393
+msgid "Select files and/or categories and click \"Generate the code\" to get the embedding code for your post."
+msgstr ""
+
+#: ../../../inc/_browse_window.php:399
+msgid "Check/Uncheck all"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:399
+msgid "Do not include file description"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:402
+msgid "Generate the code"
+msgstr ""
+
+#: ../../../inc/_browse_window.php:427
+msgid "Nothing selected."
+msgstr ""
+
+#: ../../../inc/_dl.main.php:55
+#: ../../../inc/_dl.main.php:59
+#, php-format
+msgid "Download %s"
+msgstr ""
+
+#: ../../../inc/_dl.main.php:60
+msgid "Thank you. Your download will start within seconds."
+msgstr ""
+
+#: ../../../inc/_dl.main.php:61
+#, php-format
+msgid "Please use this <a %s>direct link</a> to start downloading if this didn't start automatically."
+msgstr ""

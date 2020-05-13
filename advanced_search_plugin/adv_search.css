@@ -1,0 +1,21 @@
+/* Search form */
+.widget_plugin_advanced_search .options_select { margin-bottom:3px }
+.widget_plugin_advanced_search .radio_select { margin:3px 0 15px 0 }
+.widget_plugin_advanced_search fieldset { border:none; margin:3px 0 0 0; padding:0 }
+.widget_plugin_advanced_search fieldset label { font-weight:bold }
+.widget_plugin_advanced_search fieldset select { margin:0 !important; padding:0 !important }
+
+/* Results page */
+.widget_plugin_advanced_search li { font-size: 12px !important; font-family: arial, sans-serif }
+.widget_plugin_advanced_search ul { margin:0 0 0 20px; padding:0 }
+.widget_plugin_advanced_search ul li { margin:1em 0; list-style:none }
+.widget_plugin_advanced_search .TiTlE { padding:0; margin:0; color: #0000cc !important; display:inline; font-weight:normal }
+.widget_plugin_advanced_search .TiTlE a:link { color: #0000cc !important; text-decoration:underline !important }
+.widget_plugin_advanced_search .TiTlE a:visited { color: #551a8b !important; text-decoration:underline !important }
+.widget_plugin_advanced_search .CoNtAiNeR { max-width: 600px; }
+.widget_plugin_advanced_search cite { color: green; font-style: normal }
+.widget_plugin_advanced_search .BlUeBaR { margin:20px 10px; padding:5px 20px; border-top: #6b90da 1px solid; background-color: #ebeff9 }
+.widget_plugin_advanced_search .search-refine { margin:20px 0 0 10px; font-size:12px }
+
+/* Highlighted words */
+.highlighted_words { background-color:#FCEC94; font-weight:bold }

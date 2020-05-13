@@ -1,0 +1,51 @@
+<?php
+/**
+ * This file implements the JANRAIN ENGAGE plugin for {@link http://b2evolution.net/}.
+ *
+ * @copyright (c)2012 by Sonorth Corp. - {@link http://www.sonorth.com/}.
+ * @author Sonorth Corp.
+ *
+ * All rights reserved.
+ *
+ * THIS COMPUTER PROGRAM IS PROTECTED BY COPYRIGHT LAW AND INTERNATIONAL TREATIES.
+ * UNAUTHORIZED REPRODUCTION OR DISTRIBUTION OF JANRAIN ENGAGE PLUGIN,
+ * OR ANY PORTION OF IT THAT IS OWNED BY SONORTH CORP., MAY RESULT IN SEVERE CIVIL
+ * AND CRIMINAL PENALTIES, AND WILL BE PROSECUTED TO THE MAXIMUM EXTENT POSSIBLE UNDER THE LAW.
+ *
+ * THE JANRAIN ENGAGE PLUGIN FOR B2EVOLUTION CONTAINED HEREIN IS PROVIDED "AS IS."
+ * SONORTH CORP. MAKES NO WARRANTIES OF ANY KIND WHATSOEVER WITH RESPECT TO THE
+ * JANRAIN ENGAGE PLUGIN FOR B2EVOLUTION. ALL EXPRESS OR IMPLIED CONDITIONS,
+ * REPRESENTATIONS AND WARRANTIES, INCLUDING ANY WARRANTY OF NON-INFRINGEMENT OR
+ * IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE,
+ * ARE HEREBY DISCLAIMED AND EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW.
+ *
+ * IN NO EVENT WILL SONORTH CORP. BE LIABLE FOR ANY LOST REVENUE, PROFIT OR DATA,
+ * OR FOR DIRECT, SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES
+ * HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY ARISING OUT OF THE USE OF
+ * OR INABILITY TO USE THE JANRAIN ENGAGE PLUGIN FOR B2EVOLUTION, EVEN IF SONORTH CORP.
+ * HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ *
+ */
+if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.' );
+
+
+class janrain_engage_dummy
+{
+	function BeforeInstall(){}
+	function AfterInstall(){}
+	function AdminAfterMenuInit(){}
+	function SessionLoaded(){}
+	function AdminEndHtmlHead(){}
+	function SkinBeginHtmlHead(){}
+	function SkinEndHtmlBody(){}
+	function PluginSettingsUpdateAction(){}
+	function DisplayItemAsHtml(){}
+	function DisplayCommentFormFieldset(){}
+	function DisplayRegisterFormFieldset(){}
+	function DisplayLoginFormFieldset(){}
+}
+
+// Let's do the job :)
+require '_janrain_engage.src.php';
+
+?>

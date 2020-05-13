@@ -1,0 +1,88 @@
+<h2>Democracy Poll</h2>
+  <p>Democracy Poll is a plugin for b2evolution that adds a poll to your blog's sidebar. You can create and edit polls in the Tools > Democracy tab of the b2evolution backoffice. If the user has JavaScript enabled, their vote is sent without refreshing the whole page. Results can be displayed as a pie chart or as a bar graph.</p>
+
+	<p>Original Wordpress plugin by <a href="http://blog.jalenack.com">Andrew Sutherland</a></p>
+
+	<p>Ported to b2evolution by <a href="http://www.brendoman.com/dbc">Danny Ferguson</a></p>
+
+<p>Version: 1.2</p>
+	
+<p>Released under the <a href="http://creativecommons.org/licenses/GPL/2.0/">CC GPL 2.0</a></p>
+
+<h3>Features</h3>
+<ul>
+<li>Uses AJAX for sending and loading the results, but is fully accessible in non-js environments</li>
+<li>Complete admin panel</li>
+<li>Support for multiple blogs.</li>
+<li>When someone votes, they receive a cookie with what poll they voted in and what their vote was. It also logs their IP, so the same person can't vote twice even if they delete the cookie</li>
+<li>Allows users to see current results without voting. Also, detects if there are no votes and announces it</li>
+<li>After voting, the choice you made is highlighted.</li>
+<li>Automatic database table installation.</li>
+<li>Displays winners of each poll in the admin panel.</li>
+<li>Delete old polls in the admin panel.</li>
+<li>Edit existing polls.</li>
+<li>AJAX is compatible with IE 6, Safari, Firefox, and Opera. All the other browsers, and those with javascript turned off, are supported as well.</li>
+<li>Select an active poll.</li>
+<li>Allow your users to add their own choices.</li>
+<li>Uses the date format you set in the Options panel for the Date Added column.</li>
+<li>Marks which answers have been added by users, if applicable.</li>
+<li>Has an archiving function for displaying past polls</li>
+</ul>
+ 
+<h3>Installation</h3>
+
+<p><em>Requires b2evolution 1.8 or later</em></p>
+<ol>
+<li>Put the democracy_plugin directory plugins directory.</li>
+<li>Go to Settings > Plugins and click install next to where it says Democracy Poll.
+</li>
+<li>For each skin you want the poll to appear in, add some code to the _main.php file.
+<ol type="a">
+<li>Wherever you want the poll to appear (usually the sidebar), add this:
+		
+		<blockquote><code>&lt;?php $Plugins->call_by_code( 'democrcy', array() ); ?></code></blockquote>
+</li></ol></li>		
+<li>Now go Tools > Poll and manage your polls.  Any user that has permission to edit the properties of a blog can manage polls for that blog as well.</li>
+</ol>
+
+
+<h3>Customization</h3>
+ 
+<p>You can add some parameters when you call the plugin, so that each skin can display it differently.  Here's an example, that adds all of the parameters with their default values.</p>
+ 
+<blockquote><code>	&lt;?php $Plugins->call_by_code( 'democrcy', array(      // Add parameters below:<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'block_start' => '&lt;div class=bSideItem">',  // Your skin may use another class for sidebar blocks<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'block_end' => '%gt;/div>',<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'title' => '&lt;h3>'.T_('Poll').'&lt;/h3>', // Set to '' if you don't want a title<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'before_q' => '&lt;strong id="poll-question">', // Change how the question looks<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'after_q' => '&lt;/strong>',<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'archive_link' => false, // Set this to true after you set up for archives (see below)<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'gft' => true, // Set to false and winning option is 100% of the graph, and other answers are a percent of that<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'gct' => '#06c', // Color for graph bars top<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 'gcb' => '#05a', // Color for graph bars bottom.  Make it a bit darker than the top, for a slight 3d effect<br />
+				
+		) ); ?></code></blockquote>
+
+<p>You only need to define parameters when you don't want to use the default.  So, if you only wanted to change the bar color, then this would do that and leave everything else at its default value:</p>
+
+<blockquote><code>&lt;?php $Plugins->call_by_code( 'democrcy', array( 'gct' => '#F00', 'gcb' => '#D00' ) ); ?></code></blockquote>
+
+<h3>Archives</h3>
+ 
+<p>You can add a link that lets you see all of the old polls, but it requires one more edit to the _main.php file.  Find the part of the file says "switch( $disp )", and add one more case to the bottom of that list:</p>
+
+<blockquote><code>case 'pollarchives':<br />
+&nbsp; &nbsp; &nbsp; &nbsp; // this includes the poll archives if requested<br />
+&nbsp; &nbsp; &nbsp; &nbsp;  echo '&lt;div class="bPost">';<br />
+&nbsp; &nbsp; &nbsp; &nbsp; $Plugins->call_by_code( 'democrcy', array( 'display' => 'archives' ) );<br />
+&nbsp; &nbsp; &nbsp; &nbsp; echo '&lt;/div>';<br />
+			break;</code></blockquote>
+			
+<p>Any parameters that you want to edit will have to be specified again here.  So, if you changed the color of the graph bars in the sidebar, you'll have to define the new color here as well.  Once you've added this code, set the 'archive_link' parameter to true in the sidebar, and you'll get a link that displays the archives in the main column of your blog.  This plugin call takes a special parameter, too.  If you set 'allblogs' => true, then it will show old polls from all blogs, not just the blog that's displaying the poll.</p>
+
+<h3>More help</h3>
+<p>For further help please visit the page for this plugin at <a href="http://b2evo.astonishme.co.uk/index.php?p=62">AtonishMe</a>.
+
+
+
+

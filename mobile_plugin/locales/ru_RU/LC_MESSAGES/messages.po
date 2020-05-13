@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mobile plugin v0.1\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-06-27 22:00-0400\n"
+"PO-Revision-Date: 2009-06-27 22:15-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../../../_mobile.plugin.php:49
+#: ../../../_mobile.plugin.php:50
+msgid "Mobile"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:58
+#: ../../../_mobile.plugin.php:62
+#: ../../../_mobile.plugin.php:69
+msgid "Posts per page"
+msgstr "Записей на страницу"
+
+#: ../../../_mobile.plugin.php:65
+msgid "Comments per page"
+msgstr "Количество комментариев"
+
+#: ../../../_mobile.plugin.php:72
+msgid "Hide comments form"
+msgstr "Спрятать форму комментариев"
+
+#: ../../../_mobile.plugin.php:75
+msgid "Check this if you want to hide the comments form."
+msgstr "Отметьте, если не хотите показывать форму отправки комментариев."
+
+#: ../../../_mobile.plugin.php:78
+msgid "iPhone/iPod"
+msgstr "iPhone/iPod"
+
+#: ../../../_mobile.plugin.php:81
+msgid "Check this if you want to treat iPhones and iPods as mobiles."
+msgstr "Отметьте, если хотите использовать мобильную тему для iPhone и iPod."
+
+#: ../../../_mobile.plugin.php:84
+msgid "Android"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:87
+msgid "Check this if you want to treat Android handsets as mobiles."
+msgstr "Отметьте, если хотите использовать мобильную тему для Android устройств."
+
+#: ../../../_mobile.plugin.php:90
+msgid "Opera Mini"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:93
+msgid "Check this if you want to treat Opera Mini like a mobile."
+msgstr "Отметьте, если хотите использовать мобильную тему для браузера Opera Mini."
+
+#: ../../../_mobile.plugin.php:96
+msgid "Blackberry"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:99
+msgid "Check this if you want to treat Blackberry like a mobile."
+msgstr "Отметьте, если хотите использовать мобильную тему для Blackberry устройств."
+
+#: ../../../_mobile.plugin.php:102
+msgid "Palm OS"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:105
+msgid "Check this if you want to treat Palm OS like a mobile."
+msgstr "Отметьте, если хотите использовать мобильную тему для устройств с Palm OS."
+
+#: ../../../_mobile.plugin.php:108
+msgid "Windows Mobiles"
+msgstr ""
+
+#: ../../../_mobile.plugin.php:111
+msgid "Check this if you want to treat Windows Mobiles like a mobile."
+msgstr "Отметьте, если хотите использовать мобильную тему для устройств с Windows Mobiles."
+
+#: ../../../_mobile.plugin.php:187
+#, php-format
+msgid "Your browser is detected as mobile. Click <a %s>here</a> if you want to switch to our mobile site."
+msgstr ""
+
+#: ../../../_mobile.plugin.php:213
+#, php-format
+msgid "The skin [%s] set for blog [%s] does not exist. It must be properly set in the <a %s>blog properties</a> or properly overriden in a stub file."
+msgstr "Тема [%s] назначенная для блога [%s] не существует. Она должна быть корректно установлена в <a %s>свойствах блога</a> или корректно переопределена в файле заглушки."
+
+#: ../../../_mobile.plugin.php:229
+msgid "Read more"
+msgstr "Читать далее"
+
+#: ../../../skins/mobile/index.main.php:75
+msgid "Home"
+msgstr "В начало"
+
+#: ../../../skins/mobile/index.main.php:76
+msgid "Public blogs"
+msgstr "Публичные блоги"
+
+#: ../../../skins/mobile/index.main.php:77
+msgid "Archives"
+msgstr "Архивы"
+
+#: ../../../skins/mobile/index.main.php:78
+#: ../../../skins/mobile/_disp/_posts.disp.php:42
+msgid "Categories"
+msgstr "Рубрики"
+
+#: ../../../skins/mobile/index.main.php:79
+#: ../../../skins/mobile/_item_feedback.inc.php:153
+msgid "Latest comments"
+msgstr "Последние комментарии"
+
+#: ../../../skins/mobile/index.main.php:94
+msgid "Search"
+msgstr "Поиск"
+
+#: ../../../skins/mobile/index.main.php:106
+msgid "Desktop site"
+msgstr ""
+
+#: ../../../skins/mobile/index.main.php:112
+msgid "Contact"
+msgstr "Контакты"
+
+#: ../../../skins/mobile/index.main.php:113
+msgid "Send a message to the owner of this blog..."
+msgstr "Отправить письмо владельцу этого блога..."
+
+#: ../../../skins/mobile/_item_comment.inc.php:36
+msgid "PREVIEW Comment from:"
+msgstr "ПРЕДПРОСМОТР комментариев от:"
+
+#: ../../../skins/mobile/_item_comment.inc.php:49
+#: ../../../skins/mobile/_disp/_comments.disp.php:47
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: ../../../skins/mobile/_item_comment.inc.php:55
+#: ../../../skins/mobile/_disp/_posts.disp.php:68
+msgid "Edit"
+msgstr "Править"
+
+#: ../../../skins/mobile/_item_comment.inc.php:56
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:79
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:98
+msgid "User"
+msgstr "Пользователь"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:99
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:104
+msgid "Name"
+msgstr "Имя"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:105
+msgid "Email"
+msgstr "Email"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:105
+msgid "Your email address will <strong>not</strong> be revealed on this site."
+msgstr "Ваш email адрес. (<strong>Не будет</strong> показан на сайте.)"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:106
+msgid "Website"
+msgstr "Сайт"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:106
+msgid "Your URL will be displayed."
+msgstr "Ваш URL будет показан."
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:111
+msgid "Your vote"
+msgstr "Ваша оценка"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:129
+msgid "Comment text"
+msgstr "Текст комментария"
+
+#: ../../../skins/mobile/_item_comment_form.inc.php:139
+msgid "Send comment"
+msgstr "Отправить комментарий"
+
+#: ../../../skins/mobile/_item_content.inc.php:28
+msgid "Link:"
+msgstr "Ссылка:"
+
+#: ../../../skins/mobile/_item_content.inc.php:106
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:124
+msgid "Trackback address for this post"
+msgstr "Трекбек адрес этой записи"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:132
+msgid "Trackback URL (right click and copy shortcut/link location)"
+msgstr "URL трекбека (щелкните правой кнопкой мыши и скопируйте ссылку)"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:141
+msgid "Feedback awaiting moderation"
+msgstr "Отзыв ожидает одобрения модератора"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:149
+msgid "No feedback yet"
+msgstr "Еще нет отзывов"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:183
+#, php-format
+msgid "This post has 1 feedback awaiting moderation... %s"
+msgstr "Эта запись имеет 1 отзыв, ожидающий модерации... %s"
+
+#: ../../../skins/mobile/_item_feedback.inc.php:184
+#, php-format
+msgid "This post has %d feedbacks awaiting moderation... %s"
+msgstr "Эта запись имеет %d отзывов, ожидающих модерации... %s"
+
+#: ../../../skins/mobile/_disp/_comments.disp.php:31
+msgid "In response to:"
+msgstr "В ответ на:"
+
+#: ../../../skins/mobile/_disp/_home.disp.php:21
+msgid "Latest posts"
+msgstr "Последние записи"
+
+#: ../../../skins/mobile/_disp/_posts.disp.php:96
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ../../../skins/mobile/_disp/_posts.disp.php:97
+msgid "Next"
+msgstr "Следующий"
+

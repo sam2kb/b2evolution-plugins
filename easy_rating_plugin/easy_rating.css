@@ -1,0 +1,86 @@
+div.bComment:hover {background-color:#f8f8f9}
+
+div.post div.item-vote, div.item-vote, div.comment-vote
+{
+    position:absolute;
+}
+div.bComment div.comment-vote {
+    visibility:hidden;
+    display:none;
+}
+div.post:hover div.item-vote { visibility:visible; display:block; position:absolute }
+div.post:hover .post-head { margin-right:-15px }
+div.post:hover .post-tags { right:15px }
+
+/* Item vote buttons */
+.reader-rule div.item-vote,
+div.post div.item-vote { right:-20px; top:-6px; width:30px; height:57px; z-index:3; visibility:hidden; display: none; background: url("images/vote-button.png") top no-repeat }
+div.disp-single div.item-vote { right:-6px }
+.disp-posts div.item-vote { top:-4px }
+
+.reader-rule div.item-vote { top:20px; right:15px }
+.reader-rule:hover div.item-vote { visibility:visible; display:block; position:absolute }
+
+div.disp-single div.item-vote { display:block; position:absolute }
+div.disp-single:hover .post-head { margin-right:0 }
+div.disp-single:hover .post-tags { right:40px }
+
+
+div.item-vote-t,
+div.item-vote-b { display:block; position:relative }
+div.item-vote-t a img { position:absolute; width:30px; height:30px; left:0px; top:0px }
+div.item-vote-b a img { position:absolute; width:30px; height:27px; left:0px; top:30px }
+div.item-vote a:hover { text-decoration:none }
+
+
+/* Comment vote buttons */
+div.bComment:hover div.comment-vote {  position:absolute; visibility:visible; display:block;}
+div.bComment div.comment-vote { right:15px; top:26px; width:30px; height:57px; z-index:3; visibility:hidden; display: none; background: url("images/vote-button.png") top no-repeat }
+
+div.comment-vote-t,
+div.comment-vote-b { display:block; position:relative }
+div.comment-vote-t a img { position:absolute; width:30px; height:30px; left:0px; top:0px }
+div.comment-vote-b a img { position:absolute; width:30px; height:27px; left:0px; top:30px }
+div.comment-vote a:hover {text-decoration:none}
+
+
+
+/* Results */
+.easy_ratingResults {
+	position: absolute;
+	display:none;
+	background-color: #000;
+	color: #fff;
+	padding: 25px;
+	z-index: 90;
+	font-family:Verdana, Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	text-align:left;
+}
+
+.easy_ratingResults .ratingNotes { color: #fff; font-size: 130% }
+.easy_ratingResults .error { color: #f55 }
+.easy_ratingResults .success { color: #5f5 }
+.easy_ratingResults .stars { margin-left: 30px }
+
+.post-head .easy_ratingResults { top:34px; left:0 }
+.bComment .easy_ratingResults { top:10px; left:10px }
+.easy_ratingFormResults .easy_ratingResults { top:20px; left:20px }
+
+.cover_item_excerpt { font-size:11px; font-style:italic; color:#414141 }
+.cover_item_submit { }
+.cover_results_line { margin:7px auto 0 auto }
+.cover_results_percent { margin:7px 0; font-size:9px; color:#595959 }
+.cover_radio input { margin:0; padding: 0; }
+.cover_results_line_border {
+	display: block;
+	background: #a2a2a2;
+	height: 10px;
+	border: 1px solid #8a8a8a;
+}
+.cover_results_line_choice {
+	display: block;
+	height: 10px;
+	background: url("images/cover-bg.png") repeat-x;
+}
+.cover_results_line .winner-line { background: url("images/cover-winner-bg.png") repeat-x !important }

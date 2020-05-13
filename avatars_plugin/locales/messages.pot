@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-10-19 17:42-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _admin_area.php:31
+#: _profile_area.php:32
+msgid "Avatars"
+msgstr ""
+
+#: _admin_area.php:59
+#: _profile_area.php:49
+msgid "Large Avatar"
+msgstr ""
+
+#: _admin_area.php:61
+#: _admin_area.php:75
+#: _profile_area.php:51
+#: _profile_area.php:66
+msgid "Up to"
+msgstr ""
+
+#: _admin_area.php:65
+msgid "Remove Large Avatar"
+msgstr ""
+
+#: _admin_area.php:73
+#: _profile_area.php:64
+msgid "Small Avatar"
+msgstr ""
+
+#: _admin_area.php:79
+msgid "Remove Small Avatar"
+msgstr ""
+
+#: _avatars.plugin.php:89
+msgid "Let's you 'easily' add avatars/icons to various things."
+msgstr ""
+
+#: _avatars.plugin.php:90
+msgid "Let's you 'easily' add avatars/icons to "
+msgstr ""
+
+#: _avatars.plugin.php:120
+#, php-format
+msgid "In order to display large avatars in lightbox you should select the \"standard\" lightbox version in %s!"
+msgstr ""
+
+#: _avatars.plugin.php:176
+msgid "User Groups"
+msgstr ""
+
+#: _avatars.plugin.php:177
+msgid "Disable avatars for these user groups. Separate by ,"
+msgstr ""
+
+#: _avatars.plugin.php:185
+msgid "Minimum User level"
+msgstr ""
+
+#: _avatars.plugin.php:187
+msgid "Enable for all users."
+msgstr ""
+
+#: _avatars.plugin.php:187
+msgid "Disable for all users."
+msgstr ""
+
+#: _avatars.plugin.php:195
+msgid "Maximum file size"
+msgstr ""
+
+#: _avatars.plugin.php:197
+msgid "KB"
+msgstr ""
+
+#: _avatars.plugin.php:205
+msgid "Display default avatar"
+msgstr ""
+
+#: _avatars.plugin.php:208
+msgid "Should the default avatar be displayed if no avatar exists?"
+msgstr ""
+
+#: _avatars.plugin.php:212
+msgid "Use image resizing"
+msgstr ""
+
+#: _avatars.plugin.php:216
+msgid "Should we use image resizing?"
+msgstr ""
+
+#: _avatars.plugin.php:220
+msgid "Collapsed avatars area"
+msgstr ""
+
+#: _avatars.plugin.php:223
+msgid "Should we display the admin avatars upload area collapsed?"
+msgstr ""
+
+#: _avatars.plugin.php:227
+msgid "Display next avatar"
+msgstr ""
+
+#: _avatars.plugin.php:230
+msgid "If no <b>post</b> avatar and no default post image exists, display the category avatar, if no category avatar exists then display the blog avatar."
+msgstr ""
+
+#: _avatars.plugin.php:234
+msgid "Display next default image"
+msgstr ""
+
+#: _avatars.plugin.php:237
+msgid "If no <b>post</b> avatar and no default post image exists, display the default category image, if no default category image exists then display the default blog image.<br /><br />NOTE: <b>Display next default image</b> has higher priority over <b>Display next avatar</b>."
+msgstr ""
+
+#: _avatars.plugin.php:249
+msgid "Image settings"
+msgstr ""
+
+#: _avatars.plugin.php:253
+msgid "Large avatar JPEG quality"
+msgstr ""
+
+#: _avatars.plugin.php:263
+msgid "Large avatar image re-size mode"
+msgstr ""
+
+#: _avatars.plugin.php:268
+#: _avatars.plugin.php:275
+#: _avatars.plugin.php:297
+#: _avatars.plugin.php:304
+msgid "None"
+msgstr ""
+
+#: _avatars.plugin.php:269
+#: _avatars.plugin.php:276
+#: _avatars.plugin.php:298
+#: _avatars.plugin.php:305
+msgid "Area"
+msgstr ""
+
+#: _avatars.plugin.php:275
+#: _avatars.plugin.php:304
+msgid "No Resizing Occurs"
+msgstr ""
+
+#: _avatars.plugin.php:276
+#: _avatars.plugin.php:305
+msgid "Image is resized proportionally to fit within the given area"
+msgstr ""
+
+#: _avatars.plugin.php:282
+msgid "Small avatar JPEG quality"
+msgstr ""
+
+#: _avatars.plugin.php:284
+msgid "%"
+msgstr ""
+
+#: _avatars.plugin.php:292
+msgid "Small avatar image re-size mode"
+msgstr ""
+
+#: _avatars.plugin.php:319
+msgid "Avatar sizes (Optional)"
+msgstr ""
+
+#: _avatars.plugin.php:324
+msgid "Large avatars"
+msgstr ""
+
+#: _avatars.plugin.php:328
+#: _avatars.plugin.php:425
+msgid "User avatar width"
+msgstr ""
+
+#: _avatars.plugin.php:331
+#: _avatars.plugin.php:342
+#: _avatars.plugin.php:353
+#: _avatars.plugin.php:364
+#: _avatars.plugin.php:375
+#: _avatars.plugin.php:386
+#: _avatars.plugin.php:397
+#: _avatars.plugin.php:408
+#: _avatars.plugin.php:428
+#: _avatars.plugin.php:439
+#: _avatars.plugin.php:450
+#: _avatars.plugin.php:461
+#: _avatars.plugin.php:472
+#: _avatars.plugin.php:483
+#: _avatars.plugin.php:494
+#: _avatars.plugin.php:505
+msgid "Pixels"
+msgstr ""
+
+#: _avatars.plugin.php:339
+#: _avatars.plugin.php:436
+msgid "User avatar height"
+msgstr ""
+
+#: _avatars.plugin.php:350
+#: _avatars.plugin.php:447
+msgid "Blog avatar width"
+msgstr ""
+
+#: _avatars.plugin.php:361
+#: _avatars.plugin.php:458
+msgid "Blog avatar height"
+msgstr ""
+
+#: _avatars.plugin.php:372
+#: _avatars.plugin.php:469
+msgid "Category avatar width"
+msgstr ""
+
+#: _avatars.plugin.php:383
+#: _avatars.plugin.php:480
+msgid "Category avatar height"
+msgstr ""
+
+#: _avatars.plugin.php:394
+#: _avatars.plugin.php:491
+msgid "Post avatar width"
+msgstr ""
+
+#: _avatars.plugin.php:405
+#: _avatars.plugin.php:502
+msgid "Post avatar height"
+msgstr ""
+
+#: _avatars.plugin.php:421
+msgid "Small avatars"
+msgstr ""
+
+#: _avatars.plugin.php:547
+#, php-format
+msgid "You must create the following directories with write permissions (777):%s"
+msgstr ""
+
+#: _avatars.plugin.php:554
+#, php-format
+msgid "You must copy the file default.jpg from \"avatars_plugin/includes/\" to %s"
+msgstr ""
+
+#: _avatars.plugin.php:1005
+#: _avatars.plugin.php:1032
+#: _avatars.plugin.php:1045
+#, php-format
+msgid "Put this %s avatars code in posts loop, usually in %s, in %s or in %s"
+msgstr ""
+
+#: _avatars.plugin.php:1019
+#, php-format
+msgid "Put this %s avatars code in comments loop, usually in %s"
+msgstr ""
+
+#: _avatars.plugin.php:1138
+msgid "The image you tried to upload is not of an acceptable extension"
+msgstr ""
+
+#: _avatars.plugin.php:1142
+#, php-format
+msgid "The maximum allowed file size is %s KB."
+msgstr ""
+
+#: _avatars.plugin.php:1173
+msgid "Succesfully uploaded the image"
+msgstr ""
+
+#: _avatars.plugin.php:1177
+#: _avatars.plugin.php:1182
+msgid "Failed to upload the image"
+msgstr ""
+
+#: _avatars.plugin.php:1310
+#: _avatars.plugin.php:1326
+#, php-format
+msgid "Successfully deleted the %s avatar image."
+msgstr ""
+
+#: _avatars.plugin.php:1316
+#: _avatars.plugin.php:1332
+#, php-format
+msgid "Failed to delete the %s avatar image."
+msgstr ""
+
+#: _avatars.plugin.php:1451
+#: _avatars.plugin.php:1533
+#, php-format
+msgid "Successfully created the %s avatar."
+msgstr ""
+
+#: _avatars.plugin.php:1455
+#: _avatars.plugin.php:1535
+#, php-format
+msgid "Failed writing the %s avatar."
+msgstr ""
+
+#: _avatars.plugin.php:1461
+#: _avatars.plugin.php:1540
+#, php-format
+msgid "Failed to create the %s avatar."
+msgstr ""
+
+#: _avatars.plugin.php:1468
+#: _avatars.plugin.php:1486
+#: _avatars.plugin.php:1547
+#: _avatars.plugin.php:1565
+#, php-format
+msgid "Failed to delete the temporary %s avatar image."
+msgstr ""
+
+#: _avatars.plugin.php:1478
+#: _avatars.plugin.php:1557
+#, php-format
+msgid "Successfully moved the %s avatar to it's correct location. [ %d ]"
+msgstr ""
+
+#: _avatars.plugin.php:1482
+#: _avatars.plugin.php:1561
+#, php-format
+msgid "Failed to move the %s avatar image to it's correct location."
+msgstr ""
+
+#: _avatars.plugin.php:1632
+msgid "Successfully copied the large avatar image for use for the small avatar image."
+msgstr ""
+
+#: _avatars.plugin.php:1635
+msgid "Unsuccessfully copied the large avatar image for use for the small avatar image."
+msgstr ""
+
+#: _avatars.plugin.php:1640
+msgid "No small avatar exists! And no large avatar exists to use for the small avatar either!"
+msgstr ""
+
+#: _avatars.plugin.php:1797
+msgid "Successfully removed all avatars."
+msgstr ""
+
+#: _avatars.plugin.php:1797
+msgid "Failed deleting all avatars for this plugin."
+msgstr ""
+
+#: _avatars.plugin.php:1804
+msgid "All avatars were kept."
+msgstr ""
+
+#: _avatars.plugin.php:1827
+msgid "Permanently delete any avatars?"
+msgstr ""
+
+#: _avatars.plugin.php:2293
+msgid "Image"
+msgstr ""
+
+#: _avatars.plugin.php:2294
+msgid "of"
+msgstr ""
+
+#: _profile_area.php:57
+#: _profile_area.php:72
+msgid "Remove Avatar"
+msgstr ""

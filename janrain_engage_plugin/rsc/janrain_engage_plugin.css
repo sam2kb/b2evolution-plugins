@@ -1,0 +1,49 @@
+.janrainEngage { display: inline-block }
+.janrainEngage:hover { cursor: pointer; text-decoration: none }
+
+.janrain-button { margin: 2px auto }
+.janrain-button span { display:block; padding-bottom: 4px; color: #555; text-align: left }
+.panelblock .janrain-button { width: auto }
+
+.janrain-icon-small { width: 16px; height: 16px; background-image: url(providers_icons16.png); display: block; margin: 1px; float: left }
+.janrain-icon-medium { width: 30px; height: 30px; background-image: url(providers_icons32.png); display: block; margin: 1px; float: left }
+
+.janrain-facebook-small { background-position: 0px 0px }
+.janrain-twitter-small { background-position: 0px -16px }
+.janrain-myspace-small { background-position: 0px -32px }
+.janrain-live_id-small { background-position: 0px -48px }
+.janrain-yahoo-small { background-position: 0px -64px }
+.janrain-google-small { background-position: 0px -80px }
+.janrain-openid-small { background-position: 0px -96px }
+.janrain-aol-small { background-position: 0px -112px }
+.janrain-livejournal-small { background-position: 0px -128px }
+.janrain-myopenid-small { background-position: 0px -144px }
+.janrain-netlog-small { background-position: 0px -160px }
+.janrain-flickr-small { background-position: 0px -176px }
+.janrain-blogger-small { background-position: 0px -192px }
+.janrain-verisign-small { background-position: 0px -208px }
+.janrain-wordpress-small { background-position: 0px -224px }
+.janrain-hyves-small { background-position: 0px -240px }
+.janrain-linkedin-small { background-position: 0px -256px }
+.janrain-paypal-small { background-position:0px -272px }
+.janrain-other-small { background-position:0px -288px }
+
+.janrain-facebook-medium { background-position: 0px 0px }
+.janrain-google-medium { background-position: 0px -32px }
+.janrain-linkedin-medium { background-position: 0px -64px }
+.janrain-myspace-medium { background-position: 0px -96px }
+.janrain-twitter-medium { background-position: 0px -128px }
+.janrain-live_id-medium { background-position: 0px -160px }
+.janrain-yahoo-medium { background-position: 0px -192px }
+.janrain-aol-medium { background-position: 0px -224px }
+.janrain-blogger-medium { background-position: 0px -256px }
+.janrain-flickr-medium { background-position: 0px -288px }
+.janrain-hyves-medium { background-position: 0px -320px }
+.janrain-livejournal-medium { background-position: 0px -352px }
+.janrain-myopenid-medium { background-position: 0px -384px }
+.janrain-netlog-medium { background-position: 0px -416px }
+.janrain-openid-medium { background-position: 0px -448px }
+.janrain-verisign-medium { background-position: 0px -480px }
+.janrain-wordpress-medium { background-position: 0px -512px }
+.janrain-paypal-medium { background-position: 0px -544px }
+.janrain-other-medium { background-position: 0px -576px }

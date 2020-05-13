@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2008-10-13 17:52-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _userblog.plugin.php:57
+msgid "Create and manage user blogs."
+msgstr ""
+
+#: _userblog.plugin.php:58
+msgid "This plugin creates a new blog for each registered user."
+msgstr ""
+
+#: _userblog.plugin.php:99
+msgid "Userblog group name"
+msgstr ""
+
+#: _userblog.plugin.php:105
+msgid "Create user blog"
+msgstr ""
+
+#: _userblog.plugin.php:108
+#: _userblog.plugin.php:124
+#: _userblog.plugin.php:131
+#: _userblog.plugin.php:138
+#: _userblog.plugin.php:145
+msgid "Check this if you want"
+msgstr ""
+
+#: _userblog.plugin.php:108
+msgid "to enable user blog creation."
+msgstr ""
+
+#: _userblog.plugin.php:121
+msgid "Admin user blog"
+msgstr ""
+
+#: _userblog.plugin.php:124
+msgid "to create a blog when admin register a new user."
+msgstr ""
+
+#: _userblog.plugin.php:128
+msgid "Blog upon registration"
+msgstr ""
+
+#: _userblog.plugin.php:131
+msgid "to create a blog upon user registration.<br />Note: users must accept terms and conditions in order to get a blog (see Messages section)."
+msgstr ""
+
+#: _userblog.plugin.php:135
+msgid "Delete stub folder"
+msgstr ""
+
+#: _userblog.plugin.php:138
+msgid "to automatically delete user's folder when the blog is deleted.<br />EXAMPLE: If you use a storage folder \"u/\" and user's login is mike -  <strong>\"u/mike/\" folder and all content</strong> will be removed."
+msgstr ""
+
+#: _userblog.plugin.php:142
+msgid "Include in public blog list"
+msgstr ""
+
+#: _userblog.plugin.php:145
+msgid "to add a new user blog to the public blogs list."
+msgstr ""
+
+#: _userblog.plugin.php:149
+msgid "Default skin"
+msgstr ""
+
+#: _userblog.plugin.php:153
+msgid "This is the default skin that will be used to display new user blogs."
+msgstr ""
+
+#: _userblog.plugin.php:157
+msgid "Custom user CSS"
+msgstr ""
+
+#: _userblog.plugin.php:160
+msgid "Create blank \"style.css\" in blog media folder. This file may be edited by users to override default skin styles.<br />ATTENTION: Make sure you set File manager permissions to \"Edit\" below."
+msgstr ""
+
+#: _userblog.plugin.php:164
+msgid "Use extra path URLs"
+msgstr ""
+
+#: _userblog.plugin.php:167
+msgid "Allows you to use nice formatted links, removing additional parameters from URLs.<br /><br />EXAMPLE: URLs like <strong>\"www.yourdomain.com/u/username/index.php?title=post-title&more=1\"</strong> will look like <strong>\"www.yourdomain.com/u/username/index.php/2008/12/31/post-title\"</strong>.<br /><br />ATTENTION: In order to make this feature work you need enabled mod_rewrite Apache module (already enabled on most servers)."
+msgstr ""
+
+#: _userblog.plugin.php:180
+msgid "User permissions"
+msgstr ""
+
+#: _userblog.plugin.php:184
+msgid "Enable posts"
+msgstr ""
+
+#: _userblog.plugin.php:188
+#: _userblog.plugin.php:228
+#: _userblog.plugin.php:245
+msgid "yes"
+msgstr ""
+
+#: _userblog.plugin.php:188
+#: _userblog.plugin.php:228
+#: _userblog.plugin.php:245
+msgid "no"
+msgstr ""
+
+#: _userblog.plugin.php:189
+msgid "Are new users allowed to post after registration?<br />REMEMBER: If you disable posting, admin has to set user login in \"Login of this blog's owner\" field in Blog settings -> Genearal."
+msgstr ""
+
+#: _userblog.plugin.php:205
+msgid "File manager"
+msgstr ""
+
+#: _userblog.plugin.php:208
+msgid "Edit"
+msgstr ""
+
+#: _userblog.plugin.php:208
+msgid "Add"
+msgstr ""
+
+#: _userblog.plugin.php:208
+msgid "None"
+msgstr ""
+
+#: _userblog.plugin.php:209
+msgid "Select File manager permissions for new users.<br />[ Edit ] - upload/edit/delete files.<br />[ Add ] - upload only.<br />[ None ] - disabled."
+msgstr ""
+
+#: _userblog.plugin.php:221
+msgid "Stub settings"
+msgstr ""
+
+#: _userblog.plugin.php:225
+msgid "Use stub file"
+msgstr ""
+
+#: _userblog.plugin.php:232
+msgid "Stub file extension"
+msgstr ""
+
+#: _userblog.plugin.php:236
+msgid "OPTIONAL. Set extension for new stub files. Leave empty if you want no extension."
+msgstr ""
+
+#: _userblog.plugin.php:241
+msgid "Use stub folder"
+msgstr ""
+
+#: _userblog.plugin.php:247
+msgid "OPTIONAL. Separate folders will be created for each user and index.php stub file will be dropped in (example: root/username/index.php). If disabled, stub files will be created as usual, with the same name as login (example: root/username.php)."
+msgstr ""
+
+#: _userblog.plugin.php:251
+msgid "Media in stub folder"
+msgstr ""
+
+#: _userblog.plugin.php:256
+msgid "OPTIONAL. If set, the directory username/media/ folder will be created. Useful if you want to store all user stuff in one single directory."
+msgstr ""
+
+#: _userblog.plugin.php:260
+msgid "Use storage folder"
+msgstr ""
+
+#: _userblog.plugin.php:264
+msgid "OPTIONAL. Store all users stub files in one single directory. Example: if your root is /blogs/ and you want to store all your stub files in /blogs/subdir/ you will set \"subdir/\". Leave empty to disable.<br /><br />If this settings don't work on your server, check if storage folder was created, if not do it manually and chmod to 777. Otherwise deactivate the \"Use stub file\" option."
+msgstr ""
+
+#: _userblog.plugin.php:269
+msgid "Common config file for user blogs"
+msgstr ""
+
+#: _userblog.plugin.php:279
+msgid "OPTIONAL. This is the common config file included in all user blog stub files which lets you override the global settings for each blog.<br />Don't add PHP brackets (<strong>&lt;?php</strong> and <strong>?&gt;</strong>) in this form.<br /><br />ATTENTION: Take care to chmod \"userblog_config.php\" in  userblog_plugin folder to 777 if you use stub files."
+msgstr ""
+
+#: _userblog.plugin.php:293
+msgid "Blog description"
+msgstr ""
+
+#: _userblog.plugin.php:297
+msgid "Full Name"
+msgstr ""
+
+#: _userblog.plugin.php:298
+#, php-format
+msgid "New blog for %s"
+msgstr ""
+
+#: _userblog.plugin.php:299
+msgid "Will be displayed on top of the blog."
+msgstr ""
+
+#: _userblog.plugin.php:299
+msgid "<br />(example: if login name= \"mike\", the blog name will be: \"New blog for mike\")."
+msgstr ""
+
+#: _userblog.plugin.php:304
+msgid "Tagline"
+msgstr ""
+
+#: _userblog.plugin.php:305
+msgid "This is the blog's tagline"
+msgstr ""
+
+#: _userblog.plugin.php:306
+msgid "This is diplayed under the blog name on the blog template."
+msgstr ""
+
+#: _userblog.plugin.php:311
+msgid "Long Description"
+msgstr ""
+
+#: _userblog.plugin.php:312
+msgid "This is the blog's long description."
+msgstr ""
+
+#: _userblog.plugin.php:313
+msgid "This is displayed on the blog template."
+msgstr ""
+
+#: _userblog.plugin.php:319
+msgid "Short Description"
+msgstr ""
+
+#: _userblog.plugin.php:320
+msgid "This is the blog's description."
+msgstr ""
+
+#: _userblog.plugin.php:321
+msgid "This is is used in meta tag description and RSS feeds. NO HTML!"
+msgstr ""
+
+#: _userblog.plugin.php:326
+msgid "Keywords"
+msgstr ""
+
+#: _userblog.plugin.php:327
+#, php-format
+msgid "%s, personal, blog"
+msgstr ""
+
+#: _userblog.plugin.php:328
+msgid "This is used in meta tag keywords. NO HTML!"
+msgstr ""
+
+#: _userblog.plugin.php:328
+msgid "<br />Placeholder stands here for user's login name."
+msgstr ""
+
+#: _userblog.plugin.php:341
+msgid "Messages"
+msgstr ""
+
+#: _userblog.plugin.php:346
+msgid "Link to create a blog"
+msgstr ""
+
+#: _userblog.plugin.php:347
+msgid "Create my personal blog!"
+msgstr ""
+
+#: _userblog.plugin.php:348
+msgid "This is a text link to create a new blog. Appears in user profile and after user is registered (see below)."
+msgstr ""
+
+#: _userblog.plugin.php:353
+#: _userblog.plugin.php:361
+#: _userblog.plugin.php:369
+msgid "Welcome message"
+msgstr ""
+
+#: _userblog.plugin.php:354
+msgid "You have successfully registered in"
+msgstr ""
+
+#: _userblog.plugin.php:354
+#, php-format
+msgid "!%sIf you don't need a blog now you can create it later from your profile page."
+msgstr ""
+
+#: _userblog.plugin.php:355
+#, php-format
+msgid "Welcome message will be displayed when the user is registered. This message introduces the link to create a new blog.<br />%s will be replaced with a link to create a blog (see above)."
+msgstr ""
+
+#: _userblog.plugin.php:362
+msgid "Your personal blog was created! Take note of your new blog address:"
+msgstr ""
+
+#: _userblog.plugin.php:363
+msgid "Welcome message will be displayed to the user after his new blog is created. This message introduces the new blog URL."
+msgstr ""
+
+#: _userblog.plugin.php:370
+msgid "At this address you can access the Administration of your blog:"
+msgstr ""
+
+#: _userblog.plugin.php:371
+msgid "This message will be appended to the previous message. It introduces the admin backend URL."
+msgstr ""
+
+#: _userblog.plugin.php:377
+msgid "Terms of Service"
+msgstr ""
+
+#: _userblog.plugin.php:378
+msgid "Write your Terms of Service or site policy that needs to be accepted by user in order to create a new blog."
+msgstr ""
+
+#: _userblog.plugin.php:379
+#: _userblog.plugin.php:387
+msgid "This message will be displayed on registration page."
+msgstr ""
+
+#: _userblog.plugin.php:385
+msgid "Terms checkbox"
+msgstr ""
+
+#: _userblog.plugin.php:386
+msgid "Do you accept the above Terms of Service?"
+msgstr ""
+
+#: _userblog.plugin.php:557
+#: _userblog.plugin.php:683
+#: _userblog.plugin.php:772
+#: _userblog.plugin.php:857
+msgid "User blog was not created!"
+msgstr ""
+
+#: _userblog.plugin.php:561
+#: _userblog.plugin.php:687
+#: _userblog.plugin.php:776
+#: _userblog.plugin.php:861
+msgid "User blog was not properly created! You must delete this blog and try again."
+msgstr ""
+
+#: _userblog.plugin.php:618
+msgid "I accept"
+msgstr ""
+
+#: _userblog.plugin.php:619
+msgid "Blog name"
+msgstr ""
+
+#: _userblog.plugin.php:645
+msgid "You must read and accept our Terms of Service in order to complete your registration."
+msgstr ""
+
+#: _userblog.plugin.php:761
+#: _userblog.plugin.php:838
+#: _userblog.plugin.php:845
+msgid "You have no permission to view the requested page!"
+msgstr ""
+
+#: _userblog.plugin.php:871
+#, php-format
+msgid "Userblog settings set to &quot;wanted&quot; for user &laquo;%s&raquo;."
+msgstr ""
+
+#: _userblog.plugin.php:889
+msgid "Deleted blog's stub folder"
+msgstr ""
+
+#: _userblog.plugin.php:898
+msgid "Deleted blog's stub file"
+msgstr ""
+
+#: _userblog.plugin.php:915
+msgid "Deleted Userblog settings for blog members"
+msgstr ""
+
+#: _userblog.plugin.php:927
+msgid "Deleted Userblog group ID"
+msgstr ""
+
+#: _userblog.plugin.php:963
+#: _userblog.plugin.php:1014
+#: _userblog.plugin.php:1036
+#: _userblog.plugin.php:1052
+#: _userblog.plugin.php:1070
+msgid "Error: "
+msgstr ""
+
+#: _userblog.plugin.php:963
+#, php-format
+msgid "the user is not a member of &laquo;%s&raquo; group."
+msgstr ""
+
+#: _userblog.plugin.php:967
+#: _userblog.plugin.php:1018
+#: _userblog.plugin.php:1040
+#: _userblog.plugin.php:1056
+#: _userblog.plugin.php:1074
+msgid "Ask the admin to create a blog for you!"
+msgstr ""
+
+#: _userblog.plugin.php:1014
+msgid "we cannot create a valid blog name from your login."
+msgstr ""
+
+#: _userblog.plugin.php:1036
+msgid "a blog with the same &quot;URL blog name&quot; is already exist in our database."
+msgstr ""
+
+#: _userblog.plugin.php:1052
+msgid "failed to create a new blog."
+msgstr ""
+
+#: _userblog.plugin.php:1070
+msgid "user blog creation is currently disabled."
+msgstr ""
+
+#: _userblog.plugin.php:1319
+#: _userblog.plugin.php:1334
+#, php-format
+msgid "You must create the following directory with write permissions (777): %s"
+msgstr ""
+
+#: _userblog.plugin.php:1376
+#, php-format
+msgid "Cannot create blog stub file [%s]<br />Make sure the directory [%s] has write permissions (777)"
+msgstr ""
+
+#: _userblog.plugin.php:1437
+msgid "Plugin"
+msgstr ""
+
+#: _userblog.plugin.php:1437
+msgid "New user blog"
+msgstr ""
+
+#: _userblog.plugin.php:1439
+msgid "created."
+msgstr ""
+
+#: _userblog.plugin.php:1440
+msgid "Blog settings"
+msgstr ""
+
+#: _userblog.plugin.php:1452
+#, php-format
+msgid "Your personal blog \"%s\""
+msgstr ""
+
+#: _users_list.inc.php:24
+msgid "Create blog"
+msgstr ""
+
+#: _users_list.inc.php:33
+msgid "Edit this blog"
+msgstr ""
+
+#: _users_list.inc.php:34
+msgid "Delete this blog"
+msgstr ""
+
+#: _users_list.inc.php:39
+#: _users_list.inc.php:48
+msgid "Fix user settings"
+msgstr ""
+
+#: _users_list.inc.php:39
+#: _users_list.inc.php:48
+msgid "Set user blog to &quot;wanted&quot;"
+msgstr ""
+
+#: _users_list.inc.php:56
+msgid "User Blog"
+msgstr ""

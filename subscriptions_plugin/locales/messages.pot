@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-05 11:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:42
+msgid "This plugin allows visitors to sign up for e-mail notifications of new events in your blogs."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:43
+msgid "Although RSS has been around for a fair while many users still don't know how it works and are far more comfortable with email notifications. This plugin gives them the ability so subscribe to notifications of new posts on a per blog basis, and new comments on a per post basis. All of the emails and other messages are fully configurable from the plugin's settings page in your admin area (see below for a full list of available settings)."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:78
+#, php-format
+msgid "The \"%s plugin\" requires b2evolution v3.0.0, or higher."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:95
+msgid "Add to comment forms"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:98
+msgid "Check this to display subscribtions checkboxes in feedback forms"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:101
+msgid "No email message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:102
+msgid "You need to provide your email address to subscribe"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:105
+msgid "This is the error message displayed if visitor wants to subscribe but doesn't leave an email address"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:112
+msgid "Comments settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:115
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:145
+msgid "Subject"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:116
+msgid "New reply to"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:119
+msgid "This is the subject of the email message sent out for comment subscriptions"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:122
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:152
+msgid "Message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:123
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"You're receiving this email because you wished to be notified of new comments on \"%s\"\n"
+"You can read the new comment here:\n"
+"%s\n"
+"\n"
+"-- \n"
+"If you wish to unsubscribe from future notifications, please click here:\n"
+"%s"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:134
+msgid "This is the email message sent out for comment subscriptions.<br />Replacement values: <b>$name$</b> - visitor's name, <b>$post_title$</b> - post's title, <b>$link$</b> - URL of the comment made, <b>$unsubscribe$</b> - link to unsubscribe from notifications"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:142
+msgid "Posts settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:146
+msgid "New post on"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:149
+msgid "This is the subject of the email message sent out for blog subscriptions"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:153
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"You're receiving this email because you wished to be notified of new posts in the blog \"%s\"\n"
+"You can read the new post [%s] here:\n"
+"%s\n"
+"\n"
+"-- \n"
+"If you wish to unsubscribe from future notifications, please click here:\n"
+"%s"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:164
+msgid "This is the email message sent out for blog subscriptions, see the help file for replacement values"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:172
+msgid "Unsubscribe settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:175
+msgid "\"Success\" message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:176
+msgid "Selected subscriptions have been removed"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:178
+msgid "This is the message displayed when visitor has successfully unsubscribed"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:181
+msgid "\"Error\" message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:182
+msgid "Sorry, there was a problem removing your subscription. Please try again later."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:184
+msgid "This is the message displayed when unsubscription throws an unknown error"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:187
+msgid "Invalid subscription message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:188
+msgid "Sorry, that subscription was not found"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:190
+msgid "This is the message displayed when an invalid unsubscription attempt is made"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:193
+msgid "Multiple unsubscribe message"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:194
+msgid "You also have the following subscriptions that you may wish to cancel."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:196
+msgid "This is the message displayed when the visitor has more subscriptions which they may wish to cancel."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:199
+msgid "Unsubscribe page"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:205
+msgid "This is the page displayed after unsubscribing, see the help file for replacement values"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:216
+msgid "Target blog"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:217
+msgid "ID of the blog to use, leave empty for the current blog."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:221
+msgid "Title"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:222
+msgid "Watch this blog"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:223
+msgid "Widget title displayed in skin"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:228
+msgid "Text for visitors"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:229
+msgid "Enter your name and email address to receive notifications about new posts in this blog."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:230
+msgid "Notes displayed to visitors below the email input field."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:236
+msgid "Text for users"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:237
+msgid "Click &quot;Subscribe&quot; to receive notifications about new posts in this blog."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:238
+msgid "Notes displayed to users. Logged in users don't need to enter their name and email address."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:251
+#, php-format
+msgid "Please note: email notifications will be queued in order to be executed asynchronously.<br />You will need to set up <a %s>b2evoltuion Scheduler</a> for this plugin to work."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:367
+msgid "You're not allowed to view this page!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:457
+msgid "Name"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:458
+msgid "Email"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:463
+msgid "Subscribe"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:496
+msgid "Invalid name or email address."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:511
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:627
+msgid "You are now subscribed"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:515
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:632
+msgid "Unable to subscribe"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:548
+msgid "Watch post"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:549
+msgid "Watch this post (receive email notifications about new comments to this post)."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:551
+msgid "Watch blog"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:552
+msgid "Watch this blog (receive email notifications about new posts in this blog)."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:611
+msgid "Your subscribtion updated"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:695
+#, php-format
+msgid "Email notifications (%s)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1015
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1702
+msgid "Nothing selected."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1090
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1531
+msgid "Blog"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1097
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1554
+msgid "Post"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1129
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1589
+msgid "Check/Uncheck all"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1131
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1569
+msgid "Unsubscribe"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1178
+msgid "Bad request params"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1443
+msgid "Unique users"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1443
+msgid "Subscribtions"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1447
+msgid "Keywords"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1447
+msgid "Separate with space"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1453
+msgid "All"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1454
+msgid "Users"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1455
+msgid "Visitors"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1456
+msgid "Blog subs"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1457
+msgid "Blog subs only"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1458
+msgid "Post subs"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1459
+msgid "Post subs only"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1474
+msgid "Select this row"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1509
+msgid "User"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1560
+msgid "Date Time"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1569
+msgid "Do you really want to unsubscribe?"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1575
+msgid "Actions"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1592
+msgid "Delete selected items !"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\subscriptions_plugin\_subscriptions.plugin.php:1593
+msgid "Do you really want to continue?"
+msgstr ""

@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-09-03 21:01-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_advanced_search.plugin.php:55
+msgid "Filter search results by many parameters"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:56
+msgid "It allows you to filter search results by many parameters plus you can customize almost everything."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:67
+msgid "Precise search"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:70
+msgid "If enabled, the plugin will search through <u>rendered</u> content, and <u>outside</u> of HTML tags only. This means that a lot of false positive results will be filtered out."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:70
+msgid "Warning: this also increases search time!"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:73
+msgid "Results per page"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:77
+msgid "Number of results per page."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:80
+msgid "Keywords class"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:84
+msgid "Class for highlighted keywords. If you change this you must also edit adv_search.css"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:100
+msgid "Search form Title"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:101
+#: ../../../_advanced_search.plugin.php:127
+#: ../../../_advanced_search.plugin.php:512
+#: ../../../_advanced_search.plugin.php:513
+msgid "Search"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:103
+msgid "Search form title displayed in skin."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:106
+msgid "Categories label"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:107
+#: ../../../_advanced_search.plugin.php:514
+msgid "In category"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:108
+msgid "Label for categories select menu."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:111
+msgid "Month/year label"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:112
+#: ../../../_advanced_search.plugin.php:515
+msgid "Posted on"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:113
+msgid "Label for month/year select menu."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:116
+msgid "Authors label"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:117
+#: ../../../_advanced_search.plugin.php:516
+msgid "Author"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:118
+msgid "Label for authors select menu."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:121
+msgid "Post types label"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:122
+#: ../../../_advanced_search.plugin.php:517
+msgid "Post type"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:123
+msgid "Label for post types select menu."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:126
+msgid "Submit button"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:128
+msgid "Submit button name."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:131
+msgid "Search in Blogs"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:134
+msgid "List blog IDs separated by ,"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:135
+msgid "[ All ] - to search in all public blogs."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:136
+msgid "Leave empty to search in current blog only."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:139
+msgid "Exclude authors"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:142
+msgid "List user IDs separated by ,"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:145
+msgid "Exclude categories"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:148
+msgid "List category IDs separated by ,"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:149
+msgid "Note: if you exclude a parent category, all subcategories will be also excluded."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:152
+msgid "Search in category"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:155
+msgid "Display categories select menu in search form."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:158
+msgid "Search by month/year"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:161
+msgid "Display month/year select menu in search form."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:164
+msgid "Search by author"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:167
+msgid "Display authors select menu in search form."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:170
+msgid "Search by post type"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:173
+msgid "Display post types select menu in search form."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:176
+msgid "Search all words"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:179
+msgid "Display <b>All Words</b> radio button."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:182
+msgid "Search some word"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:185
+msgid "Display <b>Some Word</b> radio button."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:188
+msgid "Search entire phrase"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:191
+msgid "Display <b>Entire phrase</b> radio button."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:465
+msgid "Sorry, there is nothing to display..."
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:604
+#: ../../../_advanced_search.plugin.php:617
+#: ../../../_advanced_search.plugin.php:641
+#: ../../../_advanced_search.plugin.php:662
+#: ../../../_advanced_search.plugin.php:701
+msgid "All"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:641
+msgid "Root"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:726
+msgid "All Words"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:740
+msgid "Some Word"
+msgstr ""
+
+#: ../../../_advanced_search.plugin.php:754
+msgid "Entire phrase"
+msgstr ""
+
+#: ../../../_adv_search.disp.php:26
+#, php-format
+msgid "Results %d - %d of %d for <b>%s</b>"
+msgstr ""
+
+#: ../../../_adv_search.disp.php:96
+msgid "Pages:"
+msgstr ""

@@ -1,0 +1,14 @@
+/* Main block */
+.dl_manager ul { margin:0 30px 10px 0; list-style-image:none !important }
+
+/* Each file */
+.dl_manager ul li { margin-bottom:2px; padding:0 }
+
+/* Each link */
+ul.dl_manager li a { }
+
+/* Counter */
+.dl_manager_dls { font-weight:bold }
+
+/* Description */
+.dl_manager_desc { font-style:italic }

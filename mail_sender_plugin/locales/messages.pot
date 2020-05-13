@@ -1,0 +1,418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-24 19:29-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:103
+msgid "Send emails to registered users"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:185
+msgid "Enable attachments"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:188
+msgid "Do you want to send emails with attachments?"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:191
+msgid "Email charset"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:194
+msgid "Example: utf-8, iso-8859-1, windows-1251 etc. Note: it's highly recommended to use utf-8 here."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:197
+msgid "Report email"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:201
+msgid "Send detailed reports to this email address. Leave empty to disable."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:208
+msgid "Server settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:211
+msgid "Method to send mail"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:215
+msgid "PHP mail (default)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:216
+msgid "Sendmail"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:217
+msgid "SMTP"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:221
+msgid "Sendmail path"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:225
+msgid "Path of the sendmail program"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:228
+msgid "SMTP Host"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:232
+#, php-format
+msgid "Sets the SMTP hosts<br />All hosts must be separated by a semicolon. You can also specify a different port for each host by using this format: %s. Hosts will be tried in order."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:235
+msgid "SMTP Port"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:239
+msgid "Default SMTP server port"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:240
+msgid "Please enter valid port number"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:243
+msgid "Security settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:247
+msgid "None (default)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:248
+msgid "SSL"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:249
+msgid "TLS"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:253
+msgid "SMTP username"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:258
+msgid "SMTP password"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:267
+msgid "Defaults"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:270
+msgid "Sender's name"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:271
+msgid "Site Administrator"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:276
+msgid "Sender's email address"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:282
+msgid "Message subject"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:287
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:710
+msgid "Message text"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:297
+msgid "Exclude users/groups"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:300
+msgid "Exclude groups"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:305
+msgid "Don't send emails to selected user groups. Use \"CTRL\" and \"SHIFT\" keys to select multiple items."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:308
+msgid "Exclude users"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:313
+msgid "Don't send emails to selected users. Use \"CTRL\" and \"SHIFT\" keys to select multiple items."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:323
+msgid "Receive emails"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:326
+msgid "Check this if you want to receive emails from site administrator."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:336
+msgid "Report email address is invalid!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:365
+msgid "You have been unsubscribed from our mailing list!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:369
+msgid "The Mail Sender plugin is disabled or uninstalled"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:374
+msgid "Requested user not found"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:407
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:413
+msgid "You're not allowed to send emails!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:421
+msgid "File lock removed."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:441
+msgid "Upload is disabled."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:448
+msgid "You have no permission to add/upload files."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:463
+#, php-format
+msgid ""
+"<p>It seems like another process is already sending emails. Please wait for it to complete.</p>\n"
+"<p>If you beleve this is a mistake <a %s>click here</a> to remove the lock!</p>"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:483
+msgid "File deleted."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:488
+msgid "File settings deleted."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:499
+msgid "The file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:503
+msgid "The file was only partially uploaded."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:508
+msgid "No file was uploaded."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:514
+msgid "Missing a temporary folder (upload_tmp_dir in php.ini)."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:518
+msgid "Unknown error."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:530
+#, php-format
+msgid "Total attachments size should not exceed %sMb!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:554
+#, php-format
+msgid "The file &laquo;%s&raquo; has been successfully uploaded."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:559
+msgid "An unknown error occurred when moving the uploaded file on the server."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:564
+msgid "The file does not seem to be a valid upload! It may exceed the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:575
+msgid "Select a file first."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:615
+msgid "All done!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:616
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:902
+#, php-format
+msgid "Successfull: %sFailed: %sTotal: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:622
+msgid "All fields are mandatory"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:646
+msgid "Mail Sender"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:668
+msgid "Starting email"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:668
+msgid "Start sending from this email, skipping all previous."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:669
+msgid "Limit"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:669
+msgid "The number of emails you want to send at a time. Set 0 to send all available."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:671
+msgid "Send as text"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:671
+msgid "Send email as plain text."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:672
+msgid "Send as HTML"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:672
+msgid "Send email as HTML formatted text."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:673
+msgid "From email"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:673
+msgid "Sender's email."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:674
+msgid "From name"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:674
+msgid "Sender's name."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:675
+msgid "Subject"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:679
+msgid "Emails source"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:679
+msgid "Get emails list from selected source"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:686
+msgid "Choose a file"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:689
+msgid "Attach file"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:699
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:1167
+msgid "KB"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:701
+msgid "Delete this file"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:705
+msgid "Total size"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:708
+msgid "Email addresses"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:708
+msgid "One email address per line."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:714
+msgid "Send message !"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:715
+msgid "Reset"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:756
+#, php-format
+msgid "The file %s cannot be read!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:786
+msgid "No emails found. Nothing to do."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:796
+#, php-format
+msgid "There are only %d emails found. Decrease the starting email number."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:878
+#, php-format
+msgid "OK ( %s )"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:883
+#, php-format
+msgid "Sorry, could not send email ( %s )"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:900
+#, php-format
+msgid "Mail Sender report from %s"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:905
+msgid "Mail Sender report"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:1127
+msgid "File not found"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\mail_sender_plugin\_mail_sender.plugin.php:1181
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr ""

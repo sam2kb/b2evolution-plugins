@@ -1,0 +1,218 @@
+# Portuguese translations for PACKAGE package.
+# Copyright (C) 2009 Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# Walter Cruz <walter.php@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick upload plugin\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-02-12 17:56-0500\n"
+"PO-Revision-Date: 2009-08-17 15:29-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Nederlands\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: Nederlands\n"
+"X-Poedit-Country: België\n"
+
+#: ../upload_window.php:205
+msgid "You don't have access to the requested root directory."
+msgstr "Je hebt geen rechten op de gevraagde hoofdfolder."
+
+#: ../upload_window.php:220
+msgid "You don't have access to any root directory."
+msgstr "Je hebt geen rechten op geen enkele hoofdfolder."
+
+#: ../upload_window.php:228
+#, php-format
+msgid "The root directory &laquo;%s&raquo; does not exist."
+msgstr "De hoofdfolder &laquo;%s&raquo; bestaat niet."
+
+#: ../upload_window.php:240
+#, php-format
+msgid "The directory &laquo;%s&raquo; does not exist."
+msgstr "De folder &laquo;%s&raquo; bestaat niet."
+
+#: ../upload_window.php:246
+msgid "You are not allowed to go outside your root directory!"
+msgstr "Je hebt geen rechten om buiten je hoofdfolder te bladeren!"
+
+#: ../upload_window.php:282
+msgid "Upload is disabled."
+msgstr "Opladen van bestanden is onklaar gemaakt."
+
+#: ../upload_window.php:287
+msgid "You have no permission to add/upload files."
+msgstr "Je hebt geen rechten om bestanden toe te voegen/op te laden."
+
+#: ../upload_window.php:333
+msgid "Please select a local file to upload."
+msgstr "Selecteer een lokaal bestand om op te laden."
+
+#. TRANS: %s will be replaced by the difference
+#: ../upload_window.php:343
+#, php-format
+msgid "The file is too large: %s but the maximum allowed is %s."
+msgstr "Het bestand is te groot: %s, terwijl het maar maximaal %s mag zijn."
+
+#: ../upload_window.php:361
+msgid "The file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Het bestand is groter dan upload_max_filesize in php.ini."
+
+#: ../upload_window.php:366
+msgid "The file was only partially uploaded."
+msgstr "Het bestand werd maar gedeeltelijk opgeladen."
+
+#: ../upload_window.php:372
+msgid "No file was uploaded."
+msgstr "Er werd geen enkel bestand opgeladen."
+
+#: ../upload_window.php:379
+msgid "Missing a temporary folder (upload_tmp_dir in php.ini)."
+msgstr "Er ontbreekt een tijdelijke folder (upload_tmp_dir in php.ini)."
+
+#: ../upload_window.php:384
+msgid "Unknown error."
+msgstr "Onbekende fout."
+
+#: ../upload_window.php:392
+msgid "The file does not seem to be a valid upload! It may exceed the upload_max_filesize directive in php.ini."
+msgstr "Het bestand voldoet niet.  Waarschijnlijk is het groter dan de upload_max_filesize in php.ini."
+
+#: ../upload_window.php:417
+#, php-format
+msgid "Unable to create directory: [ %s ]"
+msgstr "Onmogellijk om de folder te creëren: [ %s ]"
+
+#: ../upload_window.php:428
+#, php-format
+msgid "The file &laquo;%s&raquo; already exists."
+msgstr "Het bestand &laquo;%s&raquo; bestaat al."
+
+#: ../upload_window.php:436
+msgid "An unknown error occurred when moving the uploaded file on the server."
+msgstr "Een onbekende fout deed zich voor terwijl we het bestanden wilden verhuizen op de server."
+
+#: ../upload_window.php:444
+#, php-format
+msgid "Could not change permissions of &laquo;%s&raquo; to default chmod setting."
+msgstr "We konden de rechten van de &laquo;%s&raquo; niet wijzigen in de standaard chmod zettingen."
+
+#: ../upload_window.php:464
+#, php-format
+msgid "The file &laquo;%s&raquo; has been successfully uploaded."
+msgstr "Het bestand &laquo;%s&raquo; is succesvol opgeladen."
+
+#: ../upload_window.php:470
+msgid "Add the code to your post !"
+msgstr "Voeg deze code aan je artikel!"
+
+#: ../upload_window.php:480
+#: ../upload_window.php:485
+#: ../upload_window.php:489
+msgid "Link this file!"
+msgstr "Maak een link naar dit bestand!"
+
+#: ../upload_window.php:531
+msgid "Cannot link Item!"
+msgstr "De link naar dit bestand is niet mogelijk."
+
+#: ../upload_window.php:532
+msgid "Requested item does not exist any longer."
+msgstr "Het gevraagde item bestaat niet meer."
+
+#: ../upload_window.php:565
+msgid "Nothing selected."
+msgstr "Er werd niets geselecteerd."
+
+#: ../upload_window.php:589
+msgid "Selected file has been linked to item."
+msgstr "Het geselecteerde bestand werd gelinkt aan het artikel"
+
+#: ../upload_window.php:611
+#: ../upload_window.php:786
+#: ../_quick_upload.plugin.php:152
+msgid "Quick upload"
+msgstr "Snel opladen"
+
+#: ../upload_window.php:772
+#: ../upload_window.php:858
+msgid "Choose a file"
+msgstr "Selecteer een bestand"
+
+#: ../upload_window.php:828
+msgid "Some file uploads failed. Please check the errors below."
+msgstr "Somige bestanden werden niet goed opgeladen.  Details vind je in de foutenlijst hieronder."
+
+#. TRANS: will be displayed as title for failed file uploads
+#: ../upload_window.php:849
+msgid "Invalid submission."
+msgstr "Ongeldige suggestie"
+
+#: ../upload_window.php:868
+msgid "Add another file"
+msgstr "Voeg nog een bestand toe"
+
+#: ../upload_window.php:871
+msgid "Upload to server now"
+msgstr "Laad nu op naar de server"
+
+#: ../upload_window.php:872
+msgid "Reset"
+msgstr "Reset"
+
+#: ../_quick_upload.plugin.php:47
+msgid "Add a quick upload button"
+msgstr "Voeg een Snel opladen knopje toe"
+
+#: ../_quick_upload.plugin.php:48
+msgid "Add a quick upload button for fast and easy image uploading."
+msgstr "Voeg een Snel opladen knopje toe, zodat het opladen van bestanden eenvoudiger verloopt."
+
+#: ../_quick_upload.plugin.php:59
+msgid "Enable directory select"
+msgstr "Laat toe om een folder te selecteren"
+
+#: ../_quick_upload.plugin.php:62
+msgid "Check this if you want to display a directory tree in Quick Upload window. This will show a list of all avaliable directories, might be slow."
+msgstr "Vink dit aan als je alle folders wil tonen in het Snel opladen venster. Dit toont een lijst met alle beschikbare folder, en kan dus vertragend werken."
+
+#: ../_quick_upload.plugin.php:62
+msgid "Note: If disabled files get uploaded in blog's media folder."
+msgstr "Als je dit onklaar maakt, zullen bestanden opgeladen worden in de standaard blog's media folder"
+
+#: ../_quick_upload.plugin.php:65
+msgid "Create subdirectories"
+msgstr "Creëer subfolders"
+
+#: ../_quick_upload.plugin.php:68
+msgid "Check this to automaticaly create sub directories in blog's media folder for each item to store attached files."
+msgstr "Vink dit aan als je voor elke artikel subfolders wil creëren in de blog's media folder, zodat alle bestanden per artikel in 1 folder terug te vinden zijn."
+
+#: ../_quick_upload.plugin.php:68
+msgid "Example: each item(post) will have its own folder e.g. <b>/media/blog_a/item_23/</b>. You can select the name prefix below."
+msgstr "Voorbeeld:: elk artikel(post) zal een eigen folder hebben, bvb <b>/media/blog_a/item_23/</b>. Je kan de prefixnaam hieronder selecteren."
+
+#: ../_quick_upload.plugin.php:71
+msgid "Directory name prefix"
+msgstr "Foldernaam prefix"
+
+#: ../_quick_upload.plugin.php:73
+msgid "An optional prefix to be added to the directory name."
+msgstr "Een bijkomende prefix die toegevoegd wordt aan de foldernaam."
+
+#: ../_quick_upload.plugin.php:74
+msgid "Please enter a valid directory name prefix."
+msgstr "Geef een geldige foldernaam prefix op."
+
+#: ../_quick_upload.plugin.php:247
+#: ../_quick_upload.plugin.php:249
+msgid "Open this directory in the file manager"
+msgstr "Open deze folder in de bestandsbeheerder"
+
+#~ msgid "Here's the code to display it:"
+#~ msgstr "Aqui está o código para exibi-lo:"
+

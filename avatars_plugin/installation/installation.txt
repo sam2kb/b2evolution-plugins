@@ -1,0 +1,19 @@
+====================================================
+ Avatars Plugin (for b2evolution 4.1 and up) / By sam2kb - http://b2evo.sonorth.com
+====================================================
+
+ INSTALLATION:
+ 
+ A) Some files within b2evolution 4.1 must be modified for the Avatars plugin to function correctly. These changes are not necessary for b2evolution v5!
+   You can do this manually, or just replace the files with the files included in install_b2evo_v4.1.1-4.1.3.zip (For b2evo v4.1.1 through v4.1.3 only)
+   Demo evopress skin is included in demo_skin.zip
+   
+   For the manual approach:
+   	1. Around line 291, in /inc/_core/model/dataobjects/_dataobject.class.php, you will see the the first line of hack1.txt (// Reset changes in object etc.), make it look like hack1.txt
+   	2. Around line 351, in the same file _dataobject.class.php, you will see the first line of hack2.txt (// Delete this etc.), make it look like hack2.txt
+	3. Around line 2330, in /inc/plugins/_plugins.class.php, you will see the first line of hack3.txt (function CaptchaValidatedCleanup etc.), make it look like hack3.txt
+	4. Around line 125, in /inc/plugins/model/_plugins_admin.class.php, you will see the first line of hack4.txt (AfterCollectionUpdate), make it look like hack4.txt
+
+ B) Upload the 'avatars_plugin' folder to your 'plugins' directory.
+
+ C) In the b2evo backoffice, go to "Global settings" -> "Plugins" -> "Install new" -> Click "Install" for the "Avatars" Plugin.

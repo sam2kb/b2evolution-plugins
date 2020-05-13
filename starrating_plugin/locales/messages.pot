@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-06-01 15:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_starrating.plugin.php:41
+msgid "Star Rating"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:42
+msgid "AJAX-powered star ratings for posts."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:56
+msgid "Out of"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:58
+msgid "How many stars are possible?"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:63
+msgid "Check IP"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:65
+msgid "Check IP to prevent multiple votes on one post from one person."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:69
+msgid "Pop-up info"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:71
+msgid "Show info and notices in pop-ups that fade in and out. Requires javascript, but does not disrupt layout. This option requires an additional skin tag, see the Readme file."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:75
+msgid "Inline info"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:77
+msgid "Show info and notices just below the stars.  Works with or without javascript enabled, but may disrupt layout."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:118
+msgid "Widget title"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:119
+msgid "Widget title displayed in skin."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:120
+#: ../../../_starrating.plugin.php:448
+msgid "Top Rated"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:123
+msgid "Display"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:124
+msgid "Max items to display."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:130
+msgid "Minimum votes"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:131
+msgid "Minimum number of votes required to be in the list."
+msgstr ""
+
+#: ../../../_starrating.plugin.php:137
+msgid "Method"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:178
+#: ../../../_starrating.plugin.php:301
+#: ../../../_starrating.plugin.php:320
+msgid "vote"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:179
+#: ../../../_starrating.plugin.php:302
+#: ../../../_starrating.plugin.php:320
+#: ../../../_starrating.plugin.php:500
+msgid "votes"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:227
+msgid "Currently"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:237
+msgid "out of"
+msgstr ""
+
+#. TRANS: Rating: 34 out of 50 votes cast
+#: ../../../_starrating.plugin.php:257
+#: ../../../_starrating.plugin.php:267
+#: ../../../_starrating.plugin.php:345
+#: ../../../_starrating.plugin.php:351
+#: ../../../_starrating.plugin.php:415
+#: ../../../_starrating.plugin.php:421
+#, php-format
+msgid "Rating: %s out of %d %s cast"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:335
+#: ../../../_starrating.plugin.php:405
+msgid "Current rating"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:353
+msgid "You have previously voted"
+msgstr ""
+
+#: ../../../_starrating.plugin.php:423
+msgid "Thank you for your vote"
+msgstr ""

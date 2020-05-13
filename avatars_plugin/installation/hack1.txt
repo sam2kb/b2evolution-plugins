@@ -1,0 +1,4 @@
+		// Reset changes in object:
+		$this->dbchanges = array();
+
+		$GLOBALS['Plugins']->trigger_event( 'AfterObjectInsert', $params = array( 'Object' => & $this, 'type' => get_class($this) ) );

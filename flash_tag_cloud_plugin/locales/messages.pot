@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-14 17:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:33
+msgid "This plugin allows you to display your site's tags using a Flash movie that rotates them in 3D."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:59
+msgid "Block title"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:60
+msgid "Tag cloud"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:65
+msgid "Include blogs"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:66
+msgid "A comma-separated list of Blog IDs."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:70
+msgid "Max # of tags"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:76
+msgid "Tag separator"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:79
+msgid "For those who don't have Flash plugin installed."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:83
+msgid "Min tag size"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:89
+msgid "Max tag size"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:95
+msgid "Ordering"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:96
+msgid "Ascending"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:96
+msgid "Random"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:98
+msgid "How to sort the tag cloud."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:102
+msgid "Filter tags"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:103
+msgid "This is a comma separated list of tags to ignore."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:109
+msgid "Auto width"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:111
+msgid "Stretch tag cloud to fit in parent container (width=\"100%\"). This may not work in older browsers!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:115
+msgid "Cloud width"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:122
+msgid "Cloud height"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:128
+msgid "Cloud background color"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:131
+msgid "Only if not in transparent mode"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:132
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:139
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:153
+msgid "Please enter a valid hexadecimal number for the background colour"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:135
+msgid "Tag color"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:138
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:152
+msgid "6 character hex color value"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:149
+msgid "Tag hover color"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:157
+msgid "Tags rotation speed"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:160
+msgid "Speed (percentage, default is 100)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:164
+msgid "Distribute tags"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:166
+msgid "Places tags at equal intervals instead of random"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:170
+msgid "Use transparent mode"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:172
+msgid "Switches on Flash's wmode-transparent setting"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\plugins\flash_tag_cloud_plugin\_flash_tag_cloud.plugin.php:355
+#, php-format
+msgid "Display posts tagged with &laquo;%s&raquo;"
+msgstr ""

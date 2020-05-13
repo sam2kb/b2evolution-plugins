@@ -1,0 +1,53 @@
+.sn-mediafinder { display: none; margin: 10px 0; font-size: 16px; position:relative }
+#sn-mediafinder-btn,
+#sn-mediafinder-submit { width: 100px; background:#DDD; cursor:pointer; margin: 5px 0; border: 1px solid #666; border-radius: 5px; line-height: normal; padding: 4px 13px; text-align: center }
+.sn-mediafinder-dialog-btn:hover,
+#sn-mediafinder-btn:hover,
+#sn-mediafinder-submit:hover { background:#CCC }
+#sn-mediafinder-btn:focus { outline: 0 }
+#sn-mediafinder-submit { width: 45px }
+.sn-mediafinder-dialog-btn { margin: 6px 0; display: inline-block; cursor: pointer }
+
+.sn-select-label { font-size: 14px; color: #333 }
+.sn-mediafinder-label { font-style: italic; color: #CCC }
+
+#sn-mediafinder-upload-link { font-size: 11px; text-decoration: underline; font-style: italic; color: #555; display: inline-block; margin-top: 3px }
+#sn-mediafinder-loader { margin-left: 20px; position: absolute; left:435px }
+#sn-mediafinder-error { display:none; margin-top:10px; font-size: 13px; color: red; padding:3px 15px; background: #EFEFEF; border: 1px solid #CCC  }
+#sn-mediafinder-error a { text-decoration: underline; color: blue }
+#sn-mediafinder-result { display:none; margin-top:10px; background: #EFEFEF; border: 1px solid #CCC; padding:10px; border-radius: 5px }
+ul#sn-mediafinder-slide { width:200px; height:200px; list-style: none; background: #FFF; margin: 0; padding: 0 }
+ul#sn-mediafinder-slide li { margin:0; padding:0; list-style: none }
+#sn-mediafinder-upload { padding-bottom: 10px; display:none }
+#sn-mediafinder-upload input { background-color: #FFF; display: block; width: 100% !important }
+
+#sn-mediafinder-content { margin: 0 10px }
+#sn-mediafinder-address,
+#sn-mediafinder-title,
+#sn-mediafinder-tags,
+#sn-mediafinder-cats,
+#sn-mediafinder-description { width: 100%; padding: 4px; font-size: 14px; border-radius: 5px; border: 1px solid #999; background: #FFF; clear: both }
+#sn-mediafinder-description { height: 95px; margin:5px 0; resize: none }
+#sn-mediafinder-counter { padding-left: 10px; font-size: 18px; color: #666 }
+#sn-mediafinder-cats { margin-bottom:5px }
+#sn-mediafinder-address { width:400px; font-size: 16px }
+#sn-mediafinder-form { width:325px }
+
+#sn-mediafinder-images { border: 1px solid #999 }
+#sn-mediafinder-images .jcarousel-item-1-horizontal {  width: 200px !important }
+#sn-mediafinder-images li img { max-height: 200px !important }
+#sn-mediafinder-controls { background: #DDD; clear: both; border-top: 1px solid #999; font-size: 14px }
+#sn-mediafinder-controls div { display:inline-block; width:80px; cursor:pointer; padding: 4px }
+#sn-mediafinder-controls div:hover { background:#CCC }
+#sn-mediafinder-prev { text-align: center; float: left }
+#sn-mediafinder-next { text-align: center; float: right }
+
+.sn-mediafinder-dialog.ui-dialog { position:fixed }
+.ui-widget-overlay { background: #000 !important; opacity: 0.8 !important; }
+
+.jcarousel-skin-tango .jcarousel-container-horizontal { width: 200px; text-align:center }
+.jcarousel-skin-tango .jcarousel-clip { overflow: hidden }
+.jcarousel-skin-tango .jcarousel-clip-horizontal { width: 200px; height: 200px }
+.jcarousel-skin-tango .jcarousel-item { width: 200px; height: 200px }
+.jcarousel-skin-tango .jcarousel-item-horizontal { margin-left: 0; margin-right: 10px }
+.jcarousel-skin-tango .jcarousel-item-placeholder { background: #fff; color: #000 }

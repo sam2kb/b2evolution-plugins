@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-07-06 22:41-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:56
+msgid "Allows you to sell links from your blog"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:57
+#, php-format
+msgid "Allows you to sell links from your blog pages on <a %s>Sape.ru</a>, one of the leading link exchange services in Russia."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:75
+#, php-format
+msgid "Sape plugin is not configured yet. <a %s>Configure now!</a>"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:80
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:319
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:92
+#, php-format
+msgid "Make sure the directory [%s] has write permissions (777)"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:109
+msgid "Enable Sape"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:114
+msgid "Enable Sape Context"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:119
+msgid "Sape UID"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:122
+#, php-format
+msgid "Enter your Sape UID. You can <a %s>register</a> if you don't have an account yet."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:125
+msgid "Display errors"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:127
+msgid "Check this to display Sape errors if any."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:131
+msgid "Display debug info"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:133
+msgid "Check this to display debug info for SAPE Context."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:137
+msgid "Display check code"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:139
+msgid "Check this to always display Sape check code."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:143
+msgid "Blog charset"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:145
+msgid "Leave empty to autodetect charset (recommended)."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:148
+msgid "Fetch page method"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:156
+msgid "Fetch remote page method."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:159
+msgid "Socket timeout"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:163
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:170
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:177
+msgid "sec."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:163
+msgid "Longer timeout may increase page load time."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:166
+msgid "Cache life time"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:173
+msgid "Cache reload time"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:187
+msgid "Widget title"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:188
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:215
+msgid "Advertisement"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:190
+msgid "Widget title displayed in skin."
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:193
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:194
+msgid "Number of links"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:331
+#, php-format
+msgid "Cannot create %s file!"
+msgstr ""
+
+#: D:\wamp\www\b2evolution\2\plugins\sape_plugin\_sape.plugin.php:355
+msgid "Data integrity error"
+msgstr ""

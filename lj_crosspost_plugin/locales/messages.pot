@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2009-02-09 00:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _lj_crosspost.plugin.php:50
+msgid "Automatically crosspost a blog entry to your LiveJournal"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:51
+msgid "Automatically copies all posts to a LiveJournal or other LiveJournal-based blog. Editing or deleting a post will be replicated as well."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:77
+msgid "Enable \"Post all\""
+msgstr ""
+
+#: _lj_crosspost.plugin.php:80
+msgid "Enable \"Post all\" operation from Tools > LiveJournal. If checked you can send all posts from selected blogs to LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:83
+msgid "Enable \"Delete all\""
+msgstr ""
+
+#: _lj_crosspost.plugin.php:86
+msgid "Enable \"Delete all\" operation from Tools > LiveJournal. If checked you can delete LiveJournal entries linked with blog posts."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:89
+#: _lj_crosspost.plugin.php:176
+msgid "Post header"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:93
+#: _lj_crosspost.plugin.php:181
+msgid "Enter post header text here. This text will be added to the top of each post."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:94
+#: _lj_crosspost.plugin.php:103
+#: _lj_crosspost.plugin.php:182
+#: _lj_crosspost.plugin.php:192
+#, php-format
+msgid "The following tags will be replaced with the real values: %s"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:95
+#: _lj_crosspost.plugin.php:104
+#: _lj_crosspost.plugin.php:183
+#: _lj_crosspost.plugin.php:193
+#, php-format
+msgid "Example: You are reading %s, original post blogged on %s."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:98
+#: _lj_crosspost.plugin.php:186
+msgid "Post footer"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:102
+#: _lj_crosspost.plugin.php:191
+msgid "Enter post footer text here. This text will be added to the bottom of each post."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:117
+msgid "LJ-compliant host"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:120
+msgid "If you are using a LiveJournal-compliant site other than LiveJournal, enter the domain name here. LiveJournal users can use the default value."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:123
+msgid "LJ Username"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:127
+msgid "LJ Password"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:132
+msgid "LJ Community"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:134
+msgid "If you wish your posts to be copied to a community, enter the community name here. Leaving this space blank will copy the posts to the specified user's journal instead."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:137
+msgid "LJ Privacy level"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:140
+msgid "Public"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:141
+msgid "Private"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:142
+msgid "Friends"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:146
+msgid "Default privacy level for LiveJournal posts."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:149
+msgid "Comment settings"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:152
+#: _lj_crosspost.plugin.php:158
+msgid "Allowed"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:153
+#: _lj_crosspost.plugin.php:159
+msgid "Not allowed"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:154
+#: _lj_crosspost.plugin.php:160
+msgid "Do not notify"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:158
+msgid "Check this enable comments."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:159
+msgid "Check this to disable comments."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:160
+msgid "Check this to not receive comments on LiveJournal posts by email."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:163
+msgid "Handling of &lt;!--More--&gt;"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:166
+#: _lj_crosspost.plugin.php:171
+msgid "Link back"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:167
+#: _lj_crosspost.plugin.php:172
+msgid "LJ cut"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:168
+#: _lj_crosspost.plugin.php:173
+msgid "Copy"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:170
+msgid "How should we handle &lt;!--More--&gt; tags?"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:171
+msgid "Link back to b2evolution post."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:172
+msgid "Use an lj-cut to split the entry on LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:173
+msgid "Copy the entire post to LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:205
+msgid "You're not allowed to view this page!"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:211
+#: _lj_crosspost.plugin.php:579
+#, php-format
+msgid "You must set LiveJournal <a %s>credentials</a> first."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:216
+msgid "Global post/delete operations are disabled in plugin settings."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:263
+msgid "LiveJournal Crosspost"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:264
+#, php-format
+msgid "Post all items created by or assigned to %s"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:269
+msgid "All post types"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:269
+msgid "Check to send entries of all types (posts, pages, links, podcasts etc). Leave unchecked to send posts only."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:270
+msgid "Blog ID"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:270
+msgid "Send all your posts from selected blog to LiveJournal.<br />Enter \"All\" without quotes to send your posts from all public blogs to LiveJournal (<span style=\"color:red\">not recommended if you have a lot of posts</span>).<br /><br />All existing posts will be updated."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:273
+msgid "Post all !"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:273
+msgid "You are about to send all posts to LiveJournal!\\nDo you want to continue?"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:281
+msgid "Delete all"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:287
+msgid "Click to delete all LiveJournal entries linked with your posts."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:287
+msgid "This cannot be undone!"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:290
+msgid "Delete all posts !"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:290
+msgid "You are about to delete all entries from LiveJournal!\\nThis cannot be undone!"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:486
+msgid "The requested blog does not exist (any more?)"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:522
+#, php-format
+msgid "Nothing to sent from blog %s"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:608
+msgid "Read the rest of this entry"
+msgstr ""
+
+#: _lj_crosspost.plugin.php:771
+msgid "Incomplete reponse."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:831
+msgid "Unable to save LJ post ID in database. A post with the same content already exists in LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:835
+msgid "Unable to save LJ post ID in database."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:837
+#, php-format
+msgid "The post #%s has been added to LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:841
+#, php-format
+msgid "The post #%s has been updated on LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:845
+#, php-format
+msgid "The post #%d has been deleted from LiveJournal."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:848
+msgid "Unable to delete LJ post ID from database."
+msgstr ""
+
+#: _lj_crosspost.plugin.php:855
+#: _lj_crosspost.plugin.php:880
+msgid "Invalid response."
+msgstr ""

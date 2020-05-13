@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>b2evolution reCAPTCHA plugin readme</title>
+</head>
+<body>
+
+<h2>reCAPTCHA Overview</h2>
+<p>A &quot;captcha&quot; is a program or test to diffrentiate between a human and a program. They are usually displayed as a garbled string of characters which humans can distuinguish easily, but computers cannot. A typical use of captchas on blogs are to prevent automated programs from filling up comment forms with unwanted advertisements.</p>
+<p>The computer science department at Carnegie Mellon University designed the <a href="http://www.google.com/recaptcha">reCAPTCHA</a> application to harness a human's superior character recognition capabilites in the field of book digitizing with the usefulness of traditional captchas. Their website, <a href="http://www.google.com/recaptcha">reCAPTCHA.net</a>, provides more information.</p>
+<p>To use reCAPTCHA, you must <a href="http://www.google.com/recaptcha/whyrecaptcha">register with their site</a> to recieve public and priviate keys for use on your website.</p>
+
+<h2>reCAPTCHA Installation</h2>
+<h3>Download &amp; Install</h3>
+<ol>
+	<li>The most recent version can be found at <a href="http://forums.b2evolution.net/viewtopic.php?t=22963">b2evolution forum</a>.</li>
+	<li>Unzip the file and copy or move the <em>recaptcha_plugin</em> folder to your b2evolution <em>plugins</em> folder.</li>
+	<li>Log into as an admin to your backoffice</li>
+	<li>Click on the <strong>App Settings</strong> tab, then the <strong>Plugins</strong> tab.</li>
+	<li>The reCAPTCHA plugin should be visible under the &quot;antispam&quot; section of &quot;Available Plugins&quot;. Use the [Install] action to install it.</li>
+	<li>Done!</li>
+</ol>
+
+<h3>Plugin Configuration</h3>
+<p>This is a pretty straight forward plugin to configure. You will need the public and private keys you were assigned when you signed up with reCAPTCHA.</p>
+<h4>Plugin settings</h4>
+<ul>
+	<li>Enter the Public and Private keys you recieved when you signed up with reCAPTCHA.net.</li>
+	<li>&quot;Registration?&quot; Check to enable reCAPTCHA on registration forms</li>
+	<li>&quot;Comment?&quot; Check to enable reCAPTCHA on comment forms</li>
+	<li>&quot;Email?&quot; Check to enable reCAPTCHA on email message forms</li>
+	<li>&quot;Exempt Users?&quot; Check to let registered (and logged-in) users submit comments and messages without solving a reCAPTCHA</li>
+	<li>&quot;Enable SSL&quot; Check _ONLY_ if your visitors are already interacting with your site over SSL already</li>
+	<li>&quot;Apply Theme?&quot; box if you want to apply a different colored theme/tab index/language to the reCAPTCHA box.</li>
+	<li>Choose your theme: red, white, blackglass, or clean</li>
+	<li>Select the <a href="http://www.w3.org/TR/html4/interact/forms.html#adef-tabindex">tabindex</a> for the reCAPTCHA box.</li>
+	<li>Select the language</li>
+</ul>
+<h4>Plugin variables (Advanced)</h4>
+<ul>
+	<li>Code is set to &quot;recaptch&quot; by default; shouldn't need to be changed</li>
+	<li>Priority identifies the order in which plugins are called. Lower numbers priorites will be called before higher numbers.</li>
+	<li>Apply rendering? (<em>Author's note: I'm not quite sure how this variable is supposed to interact with the plugin and b2evolution. On my installation, it is set to &quot;stealth&quot;, and works for me.  Future updates may clarify this setting.</em>)</li>
+<h4>Plugin events (Advanced)</h4>
+<p>Leave alone unless you know what you're doing!</p>
+</ul>
+
+<h2>TODO</h2>
+<ul>
+	<li>get incorrect solutions to return to the comment form and offer another try</li>
+</ul>
+
+<h2>Version History</h2>
+<table border="1">
+	<thead>
+		<tr>
+		<td>DATE</td><td>VERSION</td><td>NOTES</td>
+		</tr>
+	</thead>
+	<tr><td>2011-10-09</td><td>2.0</td><td>Complete code rewrite. Compatible with b2evo 4.x and AJAX forms. Added login form protection; bugfixes.</td></tr>
+	<tr><td>2009-01-24</td><td>1.0</td><td>Enabled more customization: selectivly enable on Registration, Comments, and Email; updated reCAPTCHA library (1.10); included language choices</td></tr>
+	<tr><td>2007-06-27</td><td>0.5g</td><td>Some tweaks to make markup more XHTML-(Transitional|Strict) compatible (not there yet, though!) -- thanks to jibberjab</td></tr>
+	<tr><td>2007-06-01</td><td>0.5f</td><td>replies from logged in users (back office or &quot;public&quot;-facing) will bypass the captcha check</td></tr>
+	<tr><td>2007-06-01</td><td>0.5e</td><td>Made captcha an option for registering users (it was required before).</td></tr>
+	<tr><td>2007-06-01</td><td>0.5d</td><td>Thanks to Marc from projectplant.de who brought a typo to my attention. This release fixes that.</td></tr>
+	<tr><td>2007-05-30</td><td>0.5c</td><td>release version</td></tr>
+	<tr><td>2007-05-30</td><td>0.5</td><td>Allow registered users to post comments and send messages without a captcha</td></tr>
+	<tr><td>2007-05-30</td><td>0.4a</td><td>cleaned up code a little</td></tr>
+	<tr><td>2007-05-29</td><td>0.3</td><td>Added captcha to message form, corrected README.html</td></tr>
+	<tr><td>2007-05-29</td><td>0.2</td><td>Working themes, included README.html</td></tr>
+	<tr><td>2007-05-28</td><td>0.1</td><td>Release Version</td></tr>
+</table>
+</body>
+</html>
+

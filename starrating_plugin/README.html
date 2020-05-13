@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Star Rating plugin help</title>
+</head>
+<body>
+<h1 id="short_desc">Star Rating plugin</h1>
+<p> Add a star rating to your blog posts.</p>
+<h2 id="long_desc">Detailed Description</h2>
+<p>This plugin allows your visitors to rate your posts using star ratings. By default they can rate the posts out of five stars, but it's easy to change that value in the backoffice plugin settings. Users with JavaScript enabled can vote without reloading the page using an AJAX call. The plugin works when JavaScript is disabled by the reader, too. By default, each vote is checked against a list of IP addresses to make sure that it's not a duplicate, but this can be disabled in the backoffice.</p>
+<h2 id="installation">Installation</h2>
+<ol>
+  <li>Copy the <span class="filename">starrating_plugin</span> folder into the "plugins" folder of your b2evolution installation.</li>
+  <li>Login to the administrative interface for your blog.</li>
+  <li>Install the Star Rating plugin from the Global settings->Plugins install->Install new->Available plugins table using the [Install] link.</li>
+  <li>You have to add the following code in either <b>index.main.php</b>, <b>posts.main.php</b> or <b>single.main.php</b> file for any skin where you want the star ratings to be used. If not sure, put this code in all files listed above.
+    <ul>
+      <li>This code goes in post loop inside the bSmallPrint div or just below the post title:
+        <blockquote><code> &lt;?php $GLOBALS['Plugins']->call_by_code( 'starrating', array('id' => $Item->ID ) ); ?></code></blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>(Optional) If you want to show the top rated posts add the Star rating widget from Blog settings &gt; Widgets. By default, it shows links to the top five posts, but you can change the 'limit' param to get different results. You can also edit the minvote setting so that a certain number of votes are required before an item can make it into the top rated list. </li>
+</ol>
+<h2 id="settings">Plugin Settings</h2>
+<p><strong>Out of</strong>: Choose the number of stars possible. The default is five. It's best to only chenge this value right after installing the plugin. If there are already votes cast using another max value, then your results will be skewed if you change this value. Uninstall the plugin, then reinstall it to clear any old votes, then change the value.</p>
+<p><strong>Check IP</strong>: By default, each vote is checked against a list of IP addresses to make sure it's not a duplicate. You can disable the check using this setting.</p>
+<p><strong>Pop-up info</strong>: This option, which is enabled by default, displays details about a rating and notices (after you vote) in a javascript popup that fades in and then back out after 4 seconds. If you use this feature, be sure to place the additional skin tag (notice) just after your opening body tag (see above). This option requires a little more work to set up and requires that the user have javascript enabled, but it is more attractive and does not disrupt your site layout when someone votes.</p>
+<p><strong>Inline info</strong>: If you check this box, details about a rating and notices (after a vote) are placed just below the stars. This does not require the notice skin tag or javascript, but it may disrupt your site layout when someone votes. It is possible to use both of the info options at the same time, but it could be considered a bit redundant. </p>
+<p><strong>Apply rendering</strong>: This plugin doesn't really use a renderer, but it uses the renderer checkbox setting to know which posts should have the star rating available. Edit this plugin setting to set whether the checkbox is checked by default. For example, if you only want a few of your posts to have the rating system, then set 'Apply rendering' to 'opt-in'. Then, posts won't have the stars unless you check the box when you're writing a post. If you want all or almost all of the posts to have the rating system, then set the 'Apply rendering' in the plugin settings to 'opt-out'. Then, all posts will have the stars unless you uncheck the box in the write tab.</p>
+
+<h2 id="usage">Usage</h2>
+<p>Once you have the plugin installed and the settings the way you want them, then go the write tab and create a post. If you want the post to have the rating system, then make sure that there's a check in the box next to 'Star Rating' in the 'Text renderers' section in the lower right.</p>
+<p>Now the stars should appear next to your post. To vote, click on the star you're voting for. If JavaScript is enabled, it will say 'Loading . . .', then display the new rating and thank you for your vote. If JavaScript is disabled, then the page will reload and the new rating will be shown.</p>
+
+<h2>Customization</h2>
+<p><strong>Change star image</strong>: It's not hard to change the star image. First, download the default image and look at it. It's three stars stacked on top of each other. The top star is the empty version, the middle star is the hover version, and the bottom star is the normal one that shows the average rating. Create your new image to match this template, then upload it to the /starrating_plugin/ folder. Then, edit the stars.css file to match your new file name. If your image has a width that's different than 20px, then you'll need to edit the two lines toward the top of stars.css that set the width. Then edit _starrating.plugin.php and find "var $width = 20;" and edit the value to match your image's width.</p>
+
+<h2 id="credits">Credits</h2>
+<p>This plugin was made for b2evoltution by <a href="http://www.brendoman.com/dbc">Danny Ferguson</a> and it is based on <a href="http://www.masuga.com/thelab/ajaxrate/">Ajax Rating</a> by Ryan Masuga.</p>
+</body>
+</html>
